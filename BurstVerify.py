@@ -33,6 +33,7 @@ for i in file:
     for x in Bursts:
         if arr[2] in x.BurstID:
             #adds the burst type
+            x.Definer(arr[4])
             x.Count(arr[3])
     title = True
 #sh = input("What shape do you want?")
@@ -41,7 +42,7 @@ for i in file:
 for i in Bursts:
     if i.Verify != None:
         print(f"\n VERIFIED    {i.BurstID} Verified: {i.Verify}")
-    #print(i)
+    print(i)
 
     
     

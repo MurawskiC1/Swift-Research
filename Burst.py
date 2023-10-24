@@ -2,7 +2,7 @@
 class Burst():
     def __init__(self, BurstID, Verify = None):
         self.BurstID = BurstID
-        self._Follow = [0,0,0,0]
+        self.Follow = [0,0,0,0]
         self.Shape = [0,0,0]
         self.Verify = Verify
         
@@ -19,6 +19,10 @@ class Burst():
     def Shape(self):
         return self._Shape
     
+    @property
+    def Follow(self):
+        return self._Follow
+    
     @BurstID.setter
     def BurstID(self, i):
         self._BurstID = i
@@ -26,14 +30,32 @@ class Burst():
     @Shape.setter
     def Shape(self, i):
         self._Shape = i 
-    
+    #The japanese wife that I met online and I are hitting it off pretty well and let me tell you, i am so in love with her. Im moving next week. WOW!
     
     @Verify.setter
     def Verify(self, v):
         self._Verify = v
+        
+    @Follow.setter
+    def Follow(self, f):
+        self._Follow = f
 
     def __str__(self):
-        return f"{self.BurstID}:  Simple:{self.Shape[0]}  Ext:{self.Shape[1]}  Other:{self.Shape[2]}"
+        return f"{self.BurstID}:  Simple:{self.Shape[0]}  Ext:{self.Shape[1]}  Other:{self.Shape[2]} Follow Up:{self.Follow}"
+    
+    
+    #code to add to definer array
+    def Definer(self, j):
+        if "Underlying emission" in j: 
+            self.Follow[0] += 1
+        elif "Symmetrical Structure" in j:
+            self.Follow[1] += 1
+        elif "Fast.R Slow.D" in j:
+            self.Follow[2] += 1
+        elif 'Rapid Varying pulses' in j:
+            self.Follow[3] += 1
+        else:
+            return "Nothing found"
         
     def Count(self, shape):
         if "Extende" in shape:
