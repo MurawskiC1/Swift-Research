@@ -2,7 +2,7 @@
 # 2: F
 import pandas as pd
 import numpy as np
-fhand = open('pulse-shapes-classifications.csv')
+fhand = open('burst-chaser-classifications.csv')
 
 shap = []
 user = []
@@ -24,12 +24,14 @@ first = False
 def shape(i):
     if 'A simple pulse.' in i: 
         return "Simple Pulse"
-    elif i.find('A pulse followed by extended emission') != -1:
+    elif 'A pulse followed by extended emission' in i:
         return "Extended Emmissions"
-    elif i.find("Other.") != -1:
+    elif "Other." in i:
         return "Other"
     else:
         return "Nothing found"
+    
+#find the follow up questions
 def follow(j):
     if 'Pulses connected with underlying emission.' in j: 
         return "Underlying emission"
