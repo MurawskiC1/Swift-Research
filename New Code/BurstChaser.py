@@ -8,10 +8,11 @@ Panoptes.connect(username='MurawskiC1', password='Cartbellot4ti$')
 
 
 class BurstChaser():
-    def __init__(self, BurstID, Workflow, Verify = None):
+    def __init__(self, BurstID, workflow, Verify = None):
         self.BurstID = BurstID
-        self.Workflow = Workflow
+        self.workflow = workflow
         self.Verify = Verify
+        self.contributers = []
     
     @property
     def BurstID(self):
@@ -22,20 +23,37 @@ class BurstChaser():
         self._BurstID = i
         
     @property
+    def workflow(self):
+        return self._workflow 
+    
+    @workflow.setter
+    def workflow(self, i):
+        self._workflow = i
+    @property
+    def contributers(self):
+        return self._contributers 
+    
+    @contributers.setter
+    def contributers(self, i):
+        self._contributers = i
+    @property
     def Verify(self):
         return self._Verify
     
     @Verify.setter
     def Verify(self, v):
         self._Verify = v
+        
+    def contributersAdd(self, c):
+        self.contributers.append(c)
    
 
 #This Class will start to rank all the bursts and catagorize them by their 
 class PulseShape(BurstChaser):
-    def __init__(self, BurstID, Verify = None):
-        super().__init__(BurstID, Workflow)
-        self.Follow = [0,0,0,0,0,0]
-        self.Shape = [0,0,0,0]
+    def __init__(self, BurstID, workflow):
+        super().__init__(BurstID, workflow)
+        self.Follow = [0,0,0,0,0]
+        self.Shape = [0,0,0]
 
     @property
     def Shape(self):
@@ -65,18 +83,15 @@ class PulseShape(BurstChaser):
     def FollowCount(self, j):
         if 'Pulses connected with underlying emission.' in j: 
             self.Follow[0] += 1
-        elif 'One or more pulses with symmetrical structure.' in j:
+        if 'One or more pulses with symmetrical structure.' in j:
             self.Follow[1] += 1
-        elif "One or more pulses with the fast-rise and slow-decay shape." in j:
+        if "One or more pulses with the fast-rise and slow-decay shape." in j:
             self.Follow[2] += 1
-        elif 'Rapid Varying pulses' in j:
+        if 'Rapid Varying pulses' in j:
             self.Follow[3] += 1
-        elif "I don't see any of these.":
-            self.Follow[4] += 1
-            
-        else:
-            self.Follow[5] += 1
-        
+        if "I don't see any of these." in j:
+            self.Follow[4] += 1   
+
     def ShapeCount(self, shape):
         if "A pulse followed by extended emission" in shape:
             self.Shape[1] += 1
@@ -84,8 +99,6 @@ class PulseShape(BurstChaser):
             self.Shape[0] += 1
         elif "Other." in shape:
             self.Shape[2] +=1
-        else:
-            self.Shape[3] +=1
         #Verify iif burst has met the requirements
         self.VerifyBurst()
         
@@ -104,11 +117,13 @@ class PulseShape(BurstChaser):
             
     def export(name, pulse_list):
         data = {'Number': np.arange(1,len(pulse_list)+1),
-                'User': [i.BurstID for i in pulse_list],
+                'Workflow': [i.workflow for i in pulse_list],
+                'BurstID': [i.BurstID for i in pulse_list],
                 'Simple': [i.Shape[0] for i in pulse_list],
                 'Extended': [i.Shape[1] for i in pulse_list],
                 'Other': [i.Shape[2] for i in pulse_list],
-                "Verify": [i.Verify for i in pulse_list]    
+                "Verify": [i.Verify for i in pulse_list],
+                'Follow': [i.Follow for i in pulse_list]
                 }
         df = pd.DataFrame(data)
         #creates data frame as csv file 
@@ -118,8 +133,8 @@ class PulseShape(BurstChaser):
 
 #class for the Pulse or noise
 class PulseNoise(BurstChaser):
-    def __init__(self, BurstID, Workflow):
-        super().__init__(BurstID, Workflow)
+    def __init__(self, BurstID, workflow):
+        super().__init__(BurstID, workflow)
         self.classification = [0,0,0,0]
         
   
@@ -149,10 +164,10 @@ class PulseNoise(BurstChaser):
     def export( name, pulse_list):
         data = {'Number': np.arange(1,len(pulse_list)+1),
                 'Burst ID': [i.BurstID for i in pulse_list],
-                'Noise': [i.classification[0] for i in pulse_list],
-                "Can't Tell": [i.classification[1] for i in pulse_list],
-                'Other': [i.classification[2] for i in pulse_list],
-    
+                'Pulse': [i.classification[0] for i in pulse_list],
+                "Noise": [i.classification[1] for i in pulse_list],
+                'Cant Tell': [i.classification[2] for i in pulse_list],
+                'No Response': [i.classification[3] for i in pulse_list]
                 }
         df = pd.DataFrame(data)
         #creates data frame as csv file 
