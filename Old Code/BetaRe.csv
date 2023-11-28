@@ -1,0 +1,1754 @@
+Number,User,ID,Shape,Definer
+1,AmyLien,79557134,Other,Nothing found
+2,AmyLien,80936958,Simple Pulse,Nothing found
+3,AmyLien,80936969,Simple Pulse,Nothing found
+4,AmyLien,80936939,Simple Pulse,Nothing found
+5,gethralkin,80937238,Other,Rapid Varying pulses
+6,gethralkin,80936944,Simple Pulse,Nothing found
+7,gethralkin,80937112,Extended Emmissions,Underlying emission
+8,gethralkin,80936960,Other,Nothing found
+9,gethralkin,80937157,Other,Underlying emission
+10,gethralkin,80937026,Other,Underlying emission
+11,gethralkin,80937135,Simple Pulse,Underlying emission
+12,gethralkin,80937233,Simple Pulse,Nothing found
+13,gethralkin,80936954,Extended Emmissions,Underlying emission
+14,gethralkin,80937048,Extended Emmissions,Underlying emission
+15,gethralkin,80937015,Extended Emmissions,Underlying emission
+16,gethralkin,80937262,Simple Pulse,Nothing found
+17,gethralkin,80937161,Other,Underlying emission
+18,gethralkin,80936947,Other,Underlying emission
+19,gethralkin,80937131,Simple Pulse,Nothing found
+20,gethralkin,80937001,Extended Emmissions,Underlying emission
+21,gethralkin,80936892,Extended Emmissions,Underlying emission
+22,gethralkin,80937266,Simple Pulse,Nothing found
+23,gethralkin,80937077,Simple Pulse,Underlying emission
+24,gethralkin,80937033,Other,Underlying emission
+25,gethralkin,80936905,Other,Underlying emission
+26,gethralkin,80937198,Extended Emmissions,Underlying emission
+27,gethralkin,80937139,Other,Underlying emission
+28,gethralkin,80937108,Simple Pulse,Underlying emission
+29,gethralkin,80936995,Other,Underlying emission
+30,gethralkin,80937104,Extended Emmissions,Underlying emission
+31,gethralkin,80937243,Extended Emmissions,Underlying emission
+32,gethralkin,80937234,Extended Emmissions,Underlying emission
+33,gethralkin,80937074,Other,Underlying emission
+34,gethralkin,80936951,Other,Underlying emission
+35,gethralkin,80936969,Simple Pulse,Nothing found
+36,gethralkin,80936993,Extended Emmissions,Underlying emission
+37,gethralkin,80937208,Simple Pulse,Nothing found
+38,Sovanacharya,80937094,Extended Emmissions,Rapid Varying pulses
+39,Sovanacharya,80936975,Simple Pulse,Rapid Varying pulses
+40,Sovanacharya,80937262,Extended Emmissions,Underlying emission
+41,Sovanacharya,80937174,Extended Emmissions,Nothing found
+42,Sovanacharya,80936995,Simple Pulse,Rapid Varying pulses
+43,Sovanacharya,80937057,Extended Emmissions,Rapid Varying pulses
+44,Sovanacharya,80936980,Extended Emmissions,Rapid Varying pulses
+45,Sovanacharya,80937108,Simple Pulse,Rapid Varying pulses
+46,Sovanacharya,80936905,Simple Pulse,Rapid Varying pulses
+47,Sovanacharya,80937257,Extended Emmissions,Rapid Varying pulses
+48,Sovanacharya,80937184,Simple Pulse,Nothing found
+49,Sovanacharya,80937085,Extended Emmissions,Rapid Varying pulses
+50,Sovanacharya,80937213,Simple Pulse,Nothing found
+51,Sovanacharya,80937112,Simple Pulse,Nothing found
+52,Sovanacharya,80937196,Other,Rapid Varying pulses
+53,Sovanacharya,80936934,Other,Rapid Varying pulses
+54,Sovanacharya,80937090,Simple Pulse,Nothing found
+55,Sovanacharya,80936986,Simple Pulse,Nothing found
+56,Sovanacharya,80937217,Extended Emmissions,Rapid Varying pulses
+57,Sovanacharya,80936960,Other,Nothing found
+58,Sovanacharya,80937208,Simple Pulse,Nothing found
+59,Sovanacharya,80937019,Simple Pulse,Nothing found
+60,Sovanacharya,80936993,Extended Emmissions,Underlying emission
+61,Sovanacharya,80936947,Other,Rapid Varying pulses
+62,Sovanacharya,80937119,Extended Emmissions,Underlying emission
+63,Sovanacharya,80937203,Extended Emmissions,Rapid Varying pulses
+64,Sovanacharya,80936892,Extended Emmissions,Underlying emission
+65,Sovanacharya,80937005,Simple Pulse,Nothing found
+66,Sovanacharya,80937157,Extended Emmissions,Nothing found
+67,Sovanacharya,80937123,Simple Pulse,Nothing found
+68,Sovanacharya,80937100,Simple Pulse,Nothing found
+69,Sovanacharya,80937075,Other,Rapid Varying pulses
+70,Sovanacharya,80936923,Simple Pulse,Nothing found
+71,Sovanacharya,80936929,Simple Pulse,Rapid Varying pulses
+72,Sovanacharya,80937032,Extended Emmissions,Underlying emission
+73,Sovanacharya,80937135,Extended Emmissions,Underlying emission
+74,Sovanacharya,80936951,Simple Pulse,Rapid Varying pulses
+75,Sovanacharya,80937233,Simple Pulse,Nothing found
+76,Sovanacharya,80936912,Extended Emmissions,Rapid Varying pulses
+77,Sovanacharya,80936992,Simple Pulse,Nothing found
+78,Sovanacharya,80937104,Other,Rapid Varying pulses
+79,Sovanacharya,80937033,Simple Pulse,Nothing found
+80,Sovanacharya,80937165,Simple Pulse,Nothing found
+81,Sovanacharya,80937073,Extended Emmissions,Nothing found
+82,Sovanacharya,80937236,Extended Emmissions,Nothing found
+83,Sovanacharya,80937194,Simple Pulse,Nothing found
+84,Sovanacharya,80937077,Simple Pulse,Nothing found
+85,Sovanacharya,80936955,Simple Pulse,Nothing found
+86,Dansky1,80937196,Extended Emmissions,Underlying emission
+87,Dansky1,80936905,Other,Underlying emission
+88,Dansky1,80936912,Other,Underlying emission
+89,Dansky1,80937194,Other,Nothing found
+90,Dansky1,80937019,Simple Pulse,Nothing found
+91,Dansky1,80937154,Other,Underlying emission
+92,Dansky1,80937228,Other,Rapid Varying pulses
+93,Dansky1,80937198,Other,Underlying emission
+94,Dansky1,80937213,Simple Pulse,Underlying emission
+95,Dansky1,80937070,Other,Underlying emission
+96,Dansky1,80937116,Simple Pulse,Nothing found
+97,Dansky1,80937179,Extended Emmissions,Underlying emission
+98,Dansky1,80936910,Other,Nothing found
+99,Dansky1,80937100,Simple Pulse,Nothing found
+100,AmyLien,84472249,Simple Pulse,Nothing found
+101,Sovanacharya,84471727,Extended Emmissions,Fast.R Slow.D
+102,Sovanacharya,84471749,Extended Emmissions,Fast.R Slow.D
+103,Sovanacharya,84472327,Extended Emmissions,Nothing found
+104,Shigeru,84472661,Extended Emmissions,Fast.R Slow.D
+105,Dansky1,84472273,Other,Underlying emission
+106,Dansky1,84472188,Other,Underlying emission
+107,Dansky1,84472706,Simple Pulse,Symmetrical Structure
+108,Dansky1,84471734,Simple Pulse,Underlying emission
+109,Dansky1,84472755,Simple Pulse,Symmetrical Structure
+110,Dansky1,84472643,Other,Underlying emission
+111,Dansky1,84472311,Simple Pulse,Symmetrical Structure
+112,Dansky1,84471887,Other,Underlying emission
+113,Dansky1,84472378,Simple Pulse,Symmetrical Structure
+114,Dansky1,84472303,Other,Underlying emission
+115,Dansky1,84471625,Other,Rapid Varying pulses
+116,Dansky1,84472482,Other,Underlying emission
+117,Dansky1,84472007,Extended Emmissions,Symmetrical Structure
+118,Dansky1,84472576,Other,Underlying emission
+119,Dansky1,84471541,Other,Underlying emission
+120,Dansky1,84471861,Simple Pulse,Underlying emission
+121,Dansky1,84472701,Other,Underlying emission
+122,Dansky1,84471722,Simple Pulse,Symmetrical Structure
+123,Dansky1,84471869,Extended Emmissions,Nothing found
+124,Dansky1,84472238,Other,Underlying emission
+125,Dansky1,84471613,Extended Emmissions,Underlying emission
+126,Dansky1,84472138,Simple Pulse,Symmetrical Structure
+127,Dansky1,84472256,Simple Pulse,Nothing found
+128,Dansky1,84471831,Other,Underlying emission
+129,Dansky1,84472715,Simple Pulse,Nothing found
+130,Dansky1,84472252,Extended Emmissions,Symmetrical Structure
+131,Dansky1,84472068,Other,Underlying emission
+132,Dansky1,84471999,Other,Rapid Varying pulses
+133,Dansky1,84472381,Simple Pulse,Symmetrical Structure
+134,Dansky1,84472664,Other,Underlying emission
+135,Dansky1,84472488,Other,Underlying emission
+136,AmyLien,84472760,Other,Underlying emission
+137,Shigeru,84471812,Extended Emmissions,Underlying emission
+138,Dansky1,84471882,Other,Underlying emission
+139,AmyLien,84472721,Simple Pulse,Underlying emission
+140,Dansky1,84471907,Simple Pulse,Nothing found
+141,AmyLien,84471961,Simple Pulse,Underlying emission
+142,Shigeru,84471744,Extended Emmissions,Underlying emission
+143,Shigeru,84472639,Other,Fast.R Slow.D
+144,Dansky1,84471858,Extended Emmissions,Underlying emission
+145,Dansky1,84471743,Extended Emmissions,Fast.R Slow.D
+146,Dansky1,84471563,Other,Nothing found
+147,Dansky1,84472597,Other,Underlying emission
+148,Dansky1,84472575,Extended Emmissions,Underlying emission
+149,Dansky1,84471937,Other,Underlying emission
+150,Dansky1,84471573,Other,Underlying emission
+151,Sovanacharya,84472413,Simple Pulse,Fast.R Slow.D
+152,Sovanacharya,84472489,Other,Nothing found
+153,Sovanacharya,84471609,Other,Fast.R Slow.D
+154,Sovanacharya,84472233,Extended Emmissions,Fast.R Slow.D
+155,Sovanacharya,84472167,Extended Emmissions,Underlying emission
+156,Sovanacharya,84472484,Extended Emmissions,Fast.R Slow.D
+157,Sovanacharya,84471661,Simple Pulse,Nothing found
+158,Sovanacharya,84471867,Simple Pulse,Fast.R Slow.D
+159,Sovanacharya,84471893,Extended Emmissions,Rapid Varying pulses
+160,Sovanacharya,84471992,Extended Emmissions,Rapid Varying pulses
+161,Sovanacharya,84471843,Extended Emmissions,Rapid Varying pulses
+162,Sovanacharya,84471595,Simple Pulse,Fast.R Slow.D
+163,Dansky1,84472554,Extended Emmissions,Underlying emission
+164,Dansky1,84472705,Other,Nothing found
+165,Dansky1,84471569,Other,Underlying emission
+166,Dansky1,84472212,Other,Nothing found
+167,Dansky1,84471793,Other,Underlying emission
+168,Dansky1,84471513,Extended Emmissions,Underlying emission
+169,Dansky1,84471846,Other,Underlying emission
+170,Dansky1,84471871,Other,Underlying emission
+171,Dansky1,84472802,Other,Underlying emission
+172,Dansky1,84471588,Other,Underlying emission
+173,Dansky1,84472282,Other,Underlying emission
+174,Dansky1,84472049,Extended Emmissions,Fast.R Slow.D
+175,Sovanacharya,85799854,Simple Pulse,Underlying emission
+176,Sovanacharya,85799637,Simple Pulse,Underlying emission
+177,marckuchner,85799703,Simple Pulse,Fast.R Slow.D
+178,not-logged-in-401341c79cfa004d5a36,85799663,Simple Pulse,Fast.R Slow.D
+179,not-logged-in-401341c79cfa004d5a36,85799576,Simple Pulse,Fast.R Slow.D
+180,not-logged-in-401341c79cfa004d5a36,85799785,Other,Nothing found
+181,AmyLien,85799720,Simple Pulse,Symmetrical Structure
+182,LukeM714,85799860,Simple Pulse,Symmetrical Structure
+183,LukeM714,85799843,Extended Emmissions,Rapid Varying pulses
+184,LukeM714,85799819,Extended Emmissions,Rapid Varying pulses
+185,LukeM714,85799734,Other,Rapid Varying pulses
+186,LukeM714,85799692,Extended Emmissions,Underlying emission
+187,LukeM714,85799635,Extended Emmissions,Rapid Varying pulses
+188,LukeM714,85799742,Extended Emmissions,Underlying emission
+189,LukeM714,85799878,Extended Emmissions,Rapid Varying pulses
+190,LukeM714,85799593,Extended Emmissions,Symmetrical Structure
+191,LukeM714,85799715,Extended Emmissions,Rapid Varying pulses
+192,LukeM714,85799789,Simple Pulse,Nothing found
+193,LukeM714,85799782,Extended Emmissions,Rapid Varying pulses
+194,LukeM714,85799654,Simple Pulse,Nothing found
+195,LukeM714,85799832,Simple Pulse,Nothing found
+196,LukeM714,85799828,Extended Emmissions,Fast.R Slow.D
+197,LukeM714,85799848,Simple Pulse,Nothing found
+198,LukeM714,85799788,Extended Emmissions,Rapid Varying pulses
+199,LukeM714,85799876,Simple Pulse,Nothing found
+200,LukeM714,85799688,Extended Emmissions,Underlying emission
+201,LukeM714,85799720,Extended Emmissions,Rapid Varying pulses
+202,LukeM714,85799830,Extended Emmissions,Underlying emission
+203,LukeM714,85799598,Extended Emmissions,Underlying emission
+204,LukeM714,85799708,Simple Pulse,Nothing found
+205,LukeM714,85799591,Extended Emmissions,Symmetrical Structure
+206,katkurilov,85799692,Other,Symmetrical Structure
+207,AmyLien,85799811,Other,Rapid Varying pulses
+208,AmyLien,90377098,Other,Rapid Varying pulses
+209,Sovanacharya,90376895,Extended Emmissions,Rapid Varying pulses
+210,Sovanacharya,90376940,Simple Pulse,Symmetrical Structure
+211,Sovanacharya,90376879,Extended Emmissions,Symmetrical Structure
+212,not-logged-in-b3a92226a2cfc68f96a0,90376867,Extended Emmissions,Symmetrical Structure
+213,not-logged-in-b3a92226a2cfc68f96a0,90376952,Other,Rapid Varying pulses
+214,not-logged-in-b3a92226a2cfc68f96a0,90376891,Simple Pulse,Nothing found
+215,not-logged-in-b3a92226a2cfc68f96a0,90376908,Extended Emmissions,Fast.R Slow.D
+216,Marcossilva,90376950,Simple Pulse,Symmetrical Structure
+217,SebastianReisch,90376916,Extended Emmissions,Nothing found
+218,SebastianReisch,90376908,Simple Pulse,Symmetrical Structure
+219,MurawskiC1,90376905,Simple Pulse,Nothing found
+220,dcrowson,90376869,Simple Pulse,Nothing found
+221,dcrowson,90376871,Extended Emmissions,Symmetrical Structure
+222,dcrowson,90376882,Simple Pulse,Nothing found
+223,dcrowson,90376907,Simple Pulse,Nothing found
+224,dcrowson,90376944,Extended Emmissions,Symmetrical Structure
+225,dcrowson,90376910,Extended Emmissions,Symmetrical Structure
+226,dcrowson,90376872,Other,Nothing found
+227,dcrowson,90376902,Simple Pulse,Nothing found
+228,dcrowson,90376922,Simple Pulse,Nothing found
+229,dcrowson,90376909,Simple Pulse,Nothing found
+230,dcrowson,90376946,Other,Nothing found
+231,dcrowson,90376942,Simple Pulse,Nothing found
+232,dcrowson,90376911,Extended Emmissions,Symmetrical Structure
+233,dcrowson,90376915,Other,Nothing found
+234,dcrowson,90376903,Simple Pulse,Fast.R Slow.D
+235,not-logged-in-148f4bab6b2fe4ad2038,90376919,Extended Emmissions,Rapid Varying pulses
+236,dcrowson,90376923,Simple Pulse,Rapid Varying pulses
+237,not-logged-in-148f4bab6b2fe4ad2038,90376954,Simple Pulse,Symmetrical Structure
+238,not-logged-in-148f4bab6b2fe4ad2038,90376888,Extended Emmissions,Rapid Varying pulses
+239,not-logged-in-148f4bab6b2fe4ad2038,90376903,Simple Pulse,Nothing found
+240,not-logged-in-148f4bab6b2fe4ad2038,90376895,Extended Emmissions,Fast.R Slow.D
+241,not-logged-in-148f4bab6b2fe4ad2038,90376913,Simple Pulse,Fast.R Slow.D
+242,not-logged-in-148f4bab6b2fe4ad2038,90376872,Simple Pulse,Symmetrical Structure
+243,NightMore,90376883,Extended Emmissions,Nothing found
+244,NightMore,90376947,Simple Pulse,Fast.R Slow.D
+245,not-logged-in-44a7c31d2c0be2b82519,90376934,Simple Pulse,Symmetrical Structure
+246,not-logged-in-ead822d03e6bccb845f2,90376878,Simple Pulse,Fast.R Slow.D
+247,Chinabob,90376950,Simple Pulse,Fast.R Slow.D
+248,Chinabob,90376963,Simple Pulse,Fast.R Slow.D
+249,Chinabob,90376925,Other,Underlying emission
+250,Chinabob,90376931,Other,Underlying emission
+251,Chinabob,90376916,Simple Pulse,Symmetrical Structure
+252,Chinabob,90376879,Other,Underlying emission
+253,Chinabob,90376884,Other,Underlying emission
+254,not-logged-in-efb160e40902872f9dc2,90376884,Other,Rapid Varying pulses
+255,Chinabob,90376903,Extended Emmissions,Fast.R Slow.D
+256,not-logged-in-efb160e40902872f9dc2,90376931,Simple Pulse,Symmetrical Structure
+257,Chinabob,90376948,Simple Pulse,Rapid Varying pulses
+258,not-logged-in-efb160e40902872f9dc2,90376899,Other,Underlying emission
+259,Chinabob,90376936,Extended Emmissions,Fast.R Slow.D
+260,not-logged-in-efb160e40902872f9dc2,90376882,Extended Emmissions,Fast.R Slow.D
+261,not-logged-in-efb160e40902872f9dc2,90376902,Simple Pulse,Fast.R Slow.D
+262,not-logged-in-9319c68caa435330258a,90376935,Extended Emmissions,Underlying emission
+263,Chinabob,90376891,Simple Pulse,Underlying emission
+264,not-logged-in-9319c68caa435330258a,90376870,Simple Pulse,Fast.R Slow.D
+265,Chinabob,90376947,Extended Emmissions,Fast.R Slow.D
+266,not-logged-in-9319c68caa435330258a,90376948,Other,Rapid Varying pulses
+267,Chinabob,90376945,Extended Emmissions,Fast.R Slow.D
+268,Chinabob,90376893,Simple Pulse,Underlying emission
+269,Chinabob,90376923,Simple Pulse,Symmetrical Structure
+270,not-logged-in-9319c68caa435330258a,90376928,Simple Pulse,Nothing found
+271,Chinabob,90376921,Extended Emmissions,Symmetrical Structure
+272,Chinabob,90376882,Simple Pulse,Fast.R Slow.D
+273,not-logged-in-9319c68caa435330258a,90376893,Extended Emmissions,Symmetrical Structure
+274,Chinabob,90376951,Simple Pulse,Fast.R Slow.D
+275,not-logged-in-faf743a1f8c10d750c67,90376905,Simple Pulse,Underlying emission
+276,Chinabob,90376918,Simple Pulse,Symmetrical Structure
+277,not-logged-in-faf743a1f8c10d750c67,90376914,Extended Emmissions,Underlying emission
+278,not-logged-in-faf743a1f8c10d750c67,90376864,Simple Pulse,Symmetrical Structure
+279,not-logged-in-faf743a1f8c10d750c67,90376920,Simple Pulse,Symmetrical Structure
+280,not-logged-in-faf743a1f8c10d750c67,90376909,Simple Pulse,Symmetrical Structure
+281,not-logged-in-faf743a1f8c10d750c67,90376934,Simple Pulse,Symmetrical Structure
+282,not-logged-in-faf743a1f8c10d750c67,90376874,Simple Pulse,Fast.R Slow.D
+283,not-logged-in-faf743a1f8c10d750c67,90376900,Simple Pulse,Underlying emission
+284,not-logged-in-faf743a1f8c10d750c67,90376925,Extended Emmissions,Rapid Varying pulses
+285,not-logged-in-3cfd4feaa24e5689a60c,90376954,Other,Symmetrical Structure
+286,Chinabob,90376867,Extended Emmissions,Rapid Varying pulses
+287,not-logged-in-3cfd4feaa24e5689a60c,90376873,Simple Pulse,Underlying emission
+288,Chinabob,90376941,Simple Pulse,Nothing found
+289,not-logged-in-3cfd4feaa24e5689a60c,90376951,Extended Emmissions,Fast.R Slow.D
+290,Chinabob,90376958,Simple Pulse,Symmetrical Structure
+291,not-logged-in-3cfd4feaa24e5689a60c,90376889,Simple Pulse,Symmetrical Structure
+292,not-logged-in-3cfd4feaa24e5689a60c,90376903,Extended Emmissions,Underlying emission
+293,not-logged-in-3cfd4feaa24e5689a60c,90376938,Simple Pulse,Symmetrical Structure
+294,not-logged-in-3cfd4feaa24e5689a60c,90376875,Extended Emmissions,Symmetrical Structure
+295,not-logged-in-75127e8870169ed819b1,90376937,Simple Pulse,Underlying emission
+296,not-logged-in-dde8a7e100e1607b52f7,90376887,Simple Pulse,Nothing found
+297,not-logged-in-dde8a7e100e1607b52f7,90376880,Simple Pulse,Nothing found
+298,not-logged-in-dde8a7e100e1607b52f7,90376864,Simple Pulse,Nothing found
+299,not-logged-in-3e09b1c11c699e8cbf6a,90376893,Simple Pulse,Underlying emission
+300,not-logged-in-3e09b1c11c699e8cbf6a,90376904,Extended Emmissions,Fast.R Slow.D
+301,konakid,90376874,Simple Pulse,Fast.R Slow.D
+302,konakid,90376932,Other,Symmetrical Structure
+303,konakid,90376864,Simple Pulse,Underlying emission
+304,konakid,90376895,Extended Emmissions,Rapid Varying pulses
+305,konakid,90376906,Other,Nothing found
+306,konakid,90376911,Other,Rapid Varying pulses
+307,konakid,90376898,Extended Emmissions,Fast.R Slow.D
+308,konakid,90376893,Other,Rapid Varying pulses
+309,konakid,90376938,Simple Pulse,Symmetrical Structure
+310,not-logged-in-71096c3977b2354eb358,90376920,Extended Emmissions,Nothing found
+311,not-logged-in-71096c3977b2354eb358,90376951,Extended Emmissions,Fast.R Slow.D
+312,not-logged-in-71096c3977b2354eb358,90376922,Other,Nothing found
+313,not-logged-in-71096c3977b2354eb358,90376896,Extended Emmissions,Underlying emission
+314,Miloy,90376913,Extended Emmissions,Fast.R Slow.D
+315,Miloy,90376901,Simple Pulse,Rapid Varying pulses
+316,Miloy,90376945,Extended Emmissions,Fast.R Slow.D
+317,Miloy,90376940,Simple Pulse,Symmetrical Structure
+318,Miloy,90376899,Simple Pulse,Underlying emission
+319,Miloy,90376896,Simple Pulse,Symmetrical Structure
+320,Miloy,90376943,Simple Pulse,Symmetrical Structure
+321,Miloy,90376964,Simple Pulse,Rapid Varying pulses
+322,Miloy,90376903,Simple Pulse,Fast.R Slow.D
+323,Miloy,90376884,Simple Pulse,Symmetrical Structure
+324,Miloy,90376868,Simple Pulse,Symmetrical Structure
+325,Miloy,90376933,Simple Pulse,Symmetrical Structure
+326,Miloy,90376916,Extended Emmissions,Symmetrical Structure
+327,Miloy,90376875,Simple Pulse,Symmetrical Structure
+328,Miloy,90376941,Simple Pulse,Symmetrical Structure
+329,not-logged-in-b02318b9b1ba82820c58,90376965,Simple Pulse,Rapid Varying pulses
+330,not-logged-in-20a6d919f01f12d1a4d3,90376948,Simple Pulse,Fast.R Slow.D
+331,not-logged-in-995388761f24e1c8f780,90376941,Simple Pulse,Nothing found
+332,not-logged-in-995388761f24e1c8f780,90376946,Simple Pulse,Underlying emission
+333,not-logged-in-995388761f24e1c8f780,90376912,Extended Emmissions,Underlying emission
+334,not-logged-in-995388761f24e1c8f780,90376896,Simple Pulse,Underlying emission
+335,not-logged-in-995388761f24e1c8f780,90376877,Extended Emmissions,Underlying emission
+336,not-logged-in-995388761f24e1c8f780,90376907,Extended Emmissions,Fast.R Slow.D
+337,not-logged-in-995388761f24e1c8f780,90376915,Extended Emmissions,Fast.R Slow.D
+338,kiwideans,90376947,Simple Pulse,Fast.R Slow.D
+339,not-logged-in-a68d1a5731b66b2254eb,90376924,Simple Pulse,Nothing found
+340,not-logged-in-2b0c287efabc16b721b4,90376905,Extended Emmissions,Symmetrical Structure
+341,not-logged-in-2b0c287efabc16b721b4,90376869,Simple Pulse,Fast.R Slow.D
+342,not-logged-in-2b0c287efabc16b721b4,90376877,Extended Emmissions,Rapid Varying pulses
+343,not-logged-in-2b0c287efabc16b721b4,90376907,Extended Emmissions,Rapid Varying pulses
+344,not-logged-in-2b0c287efabc16b721b4,90376947,Extended Emmissions,Fast.R Slow.D
+345,not-logged-in-12f899305b64e8df43f3,90376897,Simple Pulse,Nothing found
+346,not-logged-in-12f899305b64e8df43f3,90376918,Extended Emmissions,Underlying emission
+347,not-logged-in-12f899305b64e8df43f3,90376946,Simple Pulse,Nothing found
+348,not-logged-in-12f899305b64e8df43f3,90376958,Extended Emmissions,Symmetrical Structure
+349,not-logged-in-12f899305b64e8df43f3,90376925,Extended Emmissions,Rapid Varying pulses
+350,Boeuz,90376912,Other,Nothing found
+351,Boeuz,90376919,Simple Pulse,Symmetrical Structure
+352,Boeuz,90376905,Extended Emmissions,Fast.R Slow.D
+353,Boeuz,90376872,Simple Pulse,Symmetrical Structure
+354,Boeuz,90376873,Other,Nothing found
+355,Boeuz,90376867,Extended Emmissions,Rapid Varying pulses
+356,Boeuz,90376870,Simple Pulse,Symmetrical Structure
+357,Boeuz,90376957,Simple Pulse,Symmetrical Structure
+358,not-logged-in-97334dd8640341da1ba2,90376923,Extended Emmissions,Rapid Varying pulses
+359,not-logged-in-7204c0831970fa571809,90376866,Simple Pulse,Underlying emission
+360,not-logged-in-a4c3e4b0d96e56b10d84,90376880,Extended Emmissions,Fast.R Slow.D
+361,not-logged-in-51950828d1accf8ca79e,90376917,Simple Pulse,Nothing found
+362,not-logged-in-470be0f07e0fab30c3cd,90376962,Other,Rapid Varying pulses
+363,Sovanacharya,90376919,Simple Pulse,Fast.R Slow.D
+364,Sovanacharya,90376911,Extended Emmissions,Fast.R Slow.D
+365,Sovanacharya,90376908,Extended Emmissions,Rapid Varying pulses
+366,Sovanacharya,90376914,Simple Pulse,Underlying emission
+367,Sovanacharya,90376871,Simple Pulse,Underlying emission
+368,Sovanacharya,90376947,Simple Pulse,Fast.R Slow.D
+369,Sovanacharya,90376937,Extended Emmissions,Underlying emission
+370,Sovanacharya,90376893,Simple Pulse,Nothing found
+371,Sovanacharya,90376942,Simple Pulse,Fast.R Slow.D
+372,Sovanacharya,90376954,Simple Pulse,Nothing found
+373,Sovanacharya,90376880,Simple Pulse,Nothing found
+374,Sovanacharya,90376943,Other,Rapid Varying pulses
+375,Sovanacharya,90376872,Simple Pulse,Fast.R Slow.D
+376,Sovanacharya,90376939,Other,Nothing found
+377,ElisabethB,90376952,Extended Emmissions,Rapid Varying pulses
+378,ElisabethB,90376915,Other,Rapid Varying pulses
+379,ElisabethB,90376889,Simple Pulse,Nothing found
+380,ElisabethB,90376912,Other,Nothing found
+381,not-logged-in-6707318331734066a588,90376872,Extended Emmissions,Symmetrical Structure
+382,not-logged-in-4d48e5048decd7097678,90376900,Extended Emmissions,Fast.R Slow.D
+383,not-logged-in-4d48e5048decd7097678,90376962,Other,Rapid Varying pulses
+384,not-logged-in-d4c8a7ce659b437e291d,90376884,Other,Nothing found
+385,not-logged-in-d4c8a7ce659b437e291d,90376921,Other,Nothing found
+386,equidad1,90376895,Extended Emmissions,Underlying emission
+387,equidad1,90376917,Simple Pulse,Underlying emission
+388,equidad1,90376924,Extended Emmissions,Underlying emission
+389,equidad1,90376886,Extended Emmissions,Underlying emission
+390,equidad1,90376948,Other,Nothing found
+391,equidad1,90376923,Extended Emmissions,Underlying emission
+392,Lisa142388,90376916,Extended Emmissions,Symmetrical Structure
+393,Lisa142388,90376920,Extended Emmissions,Rapid Varying pulses
+394,Lisa142388,90376914,Extended Emmissions,Underlying emission
+395,Lisa142388,90376899,Extended Emmissions,Symmetrical Structure
+396,Lisa142388,90376940,Extended Emmissions,Symmetrical Structure
+397,Lisa142388,90376873,Extended Emmissions,Symmetrical Structure
+398,Lisa142388,90376956,Extended Emmissions,Fast.R Slow.D
+399,Lisa142388,90376876,Extended Emmissions,Symmetrical Structure
+400,Lisa142388,90376947,Extended Emmissions,Symmetrical Structure
+401,Lisa142388,90376937,Extended Emmissions,Fast.R Slow.D
+402,Lisa142388,90376923,Extended Emmissions,Fast.R Slow.D
+403,Lisa142388,90376906,Extended Emmissions,Fast.R Slow.D
+404,Lisa142388,90376910,Extended Emmissions,Fast.R Slow.D
+405,Lisa142388,90376868,Extended Emmissions,Fast.R Slow.D
+406,Lisa142388,90376879,Extended Emmissions,Symmetrical Structure
+407,Lisa142388,90376928,Extended Emmissions,Symmetrical Structure
+408,Lisa142388,90376887,Extended Emmissions,Underlying emission
+409,Lisa142388,90376907,Extended Emmissions,Symmetrical Structure
+410,Lisa142388,90376885,Extended Emmissions,Underlying emission
+411,Lisa142388,90376896,Extended Emmissions,Symmetrical Structure
+412,Lisa142388,90376960,Extended Emmissions,Symmetrical Structure
+413,Lisa142388,90376866,Extended Emmissions,Symmetrical Structure
+414,Lisa142388,90376915,Extended Emmissions,Symmetrical Structure
+415,Lisa142388,90376913,Extended Emmissions,Symmetrical Structure
+416,Lisa142388,90376917,Other,Symmetrical Structure
+417,Lisa142388,90376891,Other,Symmetrical Structure
+418,Lisa142388,90376900,Extended Emmissions,Underlying emission
+419,Lisa142388,90376918,Extended Emmissions,Underlying emission
+420,Lisa142388,90376909,Other,Symmetrical Structure
+421,Lisa142388,90376951,Extended Emmissions,Symmetrical Structure
+422,Lisa142388,90376934,Extended Emmissions,Symmetrical Structure
+423,Lisa142388,90376950,Other,Underlying emission
+424,Lisa142388,90376948,Extended Emmissions,Symmetrical Structure
+425,Lisa142388,90376877,Extended Emmissions,Symmetrical Structure
+426,Lisa142388,90376932,Extended Emmissions,Symmetrical Structure
+427,Lisa142388,90376957,Extended Emmissions,Symmetrical Structure
+428,Lisa142388,90376864,Other,Symmetrical Structure
+429,Lisa142388,90376945,Other,Symmetrical Structure
+430,Lisa142388,90376902,Other,Symmetrical Structure
+431,Lisa142388,90376883,Other,Symmetrical Structure
+432,Lisa142388,90376929,Other,Symmetrical Structure
+433,Lisa142388,90376958,Extended Emmissions,Symmetrical Structure
+434,Lisa142388,90376890,Other,Symmetrical Structure
+435,Lisa142388,90376881,Other,Symmetrical Structure
+436,Lisa142388,90376878,Extended Emmissions,Symmetrical Structure
+437,Lisa142388,90376943,Extended Emmissions,Symmetrical Structure
+438,Lisa142388,90376897,Extended Emmissions,Symmetrical Structure
+439,Lisa142388,90376952,Other,Symmetrical Structure
+440,Lisa142388,90376961,Extended Emmissions,Symmetrical Structure
+441,Lisa142388,90376939,Extended Emmissions,Symmetrical Structure
+442,Lisa142388,90376931,Extended Emmissions,Symmetrical Structure
+443,Lisa142388,90376938,Other,Symmetrical Structure
+444,Lisa142388,90376904,Extended Emmissions,Symmetrical Structure
+445,Lisa142388,90376867,Extended Emmissions,Symmetrical Structure
+446,Lisa142388,90376946,Extended Emmissions,Symmetrical Structure
+447,Lisa142388,90376905,Other,Symmetrical Structure
+448,Lisa142388,90376875,Extended Emmissions,Symmetrical Structure
+449,Lisa142388,90376944,Extended Emmissions,Symmetrical Structure
+450,Lisa142388,90376893,Extended Emmissions,Symmetrical Structure
+451,Lisa142388,90376953,Extended Emmissions,Symmetrical Structure
+452,Lisa142388,90376912,Extended Emmissions,Symmetrical Structure
+453,Lisa142388,90376954,Other,Symmetrical Structure
+454,Lisa142388,90376903,Other,Symmetrical Structure
+455,Lisa142388,90376895,Extended Emmissions,Symmetrical Structure
+456,Lisa142388,90376941,Extended Emmissions,Fast.R Slow.D
+457,Lisa142388,90376921,Extended Emmissions,Symmetrical Structure
+458,Lisa142388,90376869,Extended Emmissions,Fast.R Slow.D
+459,Lisa142388,90376874,Other,Symmetrical Structure
+460,Lisa142388,90376901,Extended Emmissions,Symmetrical Structure
+461,Lisa142388,90376924,Extended Emmissions,Symmetrical Structure
+462,Lisa142388,90376898,Other,Symmetrical Structure
+463,Lisa142388,90376955,Other,Symmetrical Structure
+464,BroganZ,90376953,Other,Symmetrical Structure
+465,BroganZ,90376865,Other,Underlying emission
+466,BroganZ,90376962,Other,Nothing found
+467,BroganZ,90376928,Simple Pulse,Rapid Varying pulses
+468,BroganZ,90376867,Other,Rapid Varying pulses
+469,BroganZ,90376939,Simple Pulse,Nothing found
+470,BroganZ,90376947,Simple Pulse,Nothing found
+471,BroganZ,90376902,Extended Emmissions,Fast.R Slow.D
+472,not-logged-in-47f80c25a4f6b7f45ece,90376914,Simple Pulse,Symmetrical Structure
+473,not-logged-in-47f80c25a4f6b7f45ece,90376920,Simple Pulse,Fast.R Slow.D
+474,not-logged-in-dfe32b473a798b3d139b,90376890,Simple Pulse,Underlying emission
+475,not-logged-in-dfe32b473a798b3d139b,90376886,Other,Nothing found
+476,not-logged-in-dfe32b473a798b3d139b,90376941,Simple Pulse,Nothing found
+477,not-logged-in-dfe32b473a798b3d139b,90376880,Extended Emmissions,Symmetrical Structure
+478,not-logged-in-dfe32b473a798b3d139b,90376873,Other,Nothing found
+479,not-logged-in-dfe32b473a798b3d139b,90376934,Simple Pulse,Underlying emission
+480,not-logged-in-dfe32b473a798b3d139b,90376922,Simple Pulse,Fast.R Slow.D
+481,not-logged-in-dfe32b473a798b3d139b,90376878,Simple Pulse,Fast.R Slow.D
+482,not-logged-in-dfe32b473a798b3d139b,90376956,Simple Pulse,Underlying emission
+483,not-logged-in-dfe32b473a798b3d139b,90376924,Other,Nothing found
+484,not-logged-in-dfe32b473a798b3d139b,90376964,Simple Pulse,Underlying emission
+485,Bimmer,90376867,Extended Emmissions,Rapid Varying pulses
+486,Bimmer,90376900,Extended Emmissions,Rapid Varying pulses
+487,Bimmer,90376952,Extended Emmissions,Underlying emission
+488,Bimmer,90376957,Simple Pulse,Symmetrical Structure
+489,Bimmer,90376870,Simple Pulse,Fast.R Slow.D
+490,Bimmer,90376959,Simple Pulse,Fast.R Slow.D
+491,Bimmer,90376909,Extended Emmissions,Underlying emission
+492,Bimmer,90376896,Extended Emmissions,Rapid Varying pulses
+493,Bimmer,90376890,Simple Pulse,Fast.R Slow.D
+494,p.titchin,90376901,Other,Underlying emission
+495,p.titchin,90376952,Extended Emmissions,Underlying emission
+496,p.titchin,90376865,Simple Pulse,Symmetrical Structure
+497,p.titchin,90376866,Simple Pulse,Symmetrical Structure
+498,p.titchin,90376906,Simple Pulse,Symmetrical Structure
+499,p.titchin,90376915,Extended Emmissions,Symmetrical Structure
+500,p.titchin,90376929,Extended Emmissions,Fast.R Slow.D
+501,SpicaArcturus,90376956,Extended Emmissions,Fast.R Slow.D
+502,Sovanacharya,90376907,Extended Emmissions,Fast.R Slow.D
+503,Sovanacharya,90376948,Simple Pulse,Symmetrical Structure
+504,Leptodora,90376942,Simple Pulse,Nothing found
+505,Leptodora,90376928,Simple Pulse,Underlying emission
+506,Leptodora,90376951,Extended Emmissions,Fast.R Slow.D
+507,Flowerychic,90376940,Other,Fast.R Slow.D
+508,Flowerychic,90376870,Extended Emmissions,Underlying emission
+509,jersim47,90376870,Extended Emmissions,Fast.R Slow.D
+510,jersim47,90376947,Simple Pulse,Fast.R Slow.D
+511,jersim47,90376886,Extended Emmissions,Underlying emission
+512,jersim47,90376869,Simple Pulse,Fast.R Slow.D
+513,jersim47,90376866,Extended Emmissions,Symmetrical Structure
+514,jersim47,90376923,Simple Pulse,Underlying emission
+515,jersim47,90376921,Simple Pulse,Fast.R Slow.D
+516,jersim47,90376955,Simple Pulse,Symmetrical Structure
+517,jersim47,90376964,Simple Pulse,Symmetrical Structure
+518,jersim47,90376942,Simple Pulse,Symmetrical Structure
+519,jersim47,90376945,Extended Emmissions,Fast.R Slow.D
+520,jersim47,90376950,Simple Pulse,Symmetrical Structure
+521,jersim47,90376917,Simple Pulse,Symmetrical Structure
+522,jersim47,90376957,Simple Pulse,Symmetrical Structure
+523,Ambanana,90376900,Other,Fast.R Slow.D
+524,Ambanana,90376964,Simple Pulse,Underlying emission
+525,not-logged-in-6785395ff21c89db98c6,90376906,Other,Underlying emission
+526,Madhead,90376912,Extended Emmissions,Rapid Varying pulses
+527,Madhead,90376892,Other,Symmetrical Structure
+528,Madhead,90376915,Simple Pulse,Fast.R Slow.D
+529,Madhead,90376883,Extended Emmissions,Rapid Varying pulses
+530,Madhead,90376889,Simple Pulse,Underlying emission
+531,Madhead,90376887,Simple Pulse,Underlying emission
+532,Madhead,90376899,Extended Emmissions,Rapid Varying pulses
+533,Madhead,90376888,Simple Pulse,Underlying emission
+534,Madhead,90376936,Simple Pulse,Underlying emission
+535,Madhead,90376955,Extended Emmissions,Fast.R Slow.D
+536,Madhead,90376944,Extended Emmissions,Symmetrical Structure
+537,Madhead,90376938,Simple Pulse,Underlying emission
+538,Madhead,90376906,Extended Emmissions,Underlying emission
+539,not-logged-in-0f5897ef1371b06b022d,90376911,Simple Pulse,Fast.R Slow.D
+540,Bisi_Bernard,90376909,Simple Pulse,Symmetrical Structure
+541,not-logged-in-9350abc2c2591c8c07cb,90376941,Simple Pulse,Symmetrical Structure
+542,not-logged-in-9350abc2c2591c8c07cb,90376946,Simple Pulse,Nothing found
+543,not-logged-in-9350abc2c2591c8c07cb,90376896,Other,Rapid Varying pulses
+544,not-logged-in-846a27b1761050848ec9,90376870,Extended Emmissions,Underlying emission
+545,not-logged-in-846a27b1761050848ec9,90376901,Other,Rapid Varying pulses
+546,not-logged-in-846a27b1761050848ec9,90376888,Extended Emmissions,Underlying emission
+547,not-logged-in-846a27b1761050848ec9,90376898,Extended Emmissions,Underlying emission
+548,VictC,90376952,Extended Emmissions,Fast.R Slow.D
+549,VictC,90376919,Simple Pulse,Underlying emission
+550,VictC,90376947,Simple Pulse,Underlying emission
+551,VictC,90376874,Simple Pulse,Underlying emission
+552,VictC,90376865,Simple Pulse,Underlying emission
+553,hodgepig,90376864,Simple Pulse,Symmetrical Structure
+554,hodgepig,90376870,Extended Emmissions,Fast.R Slow.D
+555,hodgepig,90376916,Other,Nothing found
+556,hodgepig,90376887,Simple Pulse,Symmetrical Structure
+557,hodgepig,90376917,Simple Pulse,Symmetrical Structure
+558,hodgepig,90376898,Extended Emmissions,Rapid Varying pulses
+559,hodgepig,90376866,Simple Pulse,Symmetrical Structure
+560,hodgepig,90376939,Other,Symmetrical Structure
+561,hodgepig,90376911,Extended Emmissions,Rapid Varying pulses
+562,hodgepig,90376938,Simple Pulse,Underlying emission
+563,hodgepig,90376945,Extended Emmissions,Fast.R Slow.D
+564,hodgepig,90376919,Simple Pulse,Rapid Varying pulses
+565,hodgepig,90376941,Simple Pulse,Symmetrical Structure
+566,hodgepig,90376913,Extended Emmissions,Fast.R Slow.D
+567,not-logged-in-d36b1eb2ec216f2c9f55,90376893,Other,Rapid Varying pulses
+568,not-logged-in-d36b1eb2ec216f2c9f55,90376954,Other,Nothing found
+569,not-logged-in-d36b1eb2ec216f2c9f55,90376929,Other,Fast.R Slow.D
+570,not-logged-in-f3c6bb58203042937875,90376912,Simple Pulse,Nothing found
+571,not-logged-in-f3c6bb58203042937875,90376865,Other,Symmetrical Structure
+572,not-logged-in-f3c6bb58203042937875,90376879,Extended Emmissions,Nothing found
+573,not-logged-in-f3c6bb58203042937875,90376944,Extended Emmissions,Fast.R Slow.D
+574,not-logged-in-5df6b7ca30318d49aa47,90376956,Other,Fast.R Slow.D
+575,not-logged-in-5df6b7ca30318d49aa47,90376914,Other,Underlying emission
+576,Chinabob,90376932,Simple Pulse,Symmetrical Structure
+577,Chinabob,90376920,Simple Pulse,Fast.R Slow.D
+578,Chinabob,90376956,Extended Emmissions,Underlying emission
+579,Chinabob,90376955,Extended Emmissions,Underlying emission
+580,Chinabob,90376876,Other,Nothing found
+581,Chinabob,90376866,Simple Pulse,Nothing found
+582,Chinabob,90376871,Simple Pulse,Underlying emission
+583,Chinabob,90376910,Simple Pulse,Symmetrical Structure
+584,Chinabob,90376915,Simple Pulse,Symmetrical Structure
+585,KhalilaRedBird,90376919,Simple Pulse,Underlying emission
+586,KhalilaRedBird,90376925,Simple Pulse,Rapid Varying pulses
+587,KhalilaRedBird,90376940,Simple Pulse,Symmetrical Structure
+588,KhalilaRedBird,90376960,Extended Emmissions,Underlying emission
+589,KhalilaRedBird,90376926,Extended Emmissions,Rapid Varying pulses
+590,KhalilaRedBird,90376907,Extended Emmissions,Fast.R Slow.D
+591,KhalilaRedBird,90376949,Other,Underlying emission
+592,KhalilaRedBird,90376891,Simple Pulse,Nothing found
+593,KhalilaRedBird,90376906,Other,Fast.R Slow.D
+594,KhalilaRedBird,90376899,Other,Nothing found
+595,KhalilaRedBird,90376902,Extended Emmissions,Fast.R Slow.D
+596,KhalilaRedBird,90376943,Extended Emmissions,Fast.R Slow.D
+597,KhalilaRedBird,90376868,Other,Fast.R Slow.D
+598,KhalilaRedBird,90376924,Extended Emmissions,Fast.R Slow.D
+599,KhalilaRedBird,90376929,Other,Fast.R Slow.D
+600,KhalilaRedBird,90376916,Extended Emmissions,Fast.R Slow.D
+601,KhalilaRedBird,90376938,Simple Pulse,Symmetrical Structure
+602,KhalilaRedBird,90376870,Extended Emmissions,Fast.R Slow.D
+603,KhalilaRedBird,90376914,Other,Underlying emission
+604,KhalilaRedBird,90376933,Other,Symmetrical Structure
+605,KhalilaRedBird,90376909,Other,Symmetrical Structure
+606,KhalilaRedBird,90376911,Other,Underlying emission
+607,KhalilaRedBird,90376896,Other,Fast.R Slow.D
+608,KhalilaRedBird,90376878,Simple Pulse,Nothing found
+609,KhalilaRedBird,90376932,Extended Emmissions,Fast.R Slow.D
+610,KhalilaRedBird,90376948,Simple Pulse,Nothing found
+611,netneutrality,90376941,Simple Pulse,Symmetrical Structure
+612,netneutrality,90376950,Simple Pulse,Symmetrical Structure
+613,netneutrality,90376963,Simple Pulse,Symmetrical Structure
+614,netneutrality,90376889,Simple Pulse,Symmetrical Structure
+615,jnagasaki,90376869,Simple Pulse,Fast.R Slow.D
+616,jnagasaki,90376963,Simple Pulse,Nothing found
+617,jnagasaki,90376947,Extended Emmissions,Fast.R Slow.D
+618,jnagasaki,90376954,Simple Pulse,Nothing found
+619,jnagasaki,90376884,Extended Emmissions,Rapid Varying pulses
+620,jnagasaki,90376892,Extended Emmissions,Fast.R Slow.D
+621,jnagasaki,90376875,Extended Emmissions,Underlying emission
+622,jnagasaki,90376964,Simple Pulse,Symmetrical Structure
+623,jnagasaki,90376901,Extended Emmissions,Nothing found
+624,jnagasaki,90376955,Simple Pulse,Underlying emission
+625,jnagasaki,90376914,Simple Pulse,Symmetrical Structure
+626,jnagasaki,90376918,Simple Pulse,Fast.R Slow.D
+627,jnagasaki,90376944,Extended Emmissions,Rapid Varying pulses
+628,jnagasaki,90376870,Extended Emmissions,Underlying emission
+629,jnagasaki,90376934,Simple Pulse,Symmetrical Structure
+630,jnagasaki,90376912,Extended Emmissions,Rapid Varying pulses
+631,jnagasaki,90376887,Simple Pulse,Symmetrical Structure
+632,not-logged-in-6a5f8b4c811b122abbaa,90376881,Simple Pulse,Fast.R Slow.D
+633,not-logged-in-6a5f8b4c811b122abbaa,90376929,Extended Emmissions,Fast.R Slow.D
+634,not-logged-in-6a5f8b4c811b122abbaa,90376947,Simple Pulse,Symmetrical Structure
+635,not-logged-in-6a5f8b4c811b122abbaa,90376865,Simple Pulse,Symmetrical Structure
+636,not-logged-in-6a5f8b4c811b122abbaa,90376915,Simple Pulse,Symmetrical Structure
+637,not-logged-in-6a5f8b4c811b122abbaa,90376882,Extended Emmissions,Fast.R Slow.D
+638,not-logged-in-6a5f8b4c811b122abbaa,90376945,Extended Emmissions,Fast.R Slow.D
+639,not-logged-in-6a5f8b4c811b122abbaa,90376956,Extended Emmissions,Fast.R Slow.D
+640,jnagasaki,90376921,Simple Pulse,Fast.R Slow.D
+641,not-logged-in-c5305ae95d2ebe333744,90376953,Simple Pulse,Symmetrical Structure
+642,jnagasaki,90376924,Other,Nothing found
+643,jnagasaki,90376926,Other,Nothing found
+644,jnagasaki,90376950,Simple Pulse,Symmetrical Structure
+645,jnagasaki,90376946,Simple Pulse,Symmetrical Structure
+646,snappa,90376952,Extended Emmissions,Underlying emission
+647,snappa,90376937,Simple Pulse,Symmetrical Structure
+648,snappa,90376873,Other,Nothing found
+649,Larry.Melanson,90376904,Extended Emmissions,Underlying emission
+650,Larry.Melanson,90376952,Extended Emmissions,Underlying emission
+651,Larry.Melanson,90376929,Other,Underlying emission
+652,Larry.Melanson,90376900,Other,Underlying emission
+653,Larry.Melanson,90376965,Simple Pulse,Underlying emission
+654,Larry.Melanson,90376922,Simple Pulse,Nothing found
+655,not-logged-in-f05dc4afca51f15ded12,90376888,Simple Pulse,Symmetrical Structure
+656,not-logged-in-f05dc4afca51f15ded12,90376878,Simple Pulse,Symmetrical Structure
+657,not-logged-in-f05dc4afca51f15ded12,90376946,Simple Pulse,Symmetrical Structure
+658,not-logged-in-f05dc4afca51f15ded12,90376892,Other,Nothing found
+659,not-logged-in-de5e21b88a2a0418e07a,90376920,Simple Pulse,Fast.R Slow.D
+660,not-logged-in-de5e21b88a2a0418e07a,90376928,Other,Rapid Varying pulses
+661,not-logged-in-de5e21b88a2a0418e07a,90376908,Other,Fast.R Slow.D
+662,not-logged-in-de5e21b88a2a0418e07a,90376958,Other,Symmetrical Structure
+663,not-logged-in-de5e21b88a2a0418e07a,90376900,Other,Underlying emission
+664,not-logged-in-ca3a5163aef935bd5eac,90376954,Other,Rapid Varying pulses
+665,not-logged-in-ca3a5163aef935bd5eac,90376876,Other,Symmetrical Structure
+666,BillDoor_,90376902,Simple Pulse,Rapid Varying pulses
+667,BillDoor_,90376934,Simple Pulse,Underlying emission
+668,BillDoor_,90376932,Simple Pulse,Symmetrical Structure
+669,BillDoor_,90376918,Simple Pulse,Symmetrical Structure
+670,BillDoor_,90376877,Other,Nothing found
+671,BillDoor_,90376910,Extended Emmissions,Underlying emission
+672,BillDoor_,90376916,Simple Pulse,Rapid Varying pulses
+673,BillDoor_,90376958,Simple Pulse,Nothing found
+674,BillDoor_,90376889,Simple Pulse,Symmetrical Structure
+675,BillDoor_,90376904,Simple Pulse,Fast.R Slow.D
+676,lyneille,90376911,Other,Rapid Varying pulses
+677,lyneille,90376918,Simple Pulse,Symmetrical Structure
+678,dianasironi,90376963,Other,Symmetrical Structure
+679,dianasironi,90376960,Extended Emmissions,Fast.R Slow.D
+680,not-logged-in-ded6d4373f746ba69a4f,90376929,Simple Pulse,Symmetrical Structure
+681,not-logged-in-ded6d4373f746ba69a4f,90376879,Extended Emmissions,Nothing found
+682,not-logged-in-ded6d4373f746ba69a4f,90376917,Simple Pulse,Nothing found
+683,not-logged-in-ded6d4373f746ba69a4f,90376877,Other,Nothing found
+684,not-logged-in-ded6d4373f746ba69a4f,90376926,Extended Emmissions,Rapid Varying pulses
+685,not-logged-in-f2a2bd47b08a6979fff2,90376868,Other,Symmetrical Structure
+686,not-logged-in-f2a2bd47b08a6979fff2,90376895,Other,Underlying emission
+687,not-logged-in-f2a2bd47b08a6979fff2,90376922,Simple Pulse,Underlying emission
+688,not-logged-in-f2a2bd47b08a6979fff2,90376886,Other,Rapid Varying pulses
+689,not-logged-in-f2a2bd47b08a6979fff2,90376906,Extended Emmissions,Underlying emission
+690,not-logged-in-75df8bb93e0dc0d3578d,90376878,Simple Pulse,Underlying emission
+691,not-logged-in-75df8bb93e0dc0d3578d,90376876,Other,Nothing found
+692,not-logged-in-75df8bb93e0dc0d3578d,90376964,Extended Emmissions,Underlying emission
+693,not-logged-in-75df8bb93e0dc0d3578d,90376908,Extended Emmissions,Underlying emission
+694,not-logged-in-75df8bb93e0dc0d3578d,90376888,Extended Emmissions,Underlying emission
+695,not-logged-in-94141ed13e22579635a9,90376938,Simple Pulse,Symmetrical Structure
+696,not-logged-in-94141ed13e22579635a9,90376904,Extended Emmissions,Fast.R Slow.D
+697,not-logged-in-94141ed13e22579635a9,90376880,Simple Pulse,Underlying emission
+698,not-logged-in-94141ed13e22579635a9,90376903,Simple Pulse,Underlying emission
+699,not-logged-in-94141ed13e22579635a9,90376925,Extended Emmissions,Underlying emission
+700,not-logged-in-94141ed13e22579635a9,90376884,Other,Nothing found
+701,not-logged-in-94141ed13e22579635a9,90376914,Extended Emmissions,Underlying emission
+702,not-logged-in-94141ed13e22579635a9,90376954,Extended Emmissions,Symmetrical Structure
+703,not-logged-in-e9ea46398cf51b688341,90376901,Extended Emmissions,Symmetrical Structure
+704,not-logged-in-e9ea46398cf51b688341,90376915,Extended Emmissions,Symmetrical Structure
+705,not-logged-in-e9ea46398cf51b688341,90376865,Extended Emmissions,Underlying emission
+706,not-logged-in-e9ea46398cf51b688341,90376939,Extended Emmissions,Underlying emission
+707,not-logged-in-e9ea46398cf51b688341,90376897,Extended Emmissions,Rapid Varying pulses
+708,not-logged-in-e9ea46398cf51b688341,90376905,Simple Pulse,Underlying emission
+709,not-logged-in-9101b3c3b4cc2055821a,90376928,Extended Emmissions,Symmetrical Structure
+710,not-logged-in-9101b3c3b4cc2055821a,90376870,Extended Emmissions,Symmetrical Structure
+711,not-logged-in-9101b3c3b4cc2055821a,90376923,Simple Pulse,Symmetrical Structure
+712,not-logged-in-9101b3c3b4cc2055821a,90376948,Simple Pulse,Symmetrical Structure
+713,not-logged-in-654904adff2a01d657c8,90376960,Extended Emmissions,Underlying emission
+714,not-logged-in-654904adff2a01d657c8,90376887,Extended Emmissions,Underlying emission
+715,not-logged-in-654904adff2a01d657c8,90376867,Extended Emmissions,Symmetrical Structure
+716,not-logged-in-654904adff2a01d657c8,90376921,Extended Emmissions,Symmetrical Structure
+717,not-logged-in-654904adff2a01d657c8,90376866,Extended Emmissions,Underlying emission
+718,not-logged-in-654904adff2a01d657c8,90376935,Extended Emmissions,Underlying emission
+719,not-logged-in-654904adff2a01d657c8,90376875,Extended Emmissions,Symmetrical Structure
+720,not-logged-in-654904adff2a01d657c8,90376936,Extended Emmissions,Symmetrical Structure
+721,not-logged-in-e011cee139d9b737d222,90376937,Extended Emmissions,Underlying emission
+722,not-logged-in-e011cee139d9b737d222,90376958,Simple Pulse,Symmetrical Structure
+723,not-logged-in-e011cee139d9b737d222,90376962,Other,Nothing found
+724,not-logged-in-e011cee139d9b737d222,90376934,Simple Pulse,Symmetrical Structure
+725,not-logged-in-e011cee139d9b737d222,90376890,Extended Emmissions,Underlying emission
+726,not-logged-in-a4940a25c93df342acca,90376898,Simple Pulse,Underlying emission
+727,not-logged-in-a4940a25c93df342acca,90376900,Simple Pulse,Symmetrical Structure
+728,not-logged-in-a4940a25c93df342acca,90376946,Simple Pulse,Symmetrical Structure
+729,not-logged-in-a4940a25c93df342acca,90376885,Extended Emmissions,Underlying emission
+730,not-logged-in-a4940a25c93df342acca,90376920,Simple Pulse,Symmetrical Structure
+731,not-logged-in-a4940a25c93df342acca,90376881,Other,Underlying emission
+732,not-logged-in-a4940a25c93df342acca,90376952,Other,Underlying emission
+733,not-logged-in-a4940a25c93df342acca,90376907,Extended Emmissions,Fast.R Slow.D
+734,not-logged-in-402a2f04335927a1c015,90376942,Simple Pulse,Symmetrical Structure
+735,not-logged-in-402a2f04335927a1c015,90376891,Extended Emmissions,Underlying emission
+736,not-logged-in-402a2f04335927a1c015,90376919,Simple Pulse,Symmetrical Structure
+737,not-logged-in-402a2f04335927a1c015,90376883,Simple Pulse,Underlying emission
+738,not-logged-in-402a2f04335927a1c015,90376872,Simple Pulse,Symmetrical Structure
+739,not-logged-in-402a2f04335927a1c015,90376869,Simple Pulse,Symmetrical Structure
+740,not-logged-in-402a2f04335927a1c015,90376874,Simple Pulse,Symmetrical Structure
+741,not-logged-in-402a2f04335927a1c015,90376896,Simple Pulse,Symmetrical Structure
+742,not-logged-in-402a2f04335927a1c015,90376940,Simple Pulse,Symmetrical Structure
+743,not-logged-in-402a2f04335927a1c015,90376913,Simple Pulse,Fast.R Slow.D
+744,not-logged-in-402a2f04335927a1c015,90376873,Other,Underlying emission
+745,not-logged-in-a69cfdb20f64ac7d50a1,90376965,Simple Pulse,Underlying emission
+746,not-logged-in-a69cfdb20f64ac7d50a1,90376947,Simple Pulse,Symmetrical Structure
+747,not-logged-in-a69cfdb20f64ac7d50a1,90376957,Simple Pulse,Symmetrical Structure
+748,not-logged-in-a69cfdb20f64ac7d50a1,90376963,Simple Pulse,Symmetrical Structure
+749,not-logged-in-a69cfdb20f64ac7d50a1,90376951,Simple Pulse,Symmetrical Structure
+750,not-logged-in-a69cfdb20f64ac7d50a1,90376953,Simple Pulse,Symmetrical Structure
+751,not-logged-in-a69cfdb20f64ac7d50a1,90376932,Simple Pulse,Rapid Varying pulses
+752,not-logged-in-a69cfdb20f64ac7d50a1,90376956,Extended Emmissions,Underlying emission
+753,not-logged-in-a69cfdb20f64ac7d50a1,90376901,Simple Pulse,Symmetrical Structure
+754,not-logged-in-a69cfdb20f64ac7d50a1,90376874,Simple Pulse,Symmetrical Structure
+755,not-logged-in-a69cfdb20f64ac7d50a1,90376915,Simple Pulse,Symmetrical Structure
+756,not-logged-in-a69cfdb20f64ac7d50a1,90376929,Simple Pulse,Rapid Varying pulses
+757,not-logged-in-1639ec3c8ce23a51c9de,90376888,Extended Emmissions,Underlying emission
+758,not-logged-in-1639ec3c8ce23a51c9de,90376954,Simple Pulse,Symmetrical Structure
+759,not-logged-in-1639ec3c8ce23a51c9de,90376938,Simple Pulse,Symmetrical Structure
+760,not-logged-in-1639ec3c8ce23a51c9de,90376917,Simple Pulse,Symmetrical Structure
+761,not-logged-in-1639ec3c8ce23a51c9de,90376866,Extended Emmissions,Underlying emission
+762,not-logged-in-f3c6bb58203042937875,90376890,Simple Pulse,Underlying emission
+763,not-logged-in-e22aeaaebc82eabbecc0,90376960,Extended Emmissions,Symmetrical Structure
+764,not-logged-in-e22aeaaebc82eabbecc0,90376963,Simple Pulse,Symmetrical Structure
+765,not-logged-in-e22aeaaebc82eabbecc0,90376888,Other,Symmetrical Structure
+766,Rajnegi,90376940,Simple Pulse,Symmetrical Structure
+767,Rajnegi,90376909,Extended Emmissions,Underlying emission
+768,Rajnegi,90376950,Simple Pulse,Symmetrical Structure
+769,Rajnegi,90376886,Other,Fast.R Slow.D
+770,Rajnegi,90376918,Simple Pulse,Fast.R Slow.D
+771,Rajnegi,90376914,Simple Pulse,Symmetrical Structure
+772,Rajnegi,90376881,Simple Pulse,Symmetrical Structure
+773,Rajnegi,90376875,Other,Rapid Varying pulses
+774,Rajnegi,90376869,Other,Fast.R Slow.D
+775,x303,90376957,Simple Pulse,Symmetrical Structure
+776,x303,90376921,Simple Pulse,Fast.R Slow.D
+777,x303,90376871,Extended Emmissions,Rapid Varying pulses
+778,x303,90376942,Simple Pulse,Fast.R Slow.D
+779,x303,90376932,Extended Emmissions,Fast.R Slow.D
+780,not-logged-in-e3d51023df0215fe06ac,90376903,Extended Emmissions,Nothing found
+781,colin_hewitt,90376923,Other,Rapid Varying pulses
+782,tarpon5of5,90376892,Other,Nothing found
+783,tarpon5of5,90376913,Other,Fast.R Slow.D
+784,tarpon5of5,90376923,Other,Nothing found
+785,tarpon5of5,90376865,Simple Pulse,Underlying emission
+786,tarpon5of5,90376922,Simple Pulse,Nothing found
+787,tarpon5of5,90376935,Other,Fast.R Slow.D
+788,tarpon5of5,90376901,Other,Nothing found
+789,tarpon5of5,90376953,Other,Symmetrical Structure
+790,not-logged-in-9350abc2c2591c8c07cb,90376943,Extended Emmissions,Rapid Varying pulses
+791,not-logged-in-b524499997a203b09c8f,90376907,Simple Pulse,Underlying emission
+792,not-logged-in-9350abc2c2591c8c07cb,90376960,Extended Emmissions,Symmetrical Structure
+793,not-logged-in-06b2e2a3c7fecbeaecb4,90376955,Simple Pulse,Symmetrical Structure
+794,not-logged-in-06b2e2a3c7fecbeaecb4,90376914,Simple Pulse,Underlying emission
+795,not-logged-in-06b2e2a3c7fecbeaecb4,90376962,Other,Nothing found
+796,not-logged-in-05e4010d02a287344451,90376956,Extended Emmissions,Symmetrical Structure
+797,not-logged-in-05e4010d02a287344451,90376933,Simple Pulse,Underlying emission
+798,Sovanacharya,90376883,Extended Emmissions,Rapid Varying pulses
+799,Sovanacharya,90376953,Simple Pulse,Symmetrical Structure
+800,Sovanacharya,90376945,Extended Emmissions,Underlying emission
+801,Sovanacharya,90376882,Extended Emmissions,Fast.R Slow.D
+802,Sovanacharya,90376934,Simple Pulse,Fast.R Slow.D
+803,Sovanacharya,90376938,Simple Pulse,Fast.R Slow.D
+804,Sovanacharya,90376897,Other,Nothing found
+805,Sovanacharya,90376928,Other,Rapid Varying pulses
+806,Sovanacharya,90376905,Extended Emmissions,Rapid Varying pulses
+807,not-logged-in-e7b44bfe70abcf4e255f,90376892,Simple Pulse,Nothing found
+808,not-logged-in-e7b44bfe70abcf4e255f,90376875,Extended Emmissions,Rapid Varying pulses
+809,joltcode,90376927,Extended Emmissions,Underlying emission
+810,joltcode,90376882,Simple Pulse,Nothing found
+811,Hongming_Tang,90376920,Simple Pulse,Fast.R Slow.D
+812,Hongming_Tang,90376921,Extended Emmissions,Fast.R Slow.D
+813,Hongming_Tang,90376914,Extended Emmissions,Underlying emission
+814,Hongming_Tang,90376900,Other,Symmetrical Structure
+815,Hongming_Tang,90376878,Simple Pulse,Symmetrical Structure
+816,Hongming_Tang,90376945,Simple Pulse,Fast.R Slow.D
+817,lizanne,90376932,Simple Pulse,Fast.R Slow.D
+818,lizanne,90376927,Simple Pulse,Fast.R Slow.D
+819,lizanne,90376873,Extended Emmissions,Rapid Varying pulses
+820,lizanne,90376881,Other,Fast.R Slow.D
+821,not-logged-in-0b4727ef35c8df922389,90376924,Extended Emmissions,Underlying emission
+822,not-logged-in-0b4727ef35c8df922389,90376935,Extended Emmissions,Underlying emission
+823,not-logged-in-0b4727ef35c8df922389,90376918,Simple Pulse,Fast.R Slow.D
+824,not-logged-in-0b4727ef35c8df922389,90376913,Extended Emmissions,Fast.R Slow.D
+825,not-logged-in-0b1054234cfad881a507,90376896,Simple Pulse,Fast.R Slow.D
+826,not-logged-in-0b1054234cfad881a507,90376890,Extended Emmissions,Nothing found
+827,not-logged-in-0b1054234cfad881a507,90376879,Simple Pulse,Nothing found
+828,not-logged-in-0b1054234cfad881a507,90376956,Extended Emmissions,Underlying emission
+829,not-logged-in-0b1054234cfad881a507,90376898,Extended Emmissions,Fast.R Slow.D
+830,not-logged-in-0b1054234cfad881a507,90376865,Extended Emmissions,Symmetrical Structure
+831,not-logged-in-8b6baec50cff6700167b,90376922,Extended Emmissions,Fast.R Slow.D
+832,not-logged-in-8b6baec50cff6700167b,90376907,Extended Emmissions,Fast.R Slow.D
+833,not-logged-in-8b6baec50cff6700167b,90376933,Other,Underlying emission
+834,not-logged-in-8b6baec50cff6700167b,90376917,Simple Pulse,Symmetrical Structure
+835,not-logged-in-8b6baec50cff6700167b,90376864,Extended Emmissions,Symmetrical Structure
+836,not-logged-in-8b6baec50cff6700167b,90376937,Simple Pulse,Symmetrical Structure
+837,not-logged-in-8b6baec50cff6700167b,90376915,Extended Emmissions,Symmetrical Structure
+838,not-logged-in-09b7c779752e68722c7b,90376950,Simple Pulse,Symmetrical Structure
+839,not-logged-in-bec85c4db48f867faa70,90376965,Extended Emmissions,Symmetrical Structure
+840,not-logged-in-bec85c4db48f867faa70,90376954,Simple Pulse,Symmetrical Structure
+841,not-logged-in-bec85c4db48f867faa70,90376948,Simple Pulse,Symmetrical Structure
+842,not-logged-in-bec85c4db48f867faa70,90376909,Simple Pulse,Symmetrical Structure
+843,erm.1326,90376924,Extended Emmissions,Rapid Varying pulses
+844,w0400,90376872,Simple Pulse,Nothing found
+845,Moonmare,90376919,Simple Pulse,Rapid Varying pulses
+846,w0400,90376943,Extended Emmissions,Symmetrical Structure
+847,Moonmare,90376947,Simple Pulse,Symmetrical Structure
+848,Moonmare,90376890,Extended Emmissions,Fast.R Slow.D
+849,Moonmare,90376895,Extended Emmissions,Underlying emission
+850,Moonmare,90376878,Simple Pulse,Symmetrical Structure
+851,w0400,90376936,Simple Pulse,Nothing found
+852,Moonmare,90376917,Simple Pulse,Symmetrical Structure
+853,Moonmare,90376897,Extended Emmissions,Fast.R Slow.D
+854,w0400,90376925,Other,Rapid Varying pulses
+855,w0400,90376964,Other,Underlying emission
+856,w0400,90376900,Other,Symmetrical Structure
+857,w0400,90376916,Simple Pulse,Fast.R Slow.D
+858,w0400,90376869,Simple Pulse,Fast.R Slow.D
+859,Leilanilei,90376949,Simple Pulse,Underlying emission
+860,Leilanilei,90376947,Extended Emmissions,Fast.R Slow.D
+861,not-logged-in-63276abedd90e9a2f28c,90376889,Simple Pulse,Nothing found
+862,Leilanilei,90376912,Extended Emmissions,Underlying emission
+863,Leilanilei,90376950,Simple Pulse,Nothing found
+864,Leilanilei,90376871,Extended Emmissions,Underlying emission
+865,not-logged-in-63276abedd90e9a2f28c,90376903,Extended Emmissions,Underlying emission
+866,Leilanilei,90376873,Extended Emmissions,Underlying emission
+867,Leilanilei,90376887,Simple Pulse,Underlying emission
+868,Leilanilei,90376960,Extended Emmissions,Underlying emission
+869,Leilanilei,90376918,Simple Pulse,Fast.R Slow.D
+870,Leilanilei,90376923,Extended Emmissions,Underlying emission
+871,Leilanilei,90376870,Extended Emmissions,Fast.R Slow.D
+872,Leilanilei,90376961,Extended Emmissions,Underlying emission
+873,Leilanilei,90376924,Simple Pulse,Rapid Varying pulses
+874,Leilanilei,90376957,Simple Pulse,Underlying emission
+875,Leilanilei,90376931,Extended Emmissions,Symmetrical Structure
+876,Leilanilei,90376875,Extended Emmissions,Underlying emission
+877,Leilanilei,90376962,Other,Nothing found
+878,not-logged-in-566007923e0f6ba90889,90376876,Simple Pulse,Nothing found
+879,dianasironi,90376885,Simple Pulse,Nothing found
+880,dianasironi,90376884,Other,Nothing found
+881,TUGELA67,90376920,Extended Emmissions,Underlying emission
+882,TUGELA67,90376910,Simple Pulse,Symmetrical Structure
+883,TUGELA67,90376933,Extended Emmissions,Underlying emission
+884,TUGELA67,90376938,Simple Pulse,Underlying emission
+885,TUGELA67,90376956,Simple Pulse,Underlying emission
+886,TUGELA67,90376916,Extended Emmissions,Symmetrical Structure
+887,TUGELA67,90376873,Simple Pulse,Symmetrical Structure
+888,TUGELA67,90376940,Other,Nothing found
+889,TUGELA67,90376959,Simple Pulse,Rapid Varying pulses
+890,TUGELA67,90376958,Simple Pulse,Nothing found
+891,TUGELA67,90376897,Simple Pulse,Fast.R Slow.D
+892,TUGELA67,90376923,Other,Underlying emission
+893,TUGELA67,90376919,Extended Emmissions,Rapid Varying pulses
+894,TUGELA67,90376965,Extended Emmissions,Underlying emission
+895,TUGELA67,90376872,Simple Pulse,Symmetrical Structure
+896,TUGELA67,90376870,Simple Pulse,Rapid Varying pulses
+897,TUGELA67,90376951,Simple Pulse,Nothing found
+898,TUGELA67,90376929,Extended Emmissions,Underlying emission
+899,TUGELA67,90376953,Simple Pulse,Nothing found
+900,TUGELA67,90376886,Simple Pulse,Symmetrical Structure
+901,anamateur,90376874,Simple Pulse,Fast.R Slow.D
+902,TUGELA67,90376918,Simple Pulse,Nothing found
+903,TUGELA67,90376955,Simple Pulse,Symmetrical Structure
+904,TUGELA67,90376948,Simple Pulse,Nothing found
+905,anamateur,90376922,Simple Pulse,Fast.R Slow.D
+906,TUGELA67,90376890,Simple Pulse,Underlying emission
+907,anamateur,90376943,Extended Emmissions,Underlying emission
+908,TUGELA67,90376941,Simple Pulse,Nothing found
+909,TUGELA67,90376914,Simple Pulse,Underlying emission
+910,TUGELA67,90376946,Simple Pulse,Symmetrical Structure
+911,TUGELA67,90376961,Simple Pulse,Symmetrical Structure
+912,TUGELA67,90376906,Simple Pulse,Underlying emission
+913,TUGELA67,90376876,Extended Emmissions,Underlying emission
+914,TUGELA67,90376896,Simple Pulse,Symmetrical Structure
+915,TUGELA67,90376901,Simple Pulse,Nothing found
+916,anamateur,90376918,Other,Symmetrical Structure
+917,anamateur,90376951,Simple Pulse,Fast.R Slow.D
+918,anamateur,90376891,Extended Emmissions,Nothing found
+919,THE-JASH,90376910,Simple Pulse,Fast.R Slow.D
+920,THE-JASH,90376940,Extended Emmissions,Rapid Varying pulses
+921,TUGELA67,90376934,Simple Pulse,Underlying emission
+922,not-logged-in-aaf41c7b5990bb7b569a,90376964,Simple Pulse,Nothing found
+923,TUGELA67,90376915,Simple Pulse,Underlying emission
+924,TUGELA67,90376893,Simple Pulse,Rapid Varying pulses
+925,TUGELA67,90376892,Simple Pulse,Nothing found
+926,TUGELA67,90376922,Simple Pulse,Symmetrical Structure
+927,TUGELA67,90376945,Simple Pulse,Underlying emission
+928,TUGELA67,90376935,Extended Emmissions,Underlying emission
+929,WenjieZhou,90376891,Extended Emmissions,Nothing found
+930,TUGELA67,90376911,Simple Pulse,Symmetrical Structure
+931,WenjieZhou,90376936,Simple Pulse,Fast.R Slow.D
+932,WenjieZhou,90376916,Extended Emmissions,Fast.R Slow.D
+933,TUGELA67,90376865,Simple Pulse,Underlying emission
+934,TUGELA67,90376880,Other,Rapid Varying pulses
+935,TUGELA67,90376899,Simple Pulse,Symmetrical Structure
+936,TUGELA67,90376913,Simple Pulse,Symmetrical Structure
+937,TUGELA67,90376909,Extended Emmissions,Fast.R Slow.D
+938,TUGELA67,90376902,Simple Pulse,Symmetrical Structure
+939,PattySo,90376939,Other,Nothing found
+940,TUGELA67,90376864,Simple Pulse,Underlying emission
+941,TUGELA67,90376907,Simple Pulse,Rapid Varying pulses
+942,TUGELA67,90376882,Simple Pulse,Fast.R Slow.D
+943,TUGELA67,90376881,Simple Pulse,Rapid Varying pulses
+944,TUGELA67,90376887,Simple Pulse,Rapid Varying pulses
+945,WenjieZhou,90376964,Simple Pulse,Symmetrical Structure
+946,WenjieZhou,90376952,Extended Emmissions,Rapid Varying pulses
+947,WenjieZhou,90376934,Simple Pulse,Rapid Varying pulses
+948,WenjieZhou,90376869,Simple Pulse,Fast.R Slow.D
+949,WenjieZhou,90376961,Other,Nothing found
+950,WenjieZhou,90376902,Simple Pulse,Fast.R Slow.D
+951,WenjieZhou,90376893,Extended Emmissions,Rapid Varying pulses
+952,WenjieZhou,90376947,Simple Pulse,Fast.R Slow.D
+953,WenjieZhou,90376878,Simple Pulse,Symmetrical Structure
+954,WenjieZhou,90376924,Extended Emmissions,Rapid Varying pulses
+955,PattySo,90376951,Simple Pulse,Fast.R Slow.D
+956,PattySo,90376876,Other,Nothing found
+957,Lulaboo,90376923,Other,Rapid Varying pulses
+958,PattySo,90376880,Other,Nothing found
+959,Lulaboo,90376958,Other,Symmetrical Structure
+960,Lulaboo,90376870,Simple Pulse,Symmetrical Structure
+961,Lulaboo,90376882,Extended Emmissions,Underlying emission
+962,Lulaboo,90376951,Extended Emmissions,Underlying emission
+963,Lulaboo,90376945,Extended Emmissions,Underlying emission
+964,Lulaboo,90376946,Simple Pulse,Symmetrical Structure
+965,Lulaboo,90376873,Extended Emmissions,Rapid Varying pulses
+966,Lulaboo,90376914,Extended Emmissions,Underlying emission
+967,Lulaboo,90376939,Extended Emmissions,Underlying emission
+968,Hemiunu74,90376932,Other,Underlying emission
+969,Hemiunu74,90376946,Simple Pulse,Nothing found
+970,Hemiunu74,90376902,Simple Pulse,Fast.R Slow.D
+971,Hemiunu74,90376877,Other,Nothing found
+972,Hemiunu74,90376952,Extended Emmissions,Underlying emission
+973,Soltere11,90376892,Simple Pulse,Underlying emission
+974,Hemiunu74,90376927,Simple Pulse,Fast.R Slow.D
+975,Hemiunu74,90376943,Simple Pulse,Fast.R Slow.D
+976,Soltere11,90376927,Extended Emmissions,Underlying emission
+977,Hemiunu74,90376938,Simple Pulse,Symmetrical Structure
+978,Soltere11,90376911,Other,Symmetrical Structure
+979,Soltere11,90376895,Extended Emmissions,Symmetrical Structure
+980,Hemiunu74,90376880,Extended Emmissions,Rapid Varying pulses
+981,EmilyJayneBean,90376872,Extended Emmissions,Nothing found
+982,EmilyJayneBean,90376961,Other,Underlying emission
+983,EmilyJayneBean,90376937,Simple Pulse,Nothing found
+984,Khuki,90376907,Extended Emmissions,Symmetrical Structure
+985,Khuki,90376952,Extended Emmissions,Underlying emission
+986,Khuki,90376899,Other,Underlying emission
+987,Khuki,90376883,Other,Nothing found
+988,Lulaboo,90376902,Extended Emmissions,Underlying emission
+989,Lulaboo,90376929,Other,Rapid Varying pulses
+990,Lulaboo,90376907,Extended Emmissions,Underlying emission
+991,Lulaboo,90376935,Extended Emmissions,Rapid Varying pulses
+992,Lulaboo,90376893,Extended Emmissions,Underlying emission
+993,Lulaboo,90376916,Extended Emmissions,Rapid Varying pulses
+994,Lulaboo,90376868,Other,Symmetrical Structure
+995,Lulaboo,90376867,Other,Underlying emission
+996,Lulaboo,90376926,Extended Emmissions,Rapid Varying pulses
+997,Lulaboo,90376927,Extended Emmissions,Fast.R Slow.D
+998,Lulaboo,90376943,Simple Pulse,Symmetrical Structure
+999,Lulaboo,90376876,Extended Emmissions,Rapid Varying pulses
+1000,Lulaboo,90376917,Simple Pulse,Nothing found
+1001,Lulaboo,90376871,Extended Emmissions,Underlying emission
+1002,Lulaboo,90376898,Extended Emmissions,Underlying emission
+1003,Lulaboo,90376922,Simple Pulse,Symmetrical Structure
+1004,Lulaboo,90376918,Simple Pulse,Symmetrical Structure
+1005,Lulaboo,90376884,Other,Fast.R Slow.D
+1006,Lulaboo,90376920,Other,Fast.R Slow.D
+1007,Lulaboo,90376913,Extended Emmissions,Underlying emission
+1008,Lulaboo,90376956,Extended Emmissions,Underlying emission
+1009,dianehughes2000,90376920,Extended Emmissions,Underlying emission
+1010,dianehughes2000,90376869,Extended Emmissions,Fast.R Slow.D
+1011,dianehughes2000,90376925,Extended Emmissions,Rapid Varying pulses
+1012,dianehughes2000,90376950,Simple Pulse,Symmetrical Structure
+1013,dianehughes2000,90376873,Extended Emmissions,Fast.R Slow.D
+1014,possiblephil,90376877,Simple Pulse,Underlying emission
+1015,possiblephil,90376866,Simple Pulse,Underlying emission
+1016,possiblephil,90376911,Extended Emmissions,Fast.R Slow.D
+1017,possiblephil,90376874,Extended Emmissions,Fast.R Slow.D
+1018,possiblephil,90376955,Other,Fast.R Slow.D
+1019,possiblephil,90376938,Other,Symmetrical Structure
+1020,possiblephil,90376905,Extended Emmissions,Fast.R Slow.D
+1021,possiblephil,90376907,Extended Emmissions,Fast.R Slow.D
+1022,possiblephil,90376901,Other,Rapid Varying pulses
+1023,possiblephil,90376864,Simple Pulse,Symmetrical Structure
+1024,possiblephil,90376926,Extended Emmissions,Fast.R Slow.D
+1025,possiblephil,90376956,Extended Emmissions,Fast.R Slow.D
+1026,Lulaboo,90376960,Extended Emmissions,Underlying emission
+1027,possiblephil,90376921,Simple Pulse,Symmetrical Structure
+1028,possiblephil,90376904,Extended Emmissions,Fast.R Slow.D
+1029,possiblephil,90376942,Other,Symmetrical Structure
+1030,possiblephil,90376891,Other,Symmetrical Structure
+1031,possiblephil,90376896,Other,Fast.R Slow.D
+1032,possiblephil,90376919,Other,Symmetrical Structure
+1033,possiblephil,90376882,Extended Emmissions,Fast.R Slow.D
+1034,possiblephil,90376931,Other,Symmetrical Structure
+1035,possiblephil,90376879,Other,Symmetrical Structure
+1036,possiblephil,90376881,Other,Fast.R Slow.D
+1037,possiblephil,90376962,Simple Pulse,Nothing found
+1038,possiblephil,90376909,Extended Emmissions,Fast.R Slow.D
+1039,possiblephil,90376945,Extended Emmissions,Fast.R Slow.D
+1040,possiblephil,90376950,Other,Symmetrical Structure
+1041,possiblephil,90376889,Simple Pulse,Symmetrical Structure
+1042,possiblephil,90376876,Other,Rapid Varying pulses
+1043,possiblephil,90376916,Extended Emmissions,Fast.R Slow.D
+1044,possiblephil,90376910,Other,Symmetrical Structure
+1045,possiblephil,90376951,Extended Emmissions,Fast.R Slow.D
+1046,not-logged-in-eb7da734139dadef0df3,90376929,Other,Underlying emission
+1047,not-logged-in-eb7da734139dadef0df3,90376864,Other,Fast.R Slow.D
+1048,not-logged-in-eb7da734139dadef0df3,90376898,Extended Emmissions,Rapid Varying pulses
+1049,Wildcat2001,90376897,Extended Emmissions,Fast.R Slow.D
+1050,Wildcat2001,90376908,Extended Emmissions,Underlying emission
+1051,dmhen,90376964,Other,Underlying emission
+1052,dmhen,90376915,Simple Pulse,Rapid Varying pulses
+1053,dmhen,90376922,Simple Pulse,Nothing found
+1054,dmhen,90376873,Other,Rapid Varying pulses
+1055,dmhen,90376956,Extended Emmissions,Fast.R Slow.D
+1056,Wildcat2001,90376886,Extended Emmissions,Fast.R Slow.D
+1057,Wildcat2001,90376919,Other,Underlying emission
+1058,Wildcat2001,90376887,Simple Pulse,Nothing found
+1059,Wildcat2001,90376881,Other,Underlying emission
+1060,Wildcat2001,90376961,Extended Emmissions,Underlying emission
+1061,Wildcat2001,90376946,Simple Pulse,Nothing found
+1062,Wildcat2001,90376871,Other,Underlying emission
+1063,Wildcat2001,90376873,Other,Underlying emission
+1064,Wildcat2001,90376954,Simple Pulse,Nothing found
+1065,Wildcat2001,90376953,Simple Pulse,Symmetrical Structure
+1066,Wildcat2001,90376911,Other,Underlying emission
+1067,Wildcat2001,90376935,Extended Emmissions,Underlying emission
+1068,Wildcat2001,90376888,Extended Emmissions,Underlying emission
+1069,Wildcat2001,90376923,Extended Emmissions,Underlying emission
+1070,Wildcat2001,90376901,Other,Nothing found
+1071,Wildcat2001,90376940,Simple Pulse,Nothing found
+1072,Wildcat2001,90376902,Extended Emmissions,Fast.R Slow.D
+1073,Wildcat2001,90376933,Other,Underlying emission
+1074,Wildcat2001,90376925,Other,Symmetrical Structure
+1075,Wildcat2001,90376878,Simple Pulse,Fast.R Slow.D
+1076,Wildcat2001,90376913,Extended Emmissions,Fast.R Slow.D
+1077,Wildcat2001,90376951,Simple Pulse,Fast.R Slow.D
+1078,Wildcat2001,90376868,Other,Underlying emission
+1079,Wildcat2001,90376934,Simple Pulse,Fast.R Slow.D
+1080,Wildcat2001,90376910,Extended Emmissions,Underlying emission
+1081,Wildcat2001,90376936,Simple Pulse,Nothing found
+1082,Wildcat2001,90376949,Extended Emmissions,Underlying emission
+1083,Wildcat2001,90376920,Simple Pulse,Fast.R Slow.D
+1084,Wildcat2001,90376965,Extended Emmissions,Underlying emission
+1085,Wildcat2001,90376906,Other,Underlying emission
+1086,Wildcat2001,90376867,Other,Underlying emission
+1087,not-logged-in-b17f353a86f90884c9ea,90376893,Simple Pulse,Symmetrical Structure
+1088,not-logged-in-5a1875be6e1a006e8b0a,90376953,Extended Emmissions,Symmetrical Structure
+1089,Shayan.seiedabolghasem,90376952,Other,Rapid Varying pulses
+1090,Shayan.seiedabolghasem,90376906,Other,Nothing found
+1091,gethralkin,90376963,Simple Pulse,Nothing found
+1092,gethralkin,90376925,Other,Rapid Varying pulses
+1093,gethralkin,90376891,Simple Pulse,Symmetrical Structure
+1094,gethralkin,90376914,Extended Emmissions,Fast.R Slow.D
+1095,gethralkin,90376923,Other,Underlying emission
+1096,gethralkin,90376893,Other,Symmetrical Structure
+1097,gethralkin,90376901,Other,Nothing found
+1098,gethralkin,90376958,Other,Underlying emission
+1099,gethralkin,90376887,Other,Symmetrical Structure
+1100,gethralkin,90376871,Other,Underlying emission
+1101,gethralkin,90376962,Other,Nothing found
+1102,gethralkin,90376902,Extended Emmissions,Underlying emission
+1103,gethralkin,90376965,Extended Emmissions,Underlying emission
+1104,gethralkin,90376951,Extended Emmissions,Fast.R Slow.D
+1105,gethralkin,90376907,Extended Emmissions,Underlying emission
+1106,gethralkin,90376942,Simple Pulse,Underlying emission
+1107,gethralkin,90376904,Extended Emmissions,Underlying emission
+1108,gethralkin,90376911,Extended Emmissions,Underlying emission
+1109,gethralkin,90376864,Simple Pulse,Symmetrical Structure
+1110,gethralkin,90376960,Extended Emmissions,Underlying emission
+1111,gethralkin,90376927,Extended Emmissions,Underlying emission
+1112,gethralkin,90376929,Extended Emmissions,Underlying emission
+1113,gethralkin,90376870,Extended Emmissions,Underlying emission
+1114,gethralkin,90376921,Simple Pulse,Underlying emission
+1115,gethralkin,90376881,Other,Underlying emission
+1116,gethralkin,90376940,Simple Pulse,Underlying emission
+1117,gethralkin,90376934,Simple Pulse,Fast.R Slow.D
+1118,gethralkin,90376906,Extended Emmissions,Underlying emission
+1119,gethralkin,90376912,Other,Underlying emission
+1120,gethralkin,90376949,Other,Underlying emission
+1121,gethralkin,90376868,Other,Symmetrical Structure
+1122,gethralkin,90376946,Simple Pulse,Underlying emission
+1123,gethralkin,90376918,Simple Pulse,Underlying emission
+1124,gethralkin,90376885,Extended Emmissions,Underlying emission
+1125,gethralkin,90376867,Extended Emmissions,Underlying emission
+1126,gethralkin,90376950,Simple Pulse,Underlying emission
+1127,gethralkin,90376884,Other,Underlying emission
+1128,gethralkin,90376896,Other,Underlying emission
+1129,gethralkin,90376877,Other,Underlying emission
+1130,gethralkin,90376865,Extended Emmissions,Underlying emission
+1131,gethralkin,90376899,Other,Underlying emission
+1132,gethralkin,90376932,Extended Emmissions,Underlying emission
+1133,gethralkin,90376937,Simple Pulse,Symmetrical Structure
+1134,gethralkin,90376954,Simple Pulse,Underlying emission
+1135,gethralkin,90376928,Other,Underlying emission
+1136,gethralkin,90376889,Simple Pulse,Symmetrical Structure
+1137,gethralkin,90376926,Extended Emmissions,Underlying emission
+1138,gethralkin,90376886,Extended Emmissions,Underlying emission
+1139,gethralkin,90376897,Extended Emmissions,Underlying emission
+1140,gethralkin,90376909,Simple Pulse,Underlying emission
+1141,gethralkin,90376900,Other,Underlying emission
+1142,gethralkin,90376922,Extended Emmissions,Underlying emission
+1143,gethralkin,90376910,Extended Emmissions,Underlying emission
+1144,gethralkin,90376878,Simple Pulse,Symmetrical Structure
+1145,gethralkin,90376872,Simple Pulse,Underlying emission
+1146,gethralkin,90376943,Extended Emmissions,Underlying emission
+1147,gethralkin,90376883,Extended Emmissions,Underlying emission
+1148,gethralkin,90376874,Extended Emmissions,Underlying emission
+1149,gethralkin,90376869,Extended Emmissions,Fast.R Slow.D
+1150,gethralkin,90376957,Simple Pulse,Underlying emission
+1151,gethralkin,90376920,Extended Emmissions,Underlying emission
+1152,gethralkin,90376913,Extended Emmissions,Underlying emission
+1153,gethralkin,90376903,Extended Emmissions,Underlying emission
+1154,gethralkin,90376888,Extended Emmissions,Symmetrical Structure
+1155,gethralkin,90376890,Extended Emmissions,Underlying emission
+1156,gethralkin,90376955,Extended Emmissions,Underlying emission
+1157,gethralkin,90376873,Extended Emmissions,Underlying emission
+1158,gethralkin,90376898,Extended Emmissions,Underlying emission
+1159,gethralkin,90376916,Extended Emmissions,Underlying emission
+1160,gethralkin,90376941,Simple Pulse,Underlying emission
+1161,gethralkin,90376964,Extended Emmissions,Underlying emission
+1162,gethralkin,90376876,Extended Emmissions,Underlying emission
+1163,gethralkin,90376953,Simple Pulse,Underlying emission
+1164,gethralkin,90376866,Extended Emmissions,Underlying emission
+1165,gethralkin,90376879,Extended Emmissions,Underlying emission
+1166,gethralkin,90376917,Simple Pulse,Underlying emission
+1167,gethralkin,90376908,Extended Emmissions,Underlying emission
+1168,gethralkin,90376939,Extended Emmissions,Underlying emission
+1169,gethralkin,90376961,Extended Emmissions,Underlying emission
+1170,gethralkin,90376935,Extended Emmissions,Underlying emission
+1171,gethralkin,90376938,Simple Pulse,Underlying emission
+1172,gethralkin,90376945,Extended Emmissions,Underlying emission
+1173,gethralkin,90376875,Extended Emmissions,Symmetrical Structure
+1174,gethralkin,90376959,Extended Emmissions,Fast.R Slow.D
+1175,gethralkin,90376882,Extended Emmissions,Fast.R Slow.D
+1176,gethralkin,90376880,Other,Symmetrical Structure
+1177,gethralkin,90376895,Extended Emmissions,Underlying emission
+1178,gethralkin,90376948,Simple Pulse,Underlying emission
+1179,gethralkin,90376919,Other,Rapid Varying pulses
+1180,gethralkin,90376905,Extended Emmissions,Underlying emission
+1181,gethralkin,90376956,Extended Emmissions,Underlying emission
+1182,gethralkin,90376931,Other,Underlying emission
+1183,gethralkin,90376933,Extended Emmissions,Underlying emission
+1184,gethralkin,90376924,Extended Emmissions,Underlying emission
+1185,gethralkin,90376936,Simple Pulse,Fast.R Slow.D
+1186,gethralkin,90376952,Extended Emmissions,Underlying emission
+1187,gethralkin,90376915,Extended Emmissions,Fast.R Slow.D
+1188,gethralkin,90376892,Simple Pulse,Underlying emission
+1189,gethralkin,90376944,Extended Emmissions,Underlying emission
+1190,Gnash,90376957,Simple Pulse,Symmetrical Structure
+1191,Gnash,90376961,Other,Rapid Varying pulses
+1192,Gnash,90376872,Simple Pulse,Symmetrical Structure
+1193,Gnash,90376917,Simple Pulse,Symmetrical Structure
+1194,Gnash,90376910,Extended Emmissions,Fast.R Slow.D
+1195,Gnash,90376878,Simple Pulse,Symmetrical Structure
+1196,Gnash,90376949,Simple Pulse,Symmetrical Structure
+1197,Gnash,90376883,Simple Pulse,Rapid Varying pulses
+1198,Gnash,90376929,Simple Pulse,Rapid Varying pulses
+1199,Gnash,90376904,Simple Pulse,Rapid Varying pulses
+1200,Gnash,90376897,Simple Pulse,Underlying emission
+1201,not-logged-in-3bc4dcc4156f37e9349e,90376877,Extended Emmissions,Underlying emission
+1202,not-logged-in-3bc4dcc4156f37e9349e,90376938,Simple Pulse,Symmetrical Structure
+1203,not-logged-in-3bc4dcc4156f37e9349e,90376895,Other,Underlying emission
+1204,not-logged-in-88bb3a3534925f1c484d,90376896,Other,Rapid Varying pulses
+1205,not-logged-in-88bb3a3534925f1c484d,90376935,Simple Pulse,Underlying emission
+1206,not-logged-in-88bb3a3534925f1c484d,90376899,Other,Nothing found
+1207,not-logged-in-88bb3a3534925f1c484d,90376914,Other,Symmetrical Structure
+1208,colin_hewitt,90376924,Other,Fast.R Slow.D
+1209,colin_hewitt,90376943,Other,Fast.R Slow.D
+1210,colin_hewitt,90376928,Other,Nothing found
+1211,colin_hewitt,90376872,Simple Pulse,Nothing found
+1212,colin_hewitt,90376864,Other,Symmetrical Structure
+1213,colin_hewitt,90376965,Other,Fast.R Slow.D
+1214,colin_hewitt,90376951,Other,Fast.R Slow.D
+1215,colin_hewitt,90376898,Other,Rapid Varying pulses
+1216,colin_hewitt,90376907,Other,Fast.R Slow.D
+1217,colin_hewitt,90376890,Other,Fast.R Slow.D
+1218,colin_hewitt,90376940,Simple Pulse,Nothing found
+1219,colin_hewitt,90376916,Other,Fast.R Slow.D
+1220,Madhead,90376913,Extended Emmissions,Rapid Varying pulses
+1221,Madhead,90376893,Simple Pulse,Underlying emission
+1222,PattySo,90376941,Simple Pulse,Nothing found
+1223,PattySo,90376958,Simple Pulse,Nothing found
+1224,PattySo,90376919,Other,Nothing found
+1225,PattySo,90376901,Other,Nothing found
+1226,PattySo,90376905,Other,Nothing found
+1227,PattySo,90376954,Other,Nothing found
+1228,hermesp,90376944,Extended Emmissions,Nothing found
+1229,hermesp,90376867,Simple Pulse,Nothing found
+1230,hermesp,90376908,Simple Pulse,Fast.R Slow.D
+1231,hermesp,90376917,Other,Rapid Varying pulses
+1232,hermesp,90376887,Simple Pulse,Nothing found
+1233,ElisabethB,90376964,Simple Pulse,Rapid Varying pulses
+1234,ElisabethB,90376946,Simple Pulse,Nothing found
+1235,ElisabethB,90376937,Simple Pulse,Nothing found
+1236,ElisabethB,90376865,Simple Pulse,Nothing found
+1237,Bydand70,90376953,Simple Pulse,Underlying emission
+1238,Bydand70,90376964,Extended Emmissions,Fast.R Slow.D
+1239,Bydand70,90376932,Extended Emmissions,Symmetrical Structure
+1240,Bydand70,90376864,Simple Pulse,Symmetrical Structure
+1241,Bydand70,90376925,Other,Symmetrical Structure
+1242,Bydand70,90376866,Other,Fast.R Slow.D
+1243,Bydand70,90376949,Other,Rapid Varying pulses
+1244,pensayd,90376903,Simple Pulse,Underlying emission
+1245,pensayd,90376900,Extended Emmissions,Rapid Varying pulses
+1246,pensayd,90376893,Simple Pulse,Underlying emission
+1247,pensayd,90376890,Simple Pulse,Fast.R Slow.D
+1248,pensayd,90376954,Other,Nothing found
+1249,dmhen,90376900,Extended Emmissions,Rapid Varying pulses
+1250,dmhen,90376954,Simple Pulse,Nothing found
+1251,dmhen,90376939,Simple Pulse,Fast.R Slow.D
+1252,dmhen,90376960,Extended Emmissions,Underlying emission
+1253,not-logged-in-de1322051aff7f02bc38,90376913,Simple Pulse,Underlying emission
+1254,not-logged-in-de1322051aff7f02bc38,90376909,Other,Fast.R Slow.D
+1255,not-logged-in-7aad2853ece636a01982,90376915,Simple Pulse,Nothing found
+1256,Bethanscruff,90376959,Simple Pulse,Symmetrical Structure
+1257,Bethanscruff,90376904,Extended Emmissions,Underlying emission
+1258,Bethanscruff,90376964,Extended Emmissions,Underlying emission
+1259,Bethanscruff,90376944,Extended Emmissions,Rapid Varying pulses
+1260,Bethanscruff,90376895,Simple Pulse,Symmetrical Structure
+1261,Bethanscruff,90376935,Extended Emmissions,Underlying emission
+1262,Bethanscruff,90376965,Extended Emmissions,Underlying emission
+1263,Bethanscruff,90376932,Extended Emmissions,Underlying emission
+1264,photomark,90376941,Simple Pulse,Nothing found
+1265,photomark,90376893,Extended Emmissions,Rapid Varying pulses
+1266,orionlee,90376945,Other,Fast.R Slow.D
+1267,orionlee,90376874,Simple Pulse,Fast.R Slow.D
+1268,orionlee,90376895,Other,Rapid Varying pulses
+1269,orionlee,90376889,Simple Pulse,Nothing found
+1270,orionlee,90376892,Other,Nothing found
+1271,orionlee,90376964,Simple Pulse,Symmetrical Structure
+1272,orionlee,90376872,Other,Nothing found
+1273,orionlee,90376932,Simple Pulse,Rapid Varying pulses
+1274,orionlee,90376955,Simple Pulse,Rapid Varying pulses
+1275,orionlee,90376919,Simple Pulse,Rapid Varying pulses
+1276,orionlee,90376963,Simple Pulse,Nothing found
+1277,orionlee,90376931,Simple Pulse,Symmetrical Structure
+1278,orionlee,90376869,Simple Pulse,Fast.R Slow.D
+1279,orionlee,90376939,Extended Emmissions,Symmetrical Structure
+1280,orionlee,90376923,Other,Nothing found
+1281,orionlee,90376944,Other,Nothing found
+1282,orionlee,90376890,Simple Pulse,Fast.R Slow.D
+1283,orionlee,90376884,Other,Nothing found
+1284,orionlee,90376916,Other,Nothing found
+1285,orionlee,90376881,Other,Nothing found
+1286,orionlee,90376935,Other,Nothing found
+1287,orionlee,90376917,Simple Pulse,Nothing found
+1288,orionlee,90376882,Simple Pulse,Fast.R Slow.D
+1289,orionlee,90376946,Simple Pulse,Nothing found
+1290,orionlee,90376951,Simple Pulse,Fast.R Slow.D
+1291,orionlee,90376903,Simple Pulse,Fast.R Slow.D
+1292,orionlee,90376926,Other,Nothing found
+1293,orionlee,90376873,Other,Nothing found
+1294,orionlee,90376897,Other,Nothing found
+1295,orionlee,90376902,Simple Pulse,Fast.R Slow.D
+1296,orionlee,90376912,Other,Nothing found
+1297,orionlee,90376929,Other,Nothing found
+1298,orionlee,90376880,Other,Nothing found
+1299,orionlee,90376924,Simple Pulse,Fast.R Slow.D
+1300,orionlee,90376866,Extended Emmissions,Fast.R Slow.D
+1301,orionlee,90376962,Other,Nothing found
+1302,orionlee,90376868,Extended Emmissions,Nothing found
+1303,orionlee,90376877,Simple Pulse,Nothing found
+1304,orionlee,90376906,Other,Nothing found
+1305,Wildcat2001,90376917,Simple Pulse,Symmetrical Structure
+1306,Wildcat2001,90376962,Other,Nothing found
+1307,Wildcat2001,90376912,Other,Nothing found
+1308,Wildcat2001,90376885,Extended Emmissions,Nothing found
+1309,Wildcat2001,90376928,Simple Pulse,Nothing found
+1310,Wildcat2001,90376963,Simple Pulse,Nothing found
+1311,Wildcat2001,90376941,Simple Pulse,Nothing found
+1312,Wildcat2001,90376922,Simple Pulse,Fast.R Slow.D
+1313,Wildcat2001,90376875,Extended Emmissions,Fast.R Slow.D
+1314,Wildcat2001,90376918,Simple Pulse,Fast.R Slow.D
+1315,Wildcat2001,90376884,Other,Rapid Varying pulses
+1316,Wildcat2001,90376927,Extended Emmissions,Fast.R Slow.D
+1317,raptor197,90376869,Simple Pulse,Nothing found
+1318,raptor197,90376924,Other,Nothing found
+1319,raptor197,90376934,Simple Pulse,Fast.R Slow.D
+1320,raptor197,90376898,Extended Emmissions,Fast.R Slow.D
+1321,raptor197,90376920,Simple Pulse,Fast.R Slow.D
+1322,raptor197,90376927,Simple Pulse,Fast.R Slow.D
+1323,raptor197,90376880,Other,Underlying emission
+1324,raptor197,90376940,Simple Pulse,Symmetrical Structure
+1325,raptor197,90376928,Simple Pulse,Nothing found
+1326,raptor197,90376953,Simple Pulse,Symmetrical Structure
+1327,raptor197,90376944,Extended Emmissions,Underlying emission
+1328,raptor197,90376871,Extended Emmissions,Underlying emission
+1329,raptor197,90376870,Simple Pulse,Fast.R Slow.D
+1330,raptor197,90376882,Simple Pulse,Fast.R Slow.D
+1331,raptor197,90376892,Other,Nothing found
+1332,raptor197,90376958,Simple Pulse,Symmetrical Structure
+1333,raptor197,90376903,Extended Emmissions,Underlying emission
+1334,raptor197,90376911,Extended Emmissions,Underlying emission
+1335,raptor197,90376913,Extended Emmissions,Underlying emission
+1336,raptor197,90376952,Extended Emmissions,Underlying emission
+1337,raptor197,90376948,Other,Nothing found
+1338,raptor197,90376876,Other,Nothing found
+1339,raptor197,90376883,Extended Emmissions,Underlying emission
+1340,raptor197,90376886,Extended Emmissions,Underlying emission
+1341,raptor197,90376935,Extended Emmissions,Underlying emission
+1342,raptor197,90376962,Other,Nothing found
+1343,raptor197,90376909,Simple Pulse,Symmetrical Structure
+1344,raptor197,90376899,Other,Nothing found
+1345,raptor197,90376961,Other,Nothing found
+1346,raptor197,90376896,Other,Nothing found
+1347,rwbodge,90376865,Simple Pulse,Underlying emission
+1348,rwbodge,90376940,Simple Pulse,Symmetrical Structure
+1349,rwbodge,90376895,Extended Emmissions,Underlying emission
+1350,rwbodge,90376910,Other,Fast.R Slow.D
+1351,rwbodge,90376899,Other,Fast.R Slow.D
+1352,rwbodge,90376931,Other,Underlying emission
+1353,rwbodge,90376925,Other,Fast.R Slow.D
+1354,rwbodge,90376874,Extended Emmissions,Underlying emission
+1355,rwbodge,90376959,Extended Emmissions,Nothing found
+1356,rwbodge,90376872,Extended Emmissions,Nothing found
+1357,rwbodge,90376949,Other,Underlying emission
+1358,rwbodge,90376938,Simple Pulse,Nothing found
+1359,rwbodge,90376866,Other,Symmetrical Structure
+1360,rwbodge,90376891,Simple Pulse,Nothing found
+1361,rwbodge,90376868,Other,Underlying emission
+1362,rwbodge,90376937,Simple Pulse,Nothing found
+1363,rwbodge,90376911,Other,Underlying emission
+1364,rwbodge,90376933,Other,Underlying emission
+1365,rwbodge,90376935,Other,Underlying emission
+1366,KAKUL,90376931,Simple Pulse,Fast.R Slow.D
+1367,KAKUL,90376948,Simple Pulse,Rapid Varying pulses
+1368,KAKUL,90376921,Simple Pulse,Rapid Varying pulses
+1369,KAKUL,90376920,Simple Pulse,Fast.R Slow.D
+1370,carol_tye,90376932,Extended Emmissions,Fast.R Slow.D
+1371,KAKUL,90376908,Extended Emmissions,Underlying emission
+1372,carol_tye,90376924,Extended Emmissions,Rapid Varying pulses
+1373,carol_tye,90376943,Extended Emmissions,Symmetrical Structure
+1374,carol_tye,90376903,Simple Pulse,Fast.R Slow.D
+1375,carol_tye,90376869,Simple Pulse,Nothing found
+1376,carol_tye,90376872,Extended Emmissions,Underlying emission
+1377,carol_tye,90376874,Simple Pulse,Fast.R Slow.D
+1378,KAKUL,90376906,Extended Emmissions,Underlying emission
+1379,KAKUL,90376925,Simple Pulse,Nothing found
+1380,KAKUL,90376910,Simple Pulse,Rapid Varying pulses
+1381,KAKUL,90376963,Extended Emmissions,Rapid Varying pulses
+1382,KAKUL,90376935,Extended Emmissions,Fast.R Slow.D
+1383,KAKUL,90376892,Extended Emmissions,Rapid Varying pulses
+1384,christinekluge,90376892,Simple Pulse,Rapid Varying pulses
+1385,christinekluge,90376962,Simple Pulse,Rapid Varying pulses
+1386,christinekluge,90376899,Simple Pulse,Rapid Varying pulses
+1387,christinekluge,90376903,Simple Pulse,Underlying emission
+1388,christinekluge,90376910,Extended Emmissions,Fast.R Slow.D
+1389,christinekluge,90376959,Simple Pulse,Symmetrical Structure
+1390,christinekluge,90376963,Simple Pulse,Symmetrical Structure
+1391,005QuaKs,90376936,Simple Pulse,Symmetrical Structure
+1392,005QuaKs,90376869,Simple Pulse,Fast.R Slow.D
+1393,005QuaKs,90376875,Extended Emmissions,Nothing found
+1394,005QuaKs,90376900,Extended Emmissions,Symmetrical Structure
+1395,005QuaKs,90376948,Simple Pulse,Underlying emission
+1396,005QuaKs,90376959,Simple Pulse,Fast.R Slow.D
+1397,005QuaKs,90376939,Extended Emmissions,Underlying emission
+1398,005QuaKs,90376932,Extended Emmissions,Underlying emission
+1399,hermesp,90376888,Simple Pulse,Fast.R Slow.D
+1400,m.clarage,90376948,Simple Pulse,Nothing found
+1401,m.clarage,90376943,Extended Emmissions,Underlying emission
+1402,m.clarage,90376909,Other,Symmetrical Structure
+1403,m.clarage,90376955,Other,Fast.R Slow.D
+1404,colin_hewitt,90376880,Simple Pulse,Nothing found
+1405,Runzonbattereez,90376958,Simple Pulse,Fast.R Slow.D
+1406,Runzonbattereez,90376942,Simple Pulse,Nothing found
+1407,Runzonbattereez,90376961,Other,Nothing found
+1408,Runzonbattereez,90376880,Simple Pulse,Rapid Varying pulses
+1409,Runzonbattereez,90376945,Extended Emmissions,Nothing found
+1410,Runzonbattereez,90376934,Simple Pulse,Symmetrical Structure
+1411,Runzonbattereez,90376886,Other,Rapid Varying pulses
+1412,Runzonbattereez,90376909,Simple Pulse,Symmetrical Structure
+1413,Runzonbattereez,90376885,Extended Emmissions,Nothing found
+1414,Runzonbattereez,90376901,Other,Nothing found
+1415,Runzonbattereez,90376931,Simple Pulse,Symmetrical Structure
+1416,Runzonbattereez,90376921,Simple Pulse,Nothing found
+1417,Runzonbattereez,90376865,Simple Pulse,Nothing found
+1418,Runzonbattereez,90376957,Simple Pulse,Underlying emission
+1419,Runzonbattereez,90376940,Simple Pulse,Symmetrical Structure
+1420,Runzonbattereez,90376867,Extended Emmissions,Underlying emission
+1421,Runzonbattereez,90376939,Simple Pulse,Fast.R Slow.D
+1422,Runzonbattereez,90376965,Extended Emmissions,Underlying emission
+1423,Runzonbattereez,90376922,Simple Pulse,Nothing found
+1424,Runzonbattereez,90376895,Simple Pulse,Symmetrical Structure
+1425,Runzonbattereez,90376910,Simple Pulse,Rapid Varying pulses
+1426,pensayd,90376901,Other,Rapid Varying pulses
+1427,Bydand70,90376905,Extended Emmissions,Fast.R Slow.D
+1428,Bydand70,90376900,Extended Emmissions,Symmetrical Structure
+1429,Bydand70,90376917,Simple Pulse,Underlying emission
+1430,Bydand70,90376880,Other,Symmetrical Structure
+1431,Bydand70,90376896,Other,Symmetrical Structure
+1432,Bydand70,90376960,Extended Emmissions,Fast.R Slow.D
+1433,Bydand70,90376889,Simple Pulse,Nothing found
+1434,Bydand70,90376950,Simple Pulse,Symmetrical Structure
+1435,Bydand70,90376939,Extended Emmissions,Fast.R Slow.D
+1436,Bydand70,90376927,Other,Fast.R Slow.D
+1437,Spacekadet,90376928,Other,Symmetrical Structure
+1438,Bydand70,90376908,Extended Emmissions,Fast.R Slow.D
+1439,Spacekadet,90376910,Extended Emmissions,Underlying emission
+1440,Spacekadet,90376877,Extended Emmissions,Symmetrical Structure
+1441,Spacekadet,90376885,Extended Emmissions,Symmetrical Structure
+1442,Spacekadet,90376937,Simple Pulse,Underlying emission
+1443,Spacekadet,90376953,Simple Pulse,Nothing found
+1444,Spacekadet,90376905,Extended Emmissions,Rapid Varying pulses
+1445,Spacekadet,90376913,Extended Emmissions,Fast.R Slow.D
+1446,Spacekadet,90376884,Other,Rapid Varying pulses
+1447,Spacekadet,90376889,Simple Pulse,Symmetrical Structure
+1448,Spacekadet,90376942,Simple Pulse,Nothing found
+1449,PattySo,90376918,Simple Pulse,Nothing found
+1450,PattySo,90376959,Other,Nothing found
+1451,PattySo,90376936,Simple Pulse,Nothing found
+1452,PattySo,90376961,Other,Nothing found
+1453,PattySo,90376929,Other,Nothing found
+1454,Spacekadet,90376921,Simple Pulse,Underlying emission
+1455,Spacekadet,90376887,Other,Underlying emission
+1456,Spacekadet,90376867,Extended Emmissions,Underlying emission
+1457,Spacekadet,90376955,Extended Emmissions,Underlying emission
+1458,Spacekadet,90376880,Extended Emmissions,Underlying emission
+1459,Spacekadet,90376899,Other,Underlying emission
+1460,Spacekadet,90376864,Simple Pulse,Symmetrical Structure
+1461,msn2700,90376906,Other,Rapid Varying pulses
+1462,msn2700,90376865,Simple Pulse,Nothing found
+1463,msn2700,90376934,Simple Pulse,Nothing found
+1464,msn2700,90376876,Other,Nothing found
+1465,msn2700,90376904,Simple Pulse,Fast.R Slow.D
+1466,msn2700,90376961,Simple Pulse,Fast.R Slow.D
+1467,msn2700,90376939,Simple Pulse,Underlying emission
+1468,msn2700,90376882,Extended Emmissions,Fast.R Slow.D
+1469,msn2700,90376936,Simple Pulse,Symmetrical Structure
+1470,msn2700,90376908,Simple Pulse,Fast.R Slow.D
+1471,msn2700,90376889,Simple Pulse,Symmetrical Structure
+1472,msn2700,90376898,Simple Pulse,Fast.R Slow.D
+1473,msn2700,90376958,Other,Nothing found
+1474,msn2700,90376942,Other,Nothing found
+1475,msn2700,90376899,Simple Pulse,Underlying emission
+1476,msn2700,90376962,Other,Nothing found
+1477,msn2700,90376955,Simple Pulse,Underlying emission
+1478,msn2700,90376926,Simple Pulse,Fast.R Slow.D
+1479,msn2700,90376884,Other,Nothing found
+1480,msn2700,90376941,Simple Pulse,Symmetrical Structure
+1481,msn2700,90376944,Simple Pulse,Fast.R Slow.D
+1482,msn2700,90376931,Simple Pulse,Symmetrical Structure
+1483,msn2700,90376956,Simple Pulse,Underlying emission
+1484,msn2700,90376905,Simple Pulse,Fast.R Slow.D
+1485,msn2700,90376949,Simple Pulse,Symmetrical Structure
+1486,msn2700,90376887,Simple Pulse,Symmetrical Structure
+1487,msn2700,90376897,Simple Pulse,Fast.R Slow.D
+1488,msn2700,90376935,Simple Pulse,Fast.R Slow.D
+1489,msn2700,90376885,Simple Pulse,Fast.R Slow.D
+1490,msn2700,90376878,Simple Pulse,Nothing found
+1491,msn2700,90376925,Simple Pulse,Nothing found
+1492,msn2700,90376864,Simple Pulse,Symmetrical Structure
+1493,msn2700,90376963,Simple Pulse,Fast.R Slow.D
+1494,msn2700,90376921,Simple Pulse,Fast.R Slow.D
+1495,msn2700,90376879,Simple Pulse,Symmetrical Structure
+1496,msn2700,90376912,Simple Pulse,Fast.R Slow.D
+1497,msn2700,90376937,Simple Pulse,Symmetrical Structure
+1498,msn2700,90376953,Simple Pulse,Symmetrical Structure
+1499,msn2700,90376965,Simple Pulse,Fast.R Slow.D
+1500,msn2700,90376960,Simple Pulse,Fast.R Slow.D
+1501,msn2700,90376881,Simple Pulse,Fast.R Slow.D
+1502,msn2700,90376890,Simple Pulse,Fast.R Slow.D
+1503,msn2700,90376874,Simple Pulse,Fast.R Slow.D
+1504,msn2700,90376867,Other,Nothing found
+1505,msn2700,90376877,Other,Nothing found
+1506,msn2700,90376871,Simple Pulse,Symmetrical Structure
+1507,msn2700,90376891,Simple Pulse,Symmetrical Structure
+1508,msn2700,90376875,Simple Pulse,Fast.R Slow.D
+1509,msn2700,90376928,Simple Pulse,Symmetrical Structure
+1510,msn2700,90376933,Simple Pulse,Symmetrical Structure
+1511,msn2700,90376919,Simple Pulse,Symmetrical Structure
+1512,msn2700,90376892,Other,Nothing found
+1513,msn2700,90376886,Simple Pulse,Fast.R Slow.D
+1514,msn2700,90376959,Simple Pulse,Fast.R Slow.D
+1515,msn2700,90376943,Simple Pulse,Fast.R Slow.D
+1516,msn2700,90376895,Simple Pulse,Symmetrical Structure
+1517,dianasironi,90376868,Extended Emmissions,Underlying emission
+1518,sealbraun,90376887,Extended Emmissions,Symmetrical Structure
+1519,sealbraun,90376955,Extended Emmissions,Symmetrical Structure
+1520,sealbraun,90376933,Extended Emmissions,Symmetrical Structure
+1521,sealbraun,90376897,Extended Emmissions,Symmetrical Structure
+1522,sealbraun,90376912,Extended Emmissions,Rapid Varying pulses
+1523,sealbraun,90376960,Extended Emmissions,Underlying emission
+1524,sealbraun,90376890,Extended Emmissions,Symmetrical Structure
+1525,sealbraun,90376943,Extended Emmissions,Rapid Varying pulses
+1526,dianasironi,90376892,Simple Pulse,Nothing found
+1527,dianasironi,90376905,Extended Emmissions,Fast.R Slow.D
+1528,dianasironi,90376906,Simple Pulse,Rapid Varying pulses
+1529,dianasironi,90376949,Extended Emmissions,Rapid Varying pulses
+1530,raptor197,90376933,Extended Emmissions,Underlying emission
+1531,raptor197,90376884,Other,Nothing found
+1532,raptor197,90376922,Simple Pulse,Fast.R Slow.D
+1533,raptor197,90376957,Simple Pulse,Symmetrical Structure
+1534,raptor197,90376939,Extended Emmissions,Underlying emission
+1535,raptor197,90376942,Simple Pulse,Fast.R Slow.D
+1536,raptor197,90376878,Simple Pulse,Symmetrical Structure
+1537,raptor197,90376867,Extended Emmissions,Underlying emission
+1538,raptor197,90376908,Extended Emmissions,Underlying emission
+1539,raptor197,90376885,Extended Emmissions,Underlying emission
+1540,raptor197,90376874,Simple Pulse,Fast.R Slow.D
+1541,raptor197,90376881,Extended Emmissions,Underlying emission
+1542,raptor197,90376877,Extended Emmissions,Underlying emission
+1543,raptor197,90376960,Extended Emmissions,Underlying emission
+1544,raptor197,90376888,Extended Emmissions,Underlying emission
+1545,raptor197,90376875,Extended Emmissions,Underlying emission
+1546,raptor197,90376866,Simple Pulse,Symmetrical Structure
+1547,raptor197,90376925,Extended Emmissions,Underlying emission
+1548,raptor197,90376904,Extended Emmissions,Underlying emission
+1549,raptor197,90376868,Extended Emmissions,Underlying emission
+1550,raptor197,90376905,Extended Emmissions,Underlying emission
+1551,raptor197,90376912,Other,Rapid Varying pulses
+1552,dianasironi,90376912,Other,Nothing found
+1553,raptor197,90376902,Simple Pulse,Fast.R Slow.D
+1554,raptor197,90376865,Extended Emmissions,Underlying emission
+1555,raptor197,90376921,Simple Pulse,Fast.R Slow.D
+1556,raptor197,90376891,Simple Pulse,Symmetrical Structure
+1557,raptor197,90376941,Simple Pulse,Symmetrical Structure
+1558,raptor197,90376963,Simple Pulse,Symmetrical Structure
+1559,raptor197,90376937,Simple Pulse,Symmetrical Structure
+1560,raptor197,90376897,Simple Pulse,Symmetrical Structure
+1561,raptor197,90376887,Extended Emmissions,Underlying emission
+1562,raptor197,90376936,Simple Pulse,Symmetrical Structure
+1563,raptor197,90376864,Simple Pulse,Symmetrical Structure
+1564,raptor197,90376931,Simple Pulse,Symmetrical Structure
+1565,raptor197,90376879,Simple Pulse,Symmetrical Structure
+1566,raptor197,90376955,Extended Emmissions,Underlying emission
+1567,raptor197,90376950,Simple Pulse,Symmetrical Structure
+1568,raptor197,90376890,Simple Pulse,Fast.R Slow.D
+1569,raptor197,90376926,Extended Emmissions,Underlying emission
+1570,raptor197,90376949,Simple Pulse,Symmetrical Structure
+1571,raptor197,90376945,Simple Pulse,Fast.R Slow.D
+1572,raptor197,90376965,Simple Pulse,Symmetrical Structure
+1573,raptor197,90376889,Simple Pulse,Symmetrical Structure
+1574,raptor197,90376959,Simple Pulse,Fast.R Slow.D
+1575,raptor197,90376959,Simple Pulse,Fast.R Slow.D
+1576,dianasironi,90376876,Other,Nothing found
+1577,TonyJHoffman,90376886,Extended Emmissions,Rapid Varying pulses
+1578,TonyJHoffman,90376875,Extended Emmissions,Underlying emission
+1579,Sovanacharya,90376902,Extended Emmissions,Underlying emission
+1580,Sovanacharya,90376959,Simple Pulse,Fast.R Slow.D
+1581,Sovanacharya,90376874,Simple Pulse,Symmetrical Structure
+1582,Sovanacharya,90376866,Extended Emmissions,Underlying emission
+1583,Sovanacharya,90376949,Simple Pulse,Symmetrical Structure
+1584,pensayd,90376949,Other,Underlying emission
+1585,pensayd,90376942,Simple Pulse,Fast.R Slow.D
+1586,pensayd,90376963,Simple Pulse,Fast.R Slow.D
+1587,Love_supernova,90376868,Extended Emmissions,Symmetrical Structure
+1588,Love_supernova,90376958,Simple Pulse,Fast.R Slow.D
+1589,Love_supernova,90376927,Other,Symmetrical Structure
+1590,Love_supernova,90376961,Extended Emmissions,Underlying emission
+1591,Love_supernova,90376944,Simple Pulse,Symmetrical Structure
+1592,Love_supernova,90376925,Extended Emmissions,Fast.R Slow.D
+1593,KAKUL,90376958,Extended Emmissions,Underlying emission
+1594,KAKUL,90376888,Extended Emmissions,Underlying emission
+1595,KAKUL,90376871,Extended Emmissions,Underlying emission
+1596,KAKUL,90376961,Extended Emmissions,Rapid Varying pulses
+1597,KAKUL,90376965,Extended Emmissions,Underlying emission
+1598,Sovanacharya,90376960,Simple Pulse,Fast.R Slow.D
+1599,Sovanacharya,90376889,Simple Pulse,Fast.R Slow.D
+1600,Sovanacharya,90376926,Extended Emmissions,Rapid Varying pulses
+1601,Sovanacharya,90376868,Simple Pulse,Rapid Varying pulses
+1602,Sovanacharya,90376904,Extended Emmissions,Underlying emission
+1603,diegomassat,90376897,Extended Emmissions,Fast.R Slow.D
+1604,diegomassat,90376892,Simple Pulse,Nothing found
+1605,diegomassat,90376937,Extended Emmissions,Fast.R Slow.D
+1606,diegomassat,90376899,Other,Underlying emission
+1607,diegomassat,90376926,Extended Emmissions,Underlying emission
+1608,diegomassat,90376936,Simple Pulse,Symmetrical Structure
+1609,diegomassat,90376891,Extended Emmissions,Fast.R Slow.D
+1610,diegomassat,90376949,Other,Underlying emission
+1611,diegomassat,90376885,Extended Emmissions,Underlying emission
+1612,diegomassat,90376963,Simple Pulse,Nothing found
+1613,diegomassat,90376959,Other,Nothing found
+1614,diegomassat,90376962,Other,Nothing found
+1615,diegomassat,90376878,Simple Pulse,Symmetrical Structure
+1616,diegomassat,90376879,Simple Pulse,Nothing found
+1617,diegomassat,90376889,Simple Pulse,Nothing found
+1618,diegomassat,90376950,Simple Pulse,Symmetrical Structure
+1619,diegomassat,90376868,Other,Nothing found
+1620,diegomassat,90376908,Other,Underlying emission
+1621,diegomassat,90376888,Other,Underlying emission
+1622,diegomassat,90376881,Other,Rapid Varying pulses
+1623,diegomassat,90376944,Extended Emmissions,Fast.R Slow.D
+1624,diegomassat,90376898,Extended Emmissions,Fast.R Slow.D
+1625,diegomassat,90376883,Other,Underlying emission
+1626,diegomassat,90376957,Simple Pulse,Symmetrical Structure
+1627,diegomassat,90376886,Other,Rapid Varying pulses
+1628,diegomassat,90376927,Extended Emmissions,Fast.R Slow.D
+1629,diegomassat,90376931,Simple Pulse,Symmetrical Structure
+1630,diegomassat,90376871,Other,Rapid Varying pulses
+1631,diegomassat,90376965,Extended Emmissions,Nothing found
+1632,diegomassat,90376882,Simple Pulse,Fast.R Slow.D
+1633,diegomassat,90376877,Other,Underlying emission
+1634,diegomassat,90376961,Other,Rapid Varying pulses
+1635,diegomassat,90376876,Simple Pulse,Rapid Varying pulses
+1636,diegomassat,90376928,Simple Pulse,Nothing found
+1637,diegomassat,90376904,Other,Underlying emission
+1638,diegomassat,90376953,Simple Pulse,Symmetrical Structure
+1639,diegomassat,90376875,Other,Symmetrical Structure
+1640,diegomassat,90376942,Simple Pulse,Nothing found
+1641,diegomassat,90376884,Other,Underlying emission
+1642,diegomassat,90376933,Other,Underlying emission
+1643,SebastianReisch,90376959,Simple Pulse,Symmetrical Structure
+1644,SebastianReisch,90376957,Simple Pulse,Symmetrical Structure
+1645,SebastianReisch,90376885,Extended Emmissions,Underlying emission
+1646,MurawskiC1,90376882,Extended Emmissions,Underlying emission
+1647,MurawskiC1,90376926,Extended Emmissions,Underlying emission
+1648,jjcure,90376898,Extended Emmissions,Underlying emission
+1649,jjcure,90376871,Other,Rapid Varying pulses
+1650,jjcure,90376936,Simple Pulse,Nothing found
+1651,jjcure,90376944,Other,Underlying emission
+1652,jjcure,90376876,Extended Emmissions,Underlying emission
+1653,jjcure,90376933,Other,Rapid Varying pulses
+1654,jjcure,90376927,Extended Emmissions,Fast.R Slow.D
+1655,jjcure,90376877,Other,Rapid Varying pulses
+1656,hermesp,90376942,Simple Pulse,Underlying emission
+1657,crsrs31,90376936,Simple Pulse,Underlying emission
+1658,crsrs31,90376883,Other,Rapid Varying pulses
+1659,crsrs31,90376898,Extended Emmissions,Fast.R Slow.D
+1660,crsrs31,90376962,Other,Nothing found
+1661,crsrs31,90376931,Simple Pulse,Symmetrical Structure
+1662,crsrs31,90376897,Simple Pulse,Fast.R Slow.D
+1663,crsrs31,90376881,Extended Emmissions,Rapid Varying pulses
+1664,crsrs31,90376965,Extended Emmissions,Symmetrical Structure
+1665,crsrs31,90376904,Extended Emmissions,Fast.R Slow.D
+1666,crsrs31,90376957,Simple Pulse,Symmetrical Structure
+1667,crsrs31,90376944,Extended Emmissions,Rapid Varying pulses
+1668,crsrs31,90376886,Extended Emmissions,Rapid Varying pulses
+1669,crsrs31,90376888,Simple Pulse,Symmetrical Structure
+1670,crsrs31,90376879,Simple Pulse,Underlying emission
+1671,crsrs31,90376937,Simple Pulse,Underlying emission
+1672,crsrs31,90376928,Simple Pulse,Rapid Varying pulses
+1673,crsrs31,90376926,Extended Emmissions,Rapid Varying pulses
+1674,lizanne,90376931,Simple Pulse,Symmetrical Structure
+1675,lizanne,90376868,Simple Pulse,Symmetrical Structure
+1676,lizanne,90376908,Simple Pulse,Symmetrical Structure
+1677,lizanne,90376879,Extended Emmissions,Underlying emission
+1678,Gnash,90376871,Simple Pulse,Symmetrical Structure
+1679,Gnash,90376927,Simple Pulse,Fast.R Slow.D
+1680,Gnash,90376868,Simple Pulse,Symmetrical Structure
+1681,Gnash,90376926,Extended Emmissions,Nothing found
+1682,Gnash,90376885,Extended Emmissions,Fast.R Slow.D
+1683,Gnash,90376891,Simple Pulse,Rapid Varying pulses
+1684,Gnash,90376936,Simple Pulse,Symmetrical Structure
+1685,Gnash,90376879,Simple Pulse,Underlying emission
+1686,Gnash,90376881,Extended Emmissions,Symmetrical Structure
+1687,Gnash,90376959,Simple Pulse,Symmetrical Structure
+1688,Gnash,90376908,Simple Pulse,Symmetrical Structure
+1689,Gnash,90376933,Simple Pulse,Symmetrical Structure
+1690,Gnash,90376886,Extended Emmissions,Rapid Varying pulses
+1691,Gnash,90376888,Extended Emmissions,Symmetrical Structure
+1692,not-logged-in-f9e208ac152c3ebfc8ba,90376949,Simple Pulse,Symmetrical Structure
+1693,not-logged-in-f9e208ac152c3ebfc8ba,90376926,Extended Emmissions,Fast.R Slow.D
+1694,not-logged-in-f9e208ac152c3ebfc8ba,90376957,Simple Pulse,Symmetrical Structure
+1695,Love_supernova,90376933,Extended Emmissions,Symmetrical Structure
+1696,Love_supernova,90376871,Extended Emmissions,Symmetrical Structure
+1697,Love_supernova,90376949,Extended Emmissions,Fast.R Slow.D
+1698,Love_supernova,90376885,Extended Emmissions,Symmetrical Structure
+1699,Love_supernova,90376879,Other,Nothing found
+1700,Love_supernova,90376904,Extended Emmissions,Symmetrical Structure
+1701,Love_supernova,90376883,Extended Emmissions,Symmetrical Structure
+1702,Love_supernova,90376959,Simple Pulse,Underlying emission
+1703,Love_supernova,90376959,Simple Pulse,Underlying emission
+1704,Love_supernova,90376927,Extended Emmissions,Symmetrical Structure
+1705,KAKUL,90376885,Extended Emmissions,Fast.R Slow.D
+1706,KAKUL,90376927,Extended Emmissions,Fast.R Slow.D
+1707,KAKUL,90376883,Simple Pulse,Rapid Varying pulses
+1708,PattySo,90376885,Other,Nothing found
+1709,crsrs31,90376871,Other,Symmetrical Structure
+1710,crsrs31,90376933,Extended Emmissions,Symmetrical Structure
+1711,crsrs31,90376868,Simple Pulse,Symmetrical Structure
+1712,crsrs31,90376927,Extended Emmissions,Fast.R Slow.D
+1713,hermesp,90376883,Extended Emmissions,Rapid Varying pulses
+1714,hermesp,90376883,Simple Pulse,Underlying emission
+1715,hermesp,90376885,Extended Emmissions,Fast.R Slow.D
+1716,hermesp,90376879,Simple Pulse,Nothing found
+1717,hermesp,90376881,Extended Emmissions,Rapid Varying pulses
+1718,hermesp,90376877,Extended Emmissions,Nothing found
+1719,cococlaypoole,90376883,Simple Pulse,Rapid Varying pulses
+1720,cococlaypoole,90376883,Simple Pulse,Rapid Varying pulses
+1721,cococlaypoole,90376914,Extended Emmissions,Underlying emission
+1722,cococlaypoole,90376874,Extended Emmissions,Fast.R Slow.D
+1723,cococlaypoole,90376890,Extended Emmissions,Fast.R Slow.D
+1724,cococlaypoole,90376950,Simple Pulse,Symmetrical Structure
+1725,AngelinaR,90376945,Simple Pulse,Nothing found
+1726,AngelinaR,90376963,Simple Pulse,Nothing found
+1727,AngelinaR,90376898,Extended Emmissions,Rapid Varying pulses
+1728,AngelinaR,90376916,Extended Emmissions,Rapid Varying pulses
+1729,AngelinaR,90376873,Extended Emmissions,Underlying emission
+1730,AngelinaR,90376883,Extended Emmissions,Rapid Varying pulses
+1731,AngelinaR,90376934,Simple Pulse,Nothing found
+1732,AngelinaR,90376869,Simple Pulse,Nothing found
+1733,AngelinaR,90376961,Extended Emmissions,Underlying emission
+1734,AngelinaR,90376920,Simple Pulse,Nothing found
+1735,AngelinaR,90376902,Extended Emmissions,Rapid Varying pulses
+1736,AngelinaR,90376911,Extended Emmissions,Underlying emission
+1737,not-logged-in-078b7899338c8f6c7631,90376901,Other,Nothing found
+1738,not-logged-in-078b7899338c8f6c7631,90376926,Extended Emmissions,Underlying emission
+1739,not-logged-in-f43f568ff05a754907eb,90376875,Simple Pulse,Underlying emission
+1740,not-logged-in-f43f568ff05a754907eb,90376934,Simple Pulse,Nothing found
+1741,not-logged-in-f43f568ff05a754907eb,90376909,Simple Pulse,Nothing found
+1742,not-logged-in-f43f568ff05a754907eb,90376965,Simple Pulse,Fast.R Slow.D
+1743,Gnash,90376915,Simple Pulse,Symmetrical Structure
+1744,Gnash,90376875,Other,Nothing found
+1745,Gnash,90376865,Other,Nothing found
+1746,rockhyrax,90376931,Simple Pulse,Symmetrical Structure
+1747,rockhyrax,90376935,Extended Emmissions,Underlying emission
+1748,rockhyrax,90376965,Extended Emmissions,Symmetrical Structure
+1749,rockhyrax,90376957,Simple Pulse,Symmetrical Structure
+1750,rockhyrax,90376964,Simple Pulse,Underlying emission
+1751,rockhyrax,90376892,Other,Nothing found
+1752,rockhyrax,90376924,Simple Pulse,Fast.R Slow.D
+1753,rockhyrax,90376928,Simple Pulse,Symmetrical Structure
