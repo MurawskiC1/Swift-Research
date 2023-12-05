@@ -18,6 +18,7 @@ repeatP=0
 #dictionairy {id: PusleShapeClass}
 pulse_shapes = {}
 pulse_noise = {}
+pulse_locations = {}
 #sort through all indexes
 for i in range(686,beta.shape[0]):
     workflow = beta.workflow_name.iloc[i]
@@ -49,6 +50,18 @@ for i in range(686,beta.shape[0]):
             pulse_noise[id_number].classCount(results)
         else:
             repeatP +=1
+            
+    #throught thee where are pulses workflow
+    if workflow =="Where are pulses?":
+        if id_number not in pulse_locations:
+            pulse_locations[id_number] = bc.PulseLocation(id_number, wid)
+        if user not in pulse_locations[id_number].contributers:
+            pulse_locations[id_number].contributersAdd(user)
+            pulse_locations[id_number].read(results)
+        
+            
+            
+            
         
 print(repeatS)
 print(repeatP)
@@ -58,7 +71,7 @@ print(repeatP)
 bc.PulseShape.export("Pulse_Shape", [pulse_shapes[i] for i in pulse_shapes])
 bc.PulseNoise.export("Pulse_Noise", [pulse_noise[i] for i in pulse_noise])
                         
-    
+bc.PulseLocation.export("Pulse_Location", [pulse_locations[i] for i in pulse_locations])
 
  
 

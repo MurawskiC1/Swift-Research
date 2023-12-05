@@ -46,6 +46,9 @@ class BurstChaser():
         
     def contributersAdd(self, c):
         self.contributers.append(c)
+    
+    def __lt__(self, other):
+        return self.BurstID < other.BurstID
    
 
 #This Class will start to rank all the bursts and catagorize them by their 
@@ -116,6 +119,7 @@ class PulseShape(BurstChaser):
             self.Verify = None
             
     def export(name, pulse_list):
+        pulse_list = sorted(pulse_list)
         data = {'Number': np.arange(1,len(pulse_list)+1),
                 'Workflow': [i.workflow for i in pulse_list],
                 'BurstID': [i.BurstID for i in pulse_list],
@@ -162,6 +166,7 @@ class PulseNoise(BurstChaser):
         return f"{self.BurstID}: Classification: {self.classification}"
     
     def export( name, pulse_list):
+        pulse_list = sorted(pulse_list)
         data = {'Number': np.arange(1,len(pulse_list)+1),
                 'Burst ID': [i.BurstID for i in pulse_list],
                 'Pulse': [i.classification[0] for i in pulse_list],
@@ -173,6 +178,102 @@ class PulseNoise(BurstChaser):
         #creates data frame as csv file 
         df.to_csv(f'{name}.csv', index = False, header = True)
 
+
+class PulseLocation(BurstChaser):
+    def __init__(self, BurstID, workflow):
+        super().__init__(BurstID, workflow)
+        self.xloc =  []
+        self.yloc = []
+        self.width = [] 
+        self.height =[]
+    
+    
+    @property
+    def xloc(self):
+        return self._xloc
+
+        
+    @xloc.setter
+    def xloc(self, i):
+        self._xloc = i
+    
+    @property
+    def yloc(self):
+        return self._yloc
+
+        
+    @yloc.setter
+    def yloc(self, i):
+        self._yloc = i
+        
+    @property
+    def width(self):
+        return self._width
+
+        
+    @width.setter
+    def width(self, i):
+        self._width = i
+    
+    @property
+    def height(self):
+        return self._height
+
+        
+    @height.setter
+    def height(self, i):
+        self._height = i
+    
+        
+    def read(self, a):
+        a = a.split('"Please mark all the distinct pulse structures.","value":[')[1]
+
+        if '},{' in a:
+            a = a.split('},{')
+        else:
+            a = [a]
+        for i in a:
+            cata = i.split(",")
+            if len(cata) >1:
+                self.xloc.append(cata[0].split(":")[1])
+                self.yloc.append(cata[1].split(":")[1])
+                self.width.append(cata[4].split(":")[1])
+                self.height.append(cata[5].split(":")[1])
+            else:
+                self.xloc.append(None)
+                self.yloc.append(None)
+                self.width.append(None)
+                self.height.append(None)
+            
+    def export(name, pulse_list):
+        
+        BurstID =[]
+        x = []
+        y = []
+        w = []
+        h = []
+        for i in sorted(pulse_list):
+            for j in range(len(i.xloc)):
+                BurstID.append(i.BurstID)
+                x.append(i.xloc[j])
+                y.append(i.yloc[j])
+                w.append(i.width[j])
+                h.append(i.height[j])
+        
+        
+        data = {'Number': np.arange(1,len(BurstID)+1),
+                'Burst ID': BurstID,
+                'X Location': x,
+                "Y Location": y,
+                'Width': w,
+                'Height': h
+                }
+        df = pd.DataFrame(data)
+        #creates data frame as csv file 
+        df.to_csv(f'{name}.csv', index = False, header = True)
+        
+
+                    
 
 
         
