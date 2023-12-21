@@ -131,7 +131,7 @@ class PulseShape(BurstChaser):
                 }
         df = pd.DataFrame(data)
         #creates data frame as csv file 
-        df.to_csv(f'{name}.csv', index = False, header = True)
+        df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/{name}.csv', index = False, header = True)
             
 
 
@@ -167,8 +167,7 @@ class PulseNoise(BurstChaser):
     
     def export( name, pulse_list):
         pulse_list = sorted(pulse_list)
-        data = {'Number': np.arange(1,len(pulse_list)+1),
-                'Burst ID': [i.BurstID for i in pulse_list],
+        data = {'Burst ID': [i.BurstID for i in pulse_list],
                 'Pulse': [i.classification[0] for i in pulse_list],
                 "Noise": [i.classification[1] for i in pulse_list],
                 'Cant Tell': [i.classification[2] for i in pulse_list],
@@ -176,7 +175,7 @@ class PulseNoise(BurstChaser):
                 }
         df = pd.DataFrame(data)
         #creates data frame as csv file 
-        df.to_csv(f'{name}.csv', index = False, header = True)
+        df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/{name}.csv', index = True, header = True)
 
 
 class PulseLocation(BurstChaser):
@@ -224,6 +223,8 @@ class PulseLocation(BurstChaser):
     def height(self, i):
         self._height = i
     
+    
+    
         
     def read(self, a):
         a = a.split('"Please mark all the distinct pulse structures.","value":[')[1]
@@ -235,34 +236,116 @@ class PulseLocation(BurstChaser):
         for i in a:
             cata = i.split(",")
             if len(cata) >1:
-                self.xloc.append(cata[0].split(":")[1])
-                self.yloc.append(cata[1].split(":")[1])
-                self.width.append(cata[4].split(":")[1])
-                self.height.append(cata[5].split(":")[1])
-            else:
-                self.xloc.append(None)
-                self.yloc.append(None)
-                self.width.append(None)
-                self.height.append(None)
-            
-    def export(name, pulse_list):
+                self.xloc.append(round(float(cata[0].split(":")[1])))
+                self.yloc.append(round(float(cata[1].split(":")[1])))
+                self.width.append(round(float(cata[4].split(":")[1])))
+                self.height.append(round(float(cata[5].split(":")[1])))
+    
+    def redbox(self):
+        from scipy import stats
         
+        from PIL import Image, ImageDraw
+        
+        def add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size):
+            # Open the image
+            img = Image.open(input_image_path).convert("RGBA")
+          
+            #draw an image of rectangle
+            draw = ImageDraw.Draw(img)
+            draw.rectangle([rectangle_position[0], rectangle_position[1],rectangle_position[0] + rectangle_size[0], rectangle_position[1] + rectangle_size[1]],outline="red")
+            # Save the result
+            img.save(output_image_path)
+            
+        x = self.findGRB(self._BurstID)
+        png = self.findPNG(x)
+        # Example usage:
+        input_image_path = f"/Users/catermurawski/Desktop/Swift-Research/BurstPhotos/{png}"
+
+        output_image_path = f"/Users/catermurawski/Desktop/Swift-Research/Boxes/{self.BurstID}.png"
+        rectangle_position = (stats.trim_mean(self.xloc,0.2), stats.trim_mean(self.yloc,0.2))  # X and Y coordinates of the top-left corner of the rectangle
+        rectangle_size = (stats.trim_mean(self.width,0.2), stats.trim_mean(self.height,0.2))# Width and height of the rectangle
+
+        add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size)
+    
+    def redboxes(self):
+        import statistics as s
+        from PIL import Image, ImageDraw
+        from scipy import stats
+        
+        xloc = self.xloc
+        yloc = self.yloc
+        width = self.width
+        height = self.height
+        
+        for i in [xloc,yloc,width,height]:
+            pot = []
+            if len(i) > 1:
+                pot.append(stats.mean(self.xloc))
+                for value in i:
+                    for j in pot: 
+                        if j > value+20 and j < value-20:
+                            pot.append(j)
+                            break
+            print(pot)
+                        
+                
+        def add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size):
+            # Open the image
+            img = Image.open(input_image_path).convert("RGBA")
+          
+            #draw an image of rectangle
+            draw = ImageDraw.Draw(img)
+            draw.rectangle([rectangle_position[0], rectangle_position[1],rectangle_position[0] + rectangle_size[0], rectangle_position[1] + rectangle_size[1]],outline="red")
+            # Save the result
+            img.save(output_image_path)
+            
+        x = self.findGRB(self._BurstID)
+        png = self.findPNG(x)
+        # Example usage:
+        input_image_path = f"/Users/catermurawski/Desktop/Swift-Research/BurstPhotos/{png}"
+
+        output_image_path = f"/Users/catermurawski/Desktop/Swift-Research/Boxes/{self.BurstID}.png"
+        for i in range(0,len(self.xloc)):
+            rectangle_position = (self.xloc[i], self.yloc[i])  # X and Y coordinates of the top-left corner of the rectangle
+            rectangle_size = (self.width[i],self.height[i])# Width and height of the rectangle
+    
+            add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size)
+            input_image_path = f"/Users/catermurawski/Desktop/Swift-Research/Boxes/{self.BurstID}.png"
+        
+    def findPNG(self, name):
+        import os
+        path = "/Users/catermurawski/Desktop/Swift-Research/BurstPhotos"
+        for filename in os.listdir(path):
+            if name in filename:
+                if os.path.isfile(os.path.join(path, filename)):  # Check if it's a file and not a directory
+                    return(filename)
+            
+            
+    def findGRB(self, sid):
+        file = pd.read_csv("GRB_IDS_Names.csv")
+        file.set_index('Subject_ID', inplace=True)
+
+        return file.loc[sid,'GRB_Names']
+               
+            
+            
+    def export( name, pulse_list):
+        def average(n):
+            return sum(n)/len(n)
         BurstID =[]
         x = []
         y = []
         w = []
         h = []
         for i in sorted(pulse_list):
-            for j in range(len(i.xloc)):
-                BurstID.append(i.BurstID)
-                x.append(i.xloc[j])
-                y.append(i.yloc[j])
-                w.append(i.width[j])
-                h.append(i.height[j])
+            BurstID.append(i.BurstID)
+            x.append(average(i.xloc))
+            y.append(average(i.yloc))
+            w.append(average(i.width))
+            h.append(average(i.height))
         
         
-        data = {'Number': np.arange(1,len(BurstID)+1),
-                'Burst ID': BurstID,
+        data = {'Burst ID': BurstID,
                 'X Location': x,
                 "Y Location": y,
                 'Width': w,
@@ -270,7 +353,7 @@ class PulseLocation(BurstChaser):
                 }
         df = pd.DataFrame(data)
         #creates data frame as csv file 
-        df.to_csv(f'{name}.csv', index = False, header = True)
+        df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/{name}.csv', index = True, header = True)
         
 
                     
