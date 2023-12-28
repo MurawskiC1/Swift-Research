@@ -47,6 +47,14 @@ class BurstChaser():
     def contributersAdd(self, c):
         self.contributers.append(c)
     
+    def findPNG( name):
+        import os
+        path = "/Users/catermurawski/Desktop/Swift-Research/BurstPhotos"
+        for filename in os.listdir(path):
+            if name in filename:
+                if os.path.isfile(os.path.join(path, filename)):  # Check if it's a file and not a directory
+                    return(f"{path}/{filename}")
+            
     def __lt__(self, other):
         return self.BurstID < other.BurstID
    
@@ -286,7 +294,7 @@ class PulseLocation(BurstChaser):
                         if j > value+20 and j < value-20:
                             pot.append(j)
                             break
-            print(pot)
+
                         
                 
         def add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size):

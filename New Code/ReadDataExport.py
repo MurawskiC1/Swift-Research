@@ -73,8 +73,8 @@ bc.PulseNoise.export("Pulse_Noise", [pulse_noise[i] for i in pulse_noise])
 bc.PulseLocation.export("Pulse_Location", [pulse_locations[i] for i in pulse_locations])
 import matplotlib.pyplot as plt
 plt.hist(pulse_locations[1].xloc, bins=100, alpha=0.5)
-'''
+
 for i in pulse_locations:
     pulse_locations[i].redboxes()
     
-'''
+
