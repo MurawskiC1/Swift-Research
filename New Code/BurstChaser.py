@@ -276,7 +276,6 @@ class PulseLocation(BurstChaser):
         add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size)
     
     def redboxes(self):
-        import statistics as s
         from PIL import Image, ImageDraw
         from scipy import stats
         
