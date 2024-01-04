@@ -15,7 +15,7 @@ import pandas as pd
 proj = Project.find("18664")
 burst = SubjectSet()
 burst.links.project = proj
-burst.display_name= "Golden_Sample"
+burst.display_name= "GoldenDouble1"
 burst.save()
 
 
@@ -115,7 +115,7 @@ for i in range(0,golden.shape[0]):
     h = str(golden.Help.iloc[i])
     if answer12 == "-1":
         pass
-        
+        '''
         subject_metadata[f"{bc.findPNG(golden.GRB_Name.iloc[i])}"] = {"#feedback_1_id": str(1),
                                                                       "#feedback_1_answer": answer1,
                                                                       "#feedback_1_failureMessage": feed1,
@@ -129,7 +129,7 @@ for i in range(0,golden.shape[0]):
                                                                       "#feedback_5_answer": answer1,
                                                                       "#feedback_5_failureMessage": "Look at the info button for more help",
                                                                       "Help": f"{h}"}
-        
+        '''
     else:
         subject_metadata[f"{bc.findPNG(golden.GRB_Name.iloc[i])}"] = {"#feedback_1_id": str(1),
                                                                       "#feedback_1_answer": answer1,
@@ -141,7 +141,7 @@ for i in range(0,golden.shape[0]):
                                                                       "#feedback_3_answer": answer12,
                                                                       "#feedback_3_failureMessage": feed12,
                                                                       "#feedback_4_id": str(4),
-                                                                      "#feedback_4_answer": answer2,
+                                                                      "#feedback_4_answer": "0,2",
                                                                       "#feedback_4_failureMessage": "Look at the info button for more help",
                                                                       "#feedback_5_id": str(5),
                                                                       "#feedback_5_answer": answer1,
