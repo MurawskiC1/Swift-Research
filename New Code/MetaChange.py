@@ -15,7 +15,11 @@ import pandas as pd
 proj = Project.find("18664")
 burst = SubjectSet()
 burst.links.project = proj
+<<<<<<< HEAD
+burst.display_name= "Golden_Sample10"
+=======
 burst.display_name= "GoldenDouble1"
+>>>>>>> parent of 0b6ef4e (Update Burst)
 burst.save()
 
 
@@ -114,8 +118,6 @@ for i in range(0,golden.shape[0]):
     feed12 = str(golden.Feed1_2.iloc[i])
     h = str(golden.Help.iloc[i])
     if answer12 == "-1":
-        pass
-        '''
         subject_metadata[f"{bc.findPNG(golden.GRB_Name.iloc[i])}"] = {"#feedback_1_id": str(1),
                                                                       "#feedback_1_answer": answer1,
                                                                       "#feedback_1_failureMessage": feed1,
@@ -128,8 +130,9 @@ for i in range(0,golden.shape[0]):
                                                                       "#feedback_5_id": str(5),
                                                                       "#feedback_5_answer": answer1,
                                                                       "#feedback_5_failureMessage": "Look at the info button for more help",
-                                                                      "Help": f"{h}"}
-        '''
+                                                                      "Help": f"{h}",
+                                                                      "Disclaimer": "Selecting multiple answers will result in a potential wrong answer alert when one or more of your answers could be correct. This is not an error on you but the code!"}
+        
     else:
         subject_metadata[f"{bc.findPNG(golden.GRB_Name.iloc[i])}"] = {"#feedback_1_id": str(1),
                                                                       "#feedback_1_answer": answer1,

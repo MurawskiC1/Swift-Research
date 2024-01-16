@@ -11,7 +11,11 @@ import BurstChaser as bc
 
 
 
+<<<<<<< HEAD
+beta = pd.read_csv("burstResults.csv")
+=======
 beta = pd.read_csv("BurstBeta.csv")
+>>>>>>> parent of 0b6ef4e (Update Burst)
 
 repeatS=0
 repeatP=0
