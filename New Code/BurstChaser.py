@@ -102,11 +102,11 @@ class PulseShape(BurstChaser):
     #code to add to definer array
     def FollowCount(self, j):
         if 'Pulses connected with underlying emission.' in j: 
-            self.Follow[0] += 1
-        if 'symmetrical structure' in j:
-            self.Follow[1] += 1
-        if "One or more pulses with the fast-rise and slow-decay shape." in j:
             self.Follow[2] += 1
+        if 'symmetrical structure' in j:
+            self.Follow[0] += 1
+        if "One or more pulses with the fast-rise and slow-decay shape." in j:
+            self.Follow[1] += 1
         if 'Rapid Varying pulses' in j:
             self.Follow[3] += 1
         if "I don't see any of these" in j:
@@ -128,14 +128,16 @@ class PulseShape(BurstChaser):
         
     def VerifyBurst(self):
         num = 10
-        total = self.Shape[0] + self.Shape[1] + self.Shape[2]
-        conf = 0.50
+        total = self.Shape[0] + self.Shape[1] + self.Shape[2]+self.Shape[3]
+        conf = 0.90
         if self.Shape[0] > num and self.Shape[0]/total >= conf:
             self.Verify = "Simple"
         elif self.Shape[1] > num and self.Shape[1]/total >= conf:
             self.Verify = "Extended"
         elif self.Shape[2] > num and self.Shape[2]/total >= conf:
             self.Verify = "Other"
+        elif self.Shape[3] > num and self.Shape[3]/total >= conf:
+            self.Verify = "Too Noisy"
         else:
             self.Verify = None
             

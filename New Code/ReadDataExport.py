@@ -17,7 +17,7 @@ def findName(n):
     except:
         return "No Name Found"
 
-beta = pd.read_csv("/Users/catermurawski/Desktop/BURSTCHASERRESULTS.csv")
+beta = pd.read_csv("/Users/catermurawski/Desktop/burst-chaser-classifications.csv")
 
 
 repeatS=0
@@ -35,7 +35,7 @@ for i in range(11101,beta.shape[0]):
     results = beta.annotations.iloc[i]
     user = beta.user_id.iloc[i]
     burst_name = findName(beta.subject_data.iloc[i])
-    '''
+    
     if workflow == "(Optional) Practice: Pulse Shapes":
         if  id_number not in shapes_practice:
             #create a pulse shape class
@@ -65,7 +65,7 @@ for i in range(11101,beta.shape[0]):
             pulse_noise[id_number].classCount(results)
         else:
             repeatP +=1
-    '''
+    
     #throught thee where are pulses workflow
     if workflow =="Where are pulses?":
         if id_number not in pulse_locations:
@@ -83,15 +83,15 @@ print(repeatP)
 
 
 ###UPDATE THE CSV FILES
-'''
+
 bc.PulseShape.export("Pulse_Shape", [pulse_shapes[i] for i in pulse_shapes])
 bc.PulseShape.export("Shapes_Practice", [shapes_practice[i] for i in shapes_practice])
 bc.PulseNoise.export("Pulse_Noise", [pulse_noise[i] for i in pulse_noise])
-'''
+
 bc.PulseLocation.export("Pulse_Location", [pulse_locations[i] for i in pulse_locations])
 
-
+'''
 for i in pulse_locations:
     pulse_locations[i].redboxes()
-
+'''
 
