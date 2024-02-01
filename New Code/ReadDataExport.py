@@ -27,15 +27,22 @@ shapes_practice = {}
 pulse_shapes = {}
 pulse_noise = {}
 pulse_locations = {}
+cont = {}
 #sort through all indexes
 for i in range(11101,beta.shape[0]):
     workflow = beta.workflow_name.iloc[i]
     wid = beta.workflow_id.iloc[i]
     id_number = beta.subject_ids.iloc[i]
     results = beta.annotations.iloc[i]
-    user = beta.user_id.iloc[i]
+    user = beta.user_name.iloc[i]
     burst_name = findName(beta.subject_data.iloc[i])
-    
+
+
+    if user not in cont and "not-logged" not in user:
+        cont[user] = 1
+    elif "not-logged" not in user:
+        cont[user] += 1
+
     if workflow == "(Optional) Practice: Pulse Shapes":
         if  id_number not in shapes_practice:
             #create a pulse shape class
@@ -90,10 +97,29 @@ bc.PulseNoise.export("Pulse_Noise", [pulse_noise[i] for i in pulse_noise])
 bc.PulseLocation.export("Pulse_Location", [pulse_locations[i] for i in pulse_locations])
 
 #verify burst
+#cont =  sorted(cont.items(), key= lambda x: x[1])
+name = []
+number = []
+for i in cont:
+    name.append(i)
+    number.append(cont[i])
+
+
+data = {'Name': name,
+        'Amount': number}
+df = pd.DataFrame(data)
+#creates data frame as csv file 
+df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/Leaderboard.csv', index = False, header = True)
+            
+
+    
+'''
 for i in pulse_shapes:
     pulse_shapes[i].retire()
+
 '''
+
 for i in pulse_locations:
     pulse_locations[i].redboxes()
-'''
+
 

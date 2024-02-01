@@ -59,8 +59,10 @@ class BurstChaser():
         if self.Verify != None:
             count += 1
             print(count)
+            
             workflow = Workflow.find(f"{self.workflow}")
             workflow.retire_subjects(f"{self.BurstID}")
+            
 
         
         
