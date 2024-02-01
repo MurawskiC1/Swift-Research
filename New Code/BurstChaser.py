@@ -5,7 +5,7 @@ import pandas as pd
 '''https://www.zooniverse.org/projects/murawskic1/carter-project'''
 #OPEN PANPOTRES AND FIND RIGHT PROJECT
 Panoptes.connect(username='MurawskiC1', password='Cartbellot4ti$')
-
+count = 0 
 
 class BurstChaser():
     def __init__(self, Burst_Name, BurstID, workflow, Verify = None):
@@ -52,6 +52,17 @@ class BurstChaser():
     @Verify.setter
     def Verify(self, v):
         self._Verify = v
+        
+    def retire(self):
+        global count
+
+        if self.Verify != None:
+            count += 1
+            print(count)
+            workflow = Workflow.find(f"{self.workflow}")
+            workflow.retire_subjects(f"{self.BurstID}")
+
+        
         
     def contributersAdd(self, c):
         self.contributers.append(c)
@@ -125,7 +136,7 @@ class PulseShape(BurstChaser):
             self.Shape[3] +=1
         #Verify iif burst has met the requirements
         self.VerifyBurst()
-        
+       
     def VerifyBurst(self):
         num = 10
         total = self.Shape[0] + self.Shape[1] + self.Shape[2]+self.Shape[3]

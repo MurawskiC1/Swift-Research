@@ -78,8 +78,7 @@ for i in range(11101,beta.shape[0]):
             
             
         
-print(repeatS)
-print(repeatP)
+
 
 
 ###UPDATE THE CSV FILES
@@ -90,6 +89,9 @@ bc.PulseNoise.export("Pulse_Noise", [pulse_noise[i] for i in pulse_noise])
 
 bc.PulseLocation.export("Pulse_Location", [pulse_locations[i] for i in pulse_locations])
 
+#verify burst
+for i in pulse_shapes:
+    pulse_shapes[i].retire()
 '''
 for i in pulse_locations:
     pulse_locations[i].redboxes()
