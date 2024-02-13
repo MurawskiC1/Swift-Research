@@ -7,5 +7,3 @@ import pandas as pd
 Panoptes.connect(username='MurawskiC1', password='Cartbellot4ti$')
 
 project = Project.find("22619")
-workflow = Workflow.find("25570")
-workflow.retire_subjects("93979589")

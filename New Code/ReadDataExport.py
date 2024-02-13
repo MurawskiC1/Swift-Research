@@ -42,7 +42,7 @@ for i in range(11101,beta.shape[0]):
         cont[user] = 1
     elif "not-logged" not in user:
         cont[user] += 1
-
+    '''
     if workflow == "(Optional) Practice: Pulse Shapes":
         if  id_number not in shapes_practice:
             #create a pulse shape class
@@ -51,7 +51,7 @@ for i in range(11101,beta.shape[0]):
             shapes_practice[id_number].contributersAdd(user)
             shapes_practice[id_number].ShapeCount(results)
             shapes_practice[id_number].FollowCount(results)
-            
+    '''        
     #if the index is a pulse shape
     if workflow == "Pulse shapes":
         if  id_number not in pulse_shapes:
@@ -62,7 +62,7 @@ for i in range(11101,beta.shape[0]):
             pulse_shapes[id_number].ShapeCount(results)
             pulse_shapes[id_number].FollowCount(results)
         
-
+    '''
     #if the workflow is pulse or noise
     if workflow == "(Optional) Practice: Pulse or noise?":
         if id_number not in pulse_noise:
@@ -72,7 +72,7 @@ for i in range(11101,beta.shape[0]):
             pulse_noise[id_number].classCount(results)
         else:
             repeatP +=1
-    
+    '''
     #throught thee where are pulses workflow
     if workflow =="Where are pulses?":
         if id_number not in pulse_locations:
@@ -91,19 +91,25 @@ for i in range(11101,beta.shape[0]):
 ###UPDATE THE CSV FILES
 
 bc.PulseShape.export("Pulse_Shape", [pulse_shapes[i] for i in pulse_shapes])
-bc.PulseShape.export("Shapes_Practice", [shapes_practice[i] for i in shapes_practice])
-bc.PulseNoise.export("Pulse_Noise", [pulse_noise[i] for i in pulse_noise])
-
+#bc.PulseShape.export("Shapes_Practice", [shapes_practice[i] for i in shapes_practice])
+#bc.PulseNoise.export("Pulse_Noise", [pulse_noise[i] for i in pulse_noise])
+for i in pulse_locations:
+    pulse_locations[i].finalize()
+    
 bc.PulseLocation.export("Pulse_Location", [pulse_locations[i] for i in pulse_locations])
+
 
 #verify burst
 #cont =  sorted(cont.items(), key= lambda x: x[1])
 name = []
 number = []
+best = ""
 for i in cont:
     name.append(i)
     number.append(cont[i])
-
+    if cont[i] >= 100:
+        best = best + f"@{i}, "
+        
 
 data = {'Name': name,
         'Amount': number}
@@ -112,14 +118,15 @@ df = pd.DataFrame(data)
 df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/Leaderboard.csv', index = False, header = True)
             
 
-    
-'''
+
+
 for i in pulse_shapes:
     pulse_shapes[i].retire()
 
-'''
+
 
 for i in pulse_locations:
     pulse_locations[i].redboxes()
 
-
+print(best)
+print(bc.count)

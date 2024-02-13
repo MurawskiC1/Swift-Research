@@ -14,6 +14,9 @@ class BurstChaser():
         self.workflow = workflow
         self.Verify = Verify
         self.contributers = []
+        
+
+
     
     @property
     def Burst_Name(self):
@@ -55,14 +58,13 @@ class BurstChaser():
         
     def retire(self):
         global count
-
         if self.Verify != None:
             count += 1
-            print(count)
+            '''
             
             workflow = Workflow.find(f"{self.workflow}")
             workflow.retire_subjects(f"{self.BurstID}")
-            
+            '''
 
         
         
@@ -87,7 +89,7 @@ class PulseShape(BurstChaser):
         super().__init__(Burst_Name, BurstID, workflow)
         self.Follow = [0,0,0,0,0,0]
         self.Shape = [0,0,0,0]
-
+    
     @property
     def Shape(self):
         return self._Shape
@@ -219,66 +221,210 @@ class PulseNoise(BurstChaser):
 class PulseLocation(BurstChaser):
     def __init__(self, Burst_Name, BurstID, workflow):
         super().__init__(Burst_Name, BurstID, workflow)
-        self.xloc =  []
-        self.yloc = []
-        self.width = [] 
-        self.height =[]
+        self.locations =  []
+        self.final_locations= []
+        self.count = 0 
+
+    @property
+    def count(self):
+        return self._count
     
+    @count.setter
+    def count(self ,i):
+        self._count = i
     
     @property
-    def xloc(self):
-        return self._xloc
+    def locations(self):
+        return self._locations
 
         
-    @xloc.setter
-    def xloc(self, i):
-        self._xloc = i
+    @locations.setter
+    def locations(self, i):
+        self._locations = i
     
     @property
-    def yloc(self):
-        return self._yloc
+    def final_locations(self):
+        return self._final_locations
 
         
-    @yloc.setter
-    def yloc(self, i):
-        self._yloc = i
+    @final_locations.setter
+    def final_locations(self, i):
+        self._final_locations = i
+
+    def multimode(self, x):
+        n = 4
+        out = []
+        for i in x:
+            c = x.count(i)
+            if c >= n and i not in out:
+                out.append(i)
+        return out
+            
+    def finalize(self): 
+        import numpy as np
+        from outliers import smirnov_grubbs as grubbs
+ 
+        x = []
+        for i in self.locations:
+            x.append(i.x-i.x%10)
         
-    @property
-    def width(self):
-        return self._width
+        x = self.multimode(x)
+        for i in x:
+            seg = []
+            loc = [[],[],[],[]]
+            for j in range(0, len(self.locations)):
+                if self.locations[j].x <= float(i+10) and self.locations[j].x >= float(i-10):
+                    seg.append(self.locations[j])
+            if len(seg) > 0:
+                for k in seg:
+                    loc[0].append(k.x)
+                    loc[1].append(k.y)
+                    loc[2].append(k.width)
+                    loc[3].append(k.height)      
+                self.final_locations.append(Location(np.mean(np.mean(grubbs.test(loc[0],0.1))),np.mean(grubbs.test(loc[1],0.1)),np.mean(grubbs.test(loc[2],0.1)),np.mean(grubbs.test(loc[3],0.1))))
+                    
+
+    def redboxes(self):
+        from PIL import Image, ImageDraw
+        
+        loc = self.locations
 
         
-    @width.setter
-    def width(self, i):
-        self._width = i
+
+                        
+                
+        def add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size):
+            # Open the image
+            try:
+                img = Image.open(input_image_path).convert("RGBA")
+              
+                #draw an image of rectangle
+                draw = ImageDraw.Draw(img)
+                draw.rectangle([rectangle_position[0], rectangle_position[1],rectangle_position[0] + rectangle_size[0], rectangle_position[1] + rectangle_size[1]],outline="red")
+                # Save the result
+                img.save(output_image_path)
+            except:
+                pass
+            
+        x = self._Burst_Name
+        png = self.findPNG(x)
+        # Example usage:
+        input_image_path = f"/Users/catermurawski/Desktop/Swift-Research/BurstPhotos/{png}"
+
+        output_image_path = f"/Users/catermurawski/Desktop/Swift-Research/Boxes/{self.BurstID}.png"
+        for i in range(0,len(loc)):
+            rectangle_position = (loc[i].x, loc[i].y)  # X and Y coordinates of the top-left corner of the rectangle
+            rectangle_size = (loc[i].width,loc[i].height)# Width and height of the rectangle
     
-    @property
-    def height(self):
-        return self._height
+            add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size)
+            input_image_path = f"/Users/catermurawski/Desktop/Swift-Research/Boxes/{self.BurstID}.png"
+
 
         
-    @height.setter
-    def height(self, i):
-        self._height = i
-    
-    
-    
         
     def read(self, a):
         a = a.split(' which is automatically determined by a computer algorithm.","value":[')[1]
-
+        self._count += 1
         if '},{' in a:
             a = a.split('},{')
         else:
             a = [a]
         for i in a:
             cata = i.split(",")
-            if len(cata) >1:
-                self.xloc.append(round(float(cata[0].split(":")[1])))
-                self.yloc.append(round(float(cata[1].split(":")[1])))
-                self.width.append(round(float(cata[4].split(":")[1])))
-                self.height.append(round(float(cata[5].split(":")[1])))
+            if len(cata) >4:
+                loc = Location(float(cata[0].split(":")[1]),float(cata[1].split(":")[1]), float(cata[4].split(":")[1]),float(cata[5].split(":")[1]))
+                self.locations.append(loc)
+ 
+        
+    def findPNG(self, name):
+        import os
+        path = "/Users/catermurawski/Desktop/Swift-Research/BurstPhotos"
+        for filename in os.listdir(path):
+            if name in filename:
+                if os.path.isfile(os.path.join(path, filename)):  # Check if it's a file and not a directory
+                    return(filename)
+            
+            
+    def findGRB(self, sid):
+        file = pd.read_csv("GRB_IDS_Names.csv")
+        file.set_index('Subject_ID', inplace=True)
+
+        return file.loc[sid,'GRB_Names']
+               
+            
+            
+    def export(name, pulse_list):
+        Burst_Name = []
+        BurstID =[]
+        l = []
+        c = []
+        
+        for i in sorted(pulse_list):
+            if len(i.locations) != 0:
+                Burst_Name.append(i.Burst_Name)
+                BurstID.append(i.BurstID)
+                l.append(len(i.final_locations)+1)
+                c.append(i.count)
+
+        
+        
+        data = {'Burst Name': Burst_Name,
+                'Burst ID': BurstID,
+                'Boxes': l,
+                'Count': c
+
+                }
+        df = pd.DataFrame(data)
+        #creates data frame as csv file 
+        df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/{name}.csv', index = True, header = True)
+        
+
+                    
+
+
+        
+
+
+class Location():
+    def __init__(self, x=0, y=0, width=0, height=0):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+        
+    @property
+    def x(self):
+        return self._x
     
+    @property
+    def y(self):
+        return self._y
+    
+    @property
+    def width(self):
+        return self._width
+    
+    @property
+    def height(self):
+        return self._height
+    
+    @x.setter
+    def x(self, i):
+        self._x = i
+    
+    @y.setter
+    def y(self, i):
+        self._y = i
+        
+    @width.setter
+    def width(self, i):
+        self._width = i
+    
+    @height.setter
+    def height(self, i):
+        self._height = i
+
+''' 
     def redbox(self):
         from scipy import stats
         
@@ -305,100 +451,4 @@ class PulseLocation(BurstChaser):
 
         add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size)
     
-    def redboxes(self):
-        from PIL import Image, ImageDraw
-        from scipy import stats
-        
-        xloc = self.xloc
-        yloc = self.yloc
-        width = self.width
-        height = self.height
-        
-
-                        
-                
-        def add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size):
-            # Open the image
-            img = Image.open(input_image_path).convert("RGBA")
-          
-            #draw an image of rectangle
-            draw = ImageDraw.Draw(img)
-            draw.rectangle([rectangle_position[0], rectangle_position[1],rectangle_position[0] + rectangle_size[0], rectangle_position[1] + rectangle_size[1]],outline="red")
-            # Save the result
-            img.save(output_image_path)
-            
-        x = self._Burst_Name
-        png = self.findPNG(x)
-        # Example usage:
-        input_image_path = f"/Users/catermurawski/Desktop/Swift-Research/BurstPhotos/{png}"
-
-        output_image_path = f"/Users/catermurawski/Desktop/Swift-Research/Boxes/{self.BurstID}.png"
-        for i in range(0,len(self.xloc)):
-            rectangle_position = (self.xloc[i], self.yloc[i])  # X and Y coordinates of the top-left corner of the rectangle
-            rectangle_size = (self.width[i],self.height[i])# Width and height of the rectangle
-    
-            add_transparent_rectangle(input_image_path, output_image_path, rectangle_position, rectangle_size)
-            input_image_path = f"/Users/catermurawski/Desktop/Swift-Research/Boxes/{self.BurstID}.png"
-        
-    def findPNG(self, name):
-        import os
-        path = "/Users/catermurawski/Desktop/Swift-Research/BurstPhotos"
-        for filename in os.listdir(path):
-            if name in filename:
-                if os.path.isfile(os.path.join(path, filename)):  # Check if it's a file and not a directory
-                    return(filename)
-            
-            
-    def findGRB(self, sid):
-        file = pd.read_csv("GRB_IDS_Names.csv")
-        file.set_index('Subject_ID', inplace=True)
-
-        return file.loc[sid,'GRB_Names']
-               
-            
-            
-    def export( name, pulse_list):
-        def average(n):
-            try:
-                return sum(n)/len(n)
-            except:
-                return "ERROR"
-        Burst_Name = []
-        BurstID =[]
-        x = []
-        y = []
-        w = []
-        h = []
-        for i in sorted(pulse_list):
-            Burst_Name.append(i.Burst_Name)
-            BurstID.append(i.BurstID)
-            x.append(average(i.xloc))
-            y.append(average(i.yloc))
-            w.append(average(i.width))
-            h.append(average(i.height))
-        
-        
-        data = {'Burst Name': Burst_Name,
-                'Burst ID': BurstID,
-                'X Location': x,
-                "Y Location": y,
-                'Width': w,
-                'Height': h
-                }
-        df = pd.DataFrame(data)
-        #creates data frame as csv file 
-        df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/{name}.csv', index = True, header = True)
-        
-
-                    
-
-
-        
-
-
-            
-            
-        
-        
-        
-        
+    '''
