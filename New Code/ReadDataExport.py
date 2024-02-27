@@ -37,7 +37,6 @@ for i in range(11101,beta.shape[0]):
     user = beta.user_name.iloc[i]
     burst_name = findName(beta.subject_data.iloc[i])
 
-
     if user not in cont and "not-logged" not in user:
         cont[user] = 1
     elif "not-logged" not in user:
@@ -124,9 +123,9 @@ for i in pulse_shapes:
     pulse_shapes[i].retire()
 
 
-
+'''
 for i in pulse_locations:
     pulse_locations[i].redboxes()
-
+'''
 print(best)
 print(bc.count)

@@ -60,11 +60,11 @@ class BurstChaser():
         global count
         if self.Verify != None:
             count += 1
-            '''
+           
             
             workflow = Workflow.find(f"{self.workflow}")
             workflow.retire_subjects(f"{self.BurstID}")
-            '''
+      
 
         
         
@@ -144,7 +144,7 @@ class PulseShape(BurstChaser):
     def VerifyBurst(self):
         num = 10
         total = self.Shape[0] + self.Shape[1] + self.Shape[2]+self.Shape[3]
-        conf = 0.90
+        conf = 0.80
         if self.Shape[0] > num and self.Shape[0]/total >= conf:
             self.Verify = "Simple"
         elif self.Shape[1] > num and self.Shape[1]/total >= conf:

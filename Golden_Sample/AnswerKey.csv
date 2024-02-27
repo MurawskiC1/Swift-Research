@@ -1,0 +1,47 @@
+GRB_Name,Question_1,Question_2
+GRB200829A,Extended,['Symmetrical Structure']
+GRB121031A,Other,"[""Don't See Anything"", 'Too Noisy']"
+GRB150711A,Other,['Underlying Emission']
+GRB170126A,Simple,['Fast Rise Slow Decay']
+GRB220714B,Other,['Underlying Emission']
+GRB220701A,Other,['Too Noisy']
+GRB220611A,Other,"[""Don't See Anything"", 'Too Noisy']"
+GRB220501A,Extended,['Fast Rise Slow Decay']
+GRB220408A,Other,"[""Don't See Anything"", 'Too Noisy']"
+GRB220403B,Other,['Underlying Emission']
+GRB210822A,Extended,['Fast Rise Slow Decay']
+GRB210730A,Simple,"[""Don't See Anything"", 'Too Noisy']"
+GRB210726A,Simple,['Symmetrical Structure']
+GRB210722A,Simple,['Fast Rise Slow Decay']
+GRB210708A,Simple,['Symmetrical Structure']
+GRB210618A,Simple,['Symmetrical Structure']
+GRB210610B,Other,"['Underlying Emission', 'Fast Rise Slow Decay']"
+GRB210610A,Other,['Underlying Emission']
+GRB210517A,Simple,['Fast Rise Slow Decay']
+GRB210419A,Other,['Too Noisy']
+GRB210403A,Other,"[""Don't See Anything"", 'Too Noisy']"
+GRB210419C,Too Noisy,['Too Noisy']
+GRB210430A,Other,"['Underlying Emission', 'Symmetrical Structure']"
+GRB210420B,Too Noisy,['Too Noisy']
+GRB210402A,Other,"['Underlying Emission', 'Fast Rise Slow Decay']"
+GRB210323A,Simple,['Symmetrical Structure']
+GRB210318A,Extended,['Fast Rise Slow Decay']
+GRB210218A,Other,['Fast Rise Slow Decay']
+GRB210217A,Simple,['Fast Rise Slow Decay']
+GRB210207B,Other,['Underlying Emission']
+GRB210119A,Simple,['Symmetrical Structure']
+GRB210104B,Other,"['Underlying Emission', 'Symmetrical Structure', 'Fast Rise Slow Decay']"
+GRB201104B,Other,['Underlying Emission']
+GRB201229A,Other,"[""Don't See Anything"", 'Too Noisy']"
+GRB201020A,Simple,['Symmetrical Structure']
+GRB201024A,Simple,['Fast Rise Slow Decay']
+GRB201015A,Extended,"[""Don't See Anything"", 'Too Noisy']"
+GRB200529A,Extended,['Fast Rise Slow Decay']
+GRB200713A,Other,['Too Noisy']
+GRB200522A,Simple,['Symmetrical Structure']
+GRB200324A,Other,['Symmetrical Structure']
+GRB200306C,Other,['Underlying Emission']
+GRB191024A,Simple,['Fast Rise Slow Decay']
+GRB190719C,Other,"['Underlying Emission', 'Symmetrical Structure']"
+GRB190611A,Extended,['Too Noisy']
+GRB200131A,Extended,"['Symmetrical Structure', 'Fast Rise Slow Decay']"
