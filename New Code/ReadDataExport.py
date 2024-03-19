@@ -98,8 +98,7 @@ for i in pulse_locations:
 bc.PulseLocation.export("Pulse_Location", [pulse_locations[i] for i in pulse_locations])
 
 
-#verify burst
-#cont =  sorted(cont.items(), key= lambda x: x[1])
+#CREATE A DATABASE WITH THE USERS
 name = []
 number = []
 best = ""
@@ -109,16 +108,15 @@ for i in cont:
     if cont[i] >= 100:
         best = best + f"@{i}, "
         
-
+#CREATE USER REPORT CSV
 data = {'Name': name,
         'Amount': number}
 df = pd.DataFrame(data)
-#creates data frame as csv file 
 df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/Leaderboard.csv', index = False, header = True)
             
 
 
-
+#RETIRE PULSES
 for i in pulse_shapes:
     pulse_shapes[i].retire()
 
@@ -127,5 +125,5 @@ for i in pulse_shapes:
 for i in pulse_locations:
     pulse_locations[i].redboxes()
 '''
-print(best)
+#THE RETIRE NUMBER
 print(bc.count)

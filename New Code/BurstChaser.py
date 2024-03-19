@@ -6,6 +6,7 @@ import pandas as pd
 #OPEN PANPOTRES AND FIND RIGHT PROJECT
 Panoptes.connect(username='MurawskiC1', password='Cartbellot4ti$')
 count = 0 
+RETIRE = False
 
 class BurstChaser():
     def __init__(self, Burst_Name, BurstID, workflow, Verify = None):
@@ -57,14 +58,16 @@ class BurstChaser():
         self._Verify = v
         
     def retire(self):
-        global count
+        global count, RETIRE
         if self.Verify != None:
             count += 1
-           
-            
-            workflow = Workflow.find(f"{self.workflow}")
-            workflow.retire_subjects(f"{self.BurstID}")
-      
+            if RETIRE == True:
+                print("hello")
+                '''
+                workflow = Workflow.find(f"{self.workflow}")
+                workflow.retire_subjects(f"{self.BurstID}")
+                '''
+  
 
         
         
@@ -139,7 +142,39 @@ class PulseShape(BurstChaser):
         elif "too noisy" in shape:
             self.Shape[3] +=1
         #Verify iif burst has met the requirements
-        self.VerifyBurst()
+        self.NewVerify()
+
+    def NewVerify(self):
+        num = 10 
+        total = self.Shape[0] + self.Shape[1] + self.Shape[2]+self.Shape[3]
+        conf = 0.80
+        max = 0
+        index = 10
+        if total >= num:
+            for i in range(0,len(self.Shape)):
+                if self.Shape[i] > max:
+                    max = self.Shape[i]
+                    index = i 
+            for i in range(0,len(self.Shape)):
+                if self.Shape[index] /(self.Shape[i]+ self.Shape[index]) <= conf and i != index:
+                    index = None
+                    break
+        if index == 0 :
+            self.Verify = "Simple"
+        elif index == 1:
+            self.Verify = "Extended"
+        elif index == 2:
+            self.Verify = "Other"
+        elif index == 3:
+            self.Verify = "Too Noisy"
+        else:
+            self.Verify = None
+                
+
+        
+                
+
+
        
     def VerifyBurst(self):
         num = 10
