@@ -6,7 +6,7 @@ import pandas as pd
 #OPEN PANPOTRES AND FIND RIGHT PROJECT
 Panoptes.connect(username='MurawskiC1', password='Cartbellot4ti$')
 count = 0 
-RETIRE = False
+RETIRE = True
 
 class BurstChaser():
     def __init__(self, Burst_Name, BurstID, workflow, Verify = None):
@@ -61,12 +61,10 @@ class BurstChaser():
         global count, RETIRE
         if self.Verify != None:
             count += 1
-            if RETIRE == True:
-                print("hello")
-                '''
+            if RETIRE == True:           
                 workflow = Workflow.find(f"{self.workflow}")
                 workflow.retire_subjects(f"{self.BurstID}")
-                '''
+                
   
 
         
