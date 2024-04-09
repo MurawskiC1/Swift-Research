@@ -6,19 +6,25 @@ import pandas as pd
 #OPEN PANPOTRES AND FIND RIGHT PROJECT
 Panoptes.connect(username='MurawskiC1', password='Cartbellot4ti$')
 count = 0 
-RETIRE = True
+RETIRE = False
 
 class BurstChaser():
-    def __init__(self, Burst_Name, BurstID, workflow, Verify = None):
+    def __init__(self, Burst_Name, BurstID, workflow, Verify = None, conf = 0):
         self.Burst_Name = Burst_Name
         self.BurstID = BurstID
         self.workflow = workflow
         self.Verify = Verify
+        self.conf = conf
         self.contributers = []
         
 
 
-    
+    @property
+    def conf(self):
+        return self._conf
+    @conf.setter
+    def conf(self, i):
+        self._conf = i
     @property
     def Burst_Name(self):
         return self._Burst_Name
@@ -61,10 +67,12 @@ class BurstChaser():
         global count, RETIRE
         if self.Verify != None:
             count += 1
-            if RETIRE == True:           
+            if RETIRE == True:
+                print("Fuck you you are stupid")
+                '''
                 workflow = Workflow.find(f"{self.workflow}")
                 workflow.retire_subjects(f"{self.BurstID}")
-                
+                '''
   
 
         
@@ -145,7 +153,9 @@ class PulseShape(BurstChaser):
     def NewVerify(self):
         num = 10 
         total = self.Shape[0] + self.Shape[1] + self.Shape[2]+self.Shape[3]
-        conf = 0.80
+        conf = 0.60
+        arr = sorted(self.Shape)
+        calconf = arr[-1]/(arr[-1]+arr[-2])
         max = 0
         index = 10
         if total >= num:
@@ -159,14 +169,19 @@ class PulseShape(BurstChaser):
                     break
         if index == 0 :
             self.Verify = "Simple"
+            self.conf = calconf
         elif index == 1:
             self.Verify = "Extended"
+            self.conf = calconf
         elif index == 2:
             self.Verify = "Other"
+            self.conf = calconf
         elif index == 3:
             self.Verify = "Too Noisy"
+            self.conf = calconf
         else:
             self.Verify = None
+            self.conf = calconf
                 
 
         
@@ -199,7 +214,8 @@ class PulseShape(BurstChaser):
                 'Other': [i.Shape[2] for i in pulse_list],
                 'Too Noisy': [i.Shape[3] for i in pulse_list],
                 "Verify": [i.Verify for i in pulse_list],
-                'Follow': [i.Follow for i in pulse_list]
+                'Follow': [i.Follow for i in pulse_list],
+                "Confidence": [i.conf for i in pulse_list]
                 }
         df = pd.DataFrame(data)
         #creates data frame as csv file 
