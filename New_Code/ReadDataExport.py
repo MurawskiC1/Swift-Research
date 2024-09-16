@@ -83,7 +83,9 @@ for i in range(11101,beta.shape[0]):
             
             
             
-        
+#Verify PULSES
+for i in pulse_shapes:
+    pulse_shapes[i].verifyTTest()
 
 
 
@@ -127,3 +129,5 @@ for i in pulse_locations:
 '''
 #THE RETIRE NUMBER
 print(bc.count)
+
+

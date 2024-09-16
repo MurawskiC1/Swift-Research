@@ -1,6 +1,9 @@
 from panoptes_client import Panoptes, Project, SubjectSet, Subject, Workflow
 import numpy as np
 import pandas as pd
+import scipy.stats as stats
+import os
+
 
 '''https://www.zooniverse.org/projects/murawskic1/carter-project'''
 #OPEN PANPOTRES AND FIND RIGHT PROJECT
@@ -9,13 +12,14 @@ count = 0
 RETIRE = False
 
 class BurstChaser():
-    def __init__(self, Burst_Name, BurstID, workflow, Verify = None, conf = 0):
+    def __init__(self, Burst_Name, BurstID, workflow, Verify = None):
         self.Burst_Name = Burst_Name
         self.BurstID = BurstID
         self.workflow = workflow
         self.Verify = Verify
-        self.conf = conf
+        self.conf = [0,0]
         self.contributers = []
+        
         
 
 
@@ -68,17 +72,15 @@ class BurstChaser():
         if self.Verify != None:
             count += 1
             if RETIRE == True:
-                print("Fuck you you are stupid")
-                '''
                 workflow = Workflow.find(f"{self.workflow}")
                 workflow.retire_subjects(f"{self.BurstID}")
-                '''
-  
-
+                
         
         
     def contributersAdd(self, c):
         self.contributers.append(c)
+        
+        
     
     def findPNG( name):
         import os
@@ -87,42 +89,80 @@ class BurstChaser():
             if name in filename:
                 if os.path.isfile(os.path.join(path, filename)):  # Check if it's a file and not a directory
                     return(f"{path}/{filename}")
+        return None
             
     def __lt__(self, other):
         return self.BurstID < other.BurstID
    
 
 #This Class will start to rank all the bursts and catagorize them by their 
+
 class PulseShape(BurstChaser):
     def __init__(self, Burst_Name, BurstID, workflow):
         super().__init__(Burst_Name, BurstID, workflow)
-        self.Follow = [0,0,0,0,0,0]
-        self.Shape = [0,0,0,0]
-    
+        self._Follow = [0, 0, 0, 0, 0, 0]
+        self._Shape = [0, 0, 0, 0]
+        self._zscore = None
+        self._pvalue = None
+        self._conf = None
+        self.Burst_PNG = self.findPNG(Burst_Name)
+    @property
+    def Burst_PNG(self):
+        return self._Burst_PNG
+
+    @Burst_PNG.setter
+    def Burst_PNG(self, value):
+        self._Burst_PNG = value
+
+    @property
+    def zscore(self):
+        return self._zscore
+
+    @zscore.setter
+    def zscore(self, value):
+        self._zscore = value
+
+    @property
+    def pvalue(self):
+        return self._pvalue
+
+    @pvalue.setter
+    def pvalue(self, value):
+        self._pvalue = value
+
+    @property
+    def conf(self):
+        return self._conf
+
+    @conf.setter
+    def conf(self, value):
+        self._conf = value
+
     @property
     def Shape(self):
         return self._Shape
-    
+
+    @Shape.setter
+    def Shape(self, value):
+        self._Shape = value
+
     @property
     def Follow(self):
         return self._Follow
-    
-    @Shape.setter
-    def Shape(self, i):
-        self._Shape = i 
-    #The japanese wife that I met online and I are hitting it off pretty well and let me tell you, i am so in love with her. Im moving next week. WOW!
-    
-    
-        
+
     @Follow.setter
-    def Follow(self, f):
-        self._Follow = f
+    def Follow(self, value):
+        self._Follow = value
 
     def __str__(self):
-        #return f"{self.BurstID}:  Simple:{self.Shape[0]}  Ext:{self.Shape[1]}  Other:{self.Shape[2]} Follow Up:{self.Follow}"
-        return f"{self.BurstID}:  Shape:{self.Shape}  Follow Up:{self.Follow} Verified:{self.Verify}"
-    
-    
+        return f"{self.BurstID}: Shape: {self.Shape} Follow Up: {self.Follow} Verified: {self.Verify}"
+
+    def findPNG(self, name):
+        path = "/Users/catermurawski/Desktop/Swift-Research/BurstPhotos"
+        for filename in os.listdir(path):
+            if name in filename and os.path.isfile(os.path.join(path, filename)):
+                return filename
+        return None
     #code to add to definer array
     def FollowCount(self, j):
         if 'Pulses connected with underlying emission.' in j: 
@@ -148,42 +188,147 @@ class PulseShape(BurstChaser):
         elif "too noisy" in shape:
             self.Shape[3] +=1
         #Verify iif burst has met the requirements
-        self.NewVerify()
+   
 
     def NewVerify(self):
         num = 10 
         total = self.Shape[0] + self.Shape[1] + self.Shape[2]+self.Shape[3]
-        conf = 0.60
+        conf = 0.75
         arr = sorted(self.Shape)
         calconf = arr[-1]/(arr[-1]+arr[-2])
         max = 0
         index = 10
+        
+        
+        self.conf = calconf
         if total >= num:
             for i in range(0,len(self.Shape)):
-                if self.Shape[i] > max:
+                if self.Shape[i] > max and calconf >= conf:
                     max = self.Shape[i]
-                    index = i 
-            for i in range(0,len(self.Shape)):
-                if self.Shape[index] /(self.Shape[i]+ self.Shape[index]) <= conf and i != index:
-                    index = None
-                    break
-        if index == 0 :
-            self.Verify = "Simple"
-            self.conf = calconf
-        elif index == 1:
-            self.Verify = "Extended"
-            self.conf = calconf
-        elif index == 2:
-            self.Verify = "Other"
-            self.conf = calconf
-        elif index == 3:
-            self.Verify = "Too Noisy"
-            self.conf = calconf
-        else:
-            self.Verify = None
-            self.conf = calconf
+                    index = i
+            
+            
                 
+            if index == 0 :
+                self.Verify = "Simple"
+                
+            elif index == 1:
+                self.Verify = "Extended"
 
+            elif index == 2:
+                self.Verify = "Other"
+
+            elif index == 3:
+                self.Verify = "Too Noisy"
+
+            else:
+                    self.Verify = None
+
+    def verifyPDiff(self):
+        num = 10
+        acceptedPD = 0.20
+        sort = sorted(self.Shape)
+        most = sort[-1]
+        out = ""
+        
+        if num <= sum(self.Shape):
+            self.conf1 = self.percentDifference(sort[-1],sort[-2])
+            self.conf2 = self.percentDifference(sort[-2],sort[-3])
+            
+            if self.conf2 < acceptedPD and self.conf1 < acceptedPD:
+                self.Verify = None
+                return
+
+            
+            for i in range(0,len(self.Shape)):
+                if self.percentDifference(most, self.Shape[i]) < acceptedPD:
+                    if out == "":
+                        out = f"{self.verifyCat(i)}" + out
+                    else:
+                        out = out + f"/{self.verifyCat(i)}"
+                    
+                    
+            self.Verify = out
+            
+                
+                    
+    def percentDifference(self,i,j):
+            if i == 0 and j == 0:
+                return 0
+            pdiff = abs(i - j) / ((i + j)/2)
+            return pdiff
+        
+    def zScoreVerify(self):
+        num = 10
+        confidence = .70
+        out = ""
+        if sum(self.Shape) >= 10:
+            mean = np.mean(self.Shape)
+            std = np.std(self.Shape)
+            self.zscore = (self.Shape - mean)/std
+            self.pvalue = stats.norm.sf(self.zscore)
+            self.conf = 1 - self.pvalue
+            for i in range(0,len(self.Shape)):
+                #self.Shape[i] >= sum(self.Shape)/2.5 or  sorted(self.zscore)[-3] < 0
+                if self.conf[i] >= confidence and  self.Shape[i] >= sum(self.Shape)/2.5:
+                    if out == "":
+                        out = f"{self.verifyCat(i)}" 
+                    else:
+                        out = out + f"/{self.verifyCat(i)}"
+            if out != "":
+                self.Verify = out
+        
+                    
+            
+    def verifyTTest(self):
+        out = ""
+        data = self.Shape
+        
+        # Mean and standard deviation of the array
+        mean = np.mean(data)
+        std_dev = np.std(data, ddof=1)
+        n = len(data)
+
+        # Calculating z-scores, p-values, and confidence intervals
+        self.zscore = (data - mean) / (std_dev / np.sqrt(n))
+        self.pvalue = 2 * (1 - stats.t.cdf(np.abs(self.zscore), df=n-1))
+        self.conf = 1 - self.pvalue
+
+        for i in range(len(data)):
+            # Check for z-score greater than 0 and confidence level greater than 90%
+            if self.zscore[i] > 0 and self.conf[i] > 0.97:  # Assuming confidence is between 0 and 1
+                out = f"{self.verifyCat(i)}"
+                break
+            # Check for z-score greater than 0 and confidence level greater than 70%
+            if self.zscore[i] > 0 and self.conf[i] > 0.75:  # Assuming confidence is between 0 and 1
+                if out == "":
+                    out = f"{self.verifyCat(i)}"
+                else:
+                    out += f"/{self.verifyCat(i)}"
+
+        if out != "":
+            self.Verify = out
+
+
+
+            
+        
+            
+            
+    def verifyCat(self, index):
+        if index == 0 :
+                return "Simple"   
+        elif index == 1:
+            return "Extended"
+
+        elif index == 2:
+            return "Other"
+
+        elif index == 3:
+            return "Too Noisy"
+
+        else:
+            return None
         
                 
 
@@ -206,16 +351,25 @@ class PulseShape(BurstChaser):
             
     def export(name, pulse_list):
         pulse_list = sorted(pulse_list)
-        data = {'Burst Name': [i.Burst_Name for i in pulse_list],
+        data = {'Burst_Name': [i.Burst_Name for i in pulse_list],
+                'Burst_PNG': [i.Burst_PNG for i in pulse_list],
                 'Workflow': [i.workflow for i in pulse_list],
                 'BurstID': [i.BurstID for i in pulse_list],
                 'Simple': [i.Shape[0] for i in pulse_list],
                 'Extended': [i.Shape[1] for i in pulse_list],
                 'Other': [i.Shape[2] for i in pulse_list],
-                'Too Noisy': [i.Shape[3] for i in pulse_list],
+                'Too_Noisy': [i.Shape[3] for i in pulse_list],
                 "Verify": [i.Verify for i in pulse_list],
-                'Follow': [i.Follow for i in pulse_list],
-                "Confidence": [i.conf for i in pulse_list]
+                'Symmetrical': [i.Follow[0] for i in pulse_list],
+                'FastRiseSlowDecay': [i.Follow[1] for i in pulse_list],
+                'UnderlyingEmission': [i.Follow[2] for i in pulse_list],
+                'RapidlyVarying': [i.Follow[3] for i in pulse_list],
+                "Primary_Z_Score": [sorted(i.zscore)[-1] for i in pulse_list],
+                "Primary_P_Value": [sorted(i.pvalue)[0] for i in pulse_list],
+                "Primary_Confidence_Level": [sorted(i.conf)[-1] for i in pulse_list],
+                "Secondary_Z_Score": [sorted(i.zscore)[-2] for i in pulse_list],
+                "Secondary_P_Value": [sorted(i.pvalue)[1] for i in pulse_list],
+                "Secondary_Confidence_Level": [sorted(i.conf)[-2] for i in pulse_list]
                 }
         df = pd.DataFrame(data)
         #creates data frame as csv file 
@@ -472,6 +626,11 @@ class Location():
     @height.setter
     def height(self, i):
         self._height = i
+  
+if RETIRE == True:
+    print("Will retire the bursts")
+else:
+    print("Will not retire")
 
 ''' 
     def redbox(self):
