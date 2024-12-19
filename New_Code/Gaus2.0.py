@@ -25,7 +25,7 @@ for i, cat in enumerate(catagories):
     ax = axes[i]
     f = file[cat]
     ratio = f/total
-    ax.hist(ratio, bins=60, edgecolor='black',alpha=0.6, label=f"{cat} Histogram")
+    ax.hist(ratio, bins=30, edgecolor='black',alpha=0.6, label=f"{cat} Histogram")
     ax.set_xlabel(f'{cat} Ratio')
     ax.set_ylabel('Frequency')
     ax.set_title(f'Distribution of {cat} Ratio')
