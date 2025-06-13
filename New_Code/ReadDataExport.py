@@ -94,8 +94,7 @@ for i in pulse_shapes:
 bc.PulseShape.export("Pulse_Shape", [pulse_shapes[i] for i in pulse_shapes])
 #bc.PulseShape.export("Shapes_Practice", [shapes_practice[i] for i in shapes_practice])
 #bc.PulseNoise.export("Pulse_Noise", [pulse_noise[i] for i in pulse_noise])
-for i in pulse_locations:
-    pulse_locations[i].finalize()
+
     
 bc.PulseLocation.export("Pulse_Location", [pulse_locations[i] for i in pulse_locations])
 
@@ -117,11 +116,11 @@ df = pd.DataFrame(data)
 df.to_csv(f'/Users/catermurawski/Desktop/Swift-Research/CSVExports/Leaderboard.csv', index = False, header = True)
             
 
-
+'''
 #RETIRE PULSES
 for i in pulse_shapes:
     pulse_shapes[i].retire()
-
+'''
 
 '''
 for i in pulse_locations:

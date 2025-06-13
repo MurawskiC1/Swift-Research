@@ -1,4 +1,4 @@
-from panoptes_client import Panoptes, Project, SubjectSet, Subject, Workflow
+#from panoptes_client import Panoptes, Project, SubjectSet, Subject, Workflow
 import numpy as np
 import pandas as pd
 import scipy.stats as stats
@@ -7,7 +7,7 @@ import os
 
 '''https://www.zooniverse.org/projects/murawskic1/carter-project'''
 #OPEN PANPOTRES AND FIND RIGHT PROJECT
-Panoptes.connect(username='MurawskiC1', password='Cartbellot4ti$')
+#Panoptes.connect(username='MurawskiC1', password='Cartbellot4ti$')
 count = 0 
 RETIRE = False
 
@@ -464,8 +464,6 @@ class PulseLocation(BurstChaser):
         return out
             
     def finalize(self): 
-        import numpy as np
-        from outliers import smirnov_grubbs as grubbs
  
         x = []
         for i in self.locations:
@@ -561,6 +559,12 @@ class PulseLocation(BurstChaser):
         BurstID =[]
         l = []
         c = []
+        x = []
+        y = [] 
+        width = []
+        height = []
+        
+       
         
         for i in sorted(pulse_list):
             if len(i.locations) != 0:
@@ -568,13 +572,32 @@ class PulseLocation(BurstChaser):
                 BurstID.append(i.BurstID)
                 l.append(len(i.final_locations)+1)
                 c.append(i.count)
+                xpre = []
+                ypre = []
+                wpre = []
+                hpre = []
+                for j in i.locations:
+                    xpre.append(j.x)
+                    ypre.append(j.y)
+                    wpre.append(j.width)
+                    hpre.append(j.height)
+                x.append(xpre)
+                y.append(ypre)
+                width.append(wpre)
+                height.append(hpre)
+
 
         
         
         data = {'Burst Name': Burst_Name,
                 'Burst ID': BurstID,
                 'Boxes': l,
-                'Count': c
+                'Count': c,
+                'X': x,
+                'Y': y,
+                "Width": width,
+                "Height": height
+
 
                 }
         df = pd.DataFrame(data)
